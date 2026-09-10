@@ -1,0 +1,41 @@
+{
+  "recetas": [
+    {
+      "id": "pisto",
+      "nombre": "Pisto",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 3,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Pimiento rojo",
+        "Pimiento verde",
+        "Calabacín",
+        "Aceite de oliva",
+        "Tomate triturado en conserva",
+        "Sal",
+        "Pimienta molida"
+      ],
+      "etiquetas": [
+        "vegetariano",
+        "sin gluten",
+        "guarnición",
+        "clásico"
+      ],
+      "url": "recetas/receta-pisto.html",
+      "archivo": "receta-pisto.html"
+    }
+  ]
+}
