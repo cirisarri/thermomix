@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Recetario Thermomix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   TOKENS — mismos que receta.html (candidatos a /assets/app.css)
+   ========================================================= */
+:root{
+  --fondo:#FCFCF9;
+  --carta:#FFFFFF;
+  --hueco:#F4F5EF;
+  --linea:#E6E8DE;
+  --linea-fuerte:#CFD4C2;
+  --sombra:0 1px 2px rgba(20,32,13,.04), 0 10px 24px rgba(20,32,13,.06);
+  --tinta:#16200E;
+  --gris:#6A7360;
+  --tomate:#CE3A26;
+  --tomate-suave:#FDF0ED;
+  --oliva:#3C7A2B;
+  --oliva-suave:#F0F7EA;
+  --oro:#C98A00;
+  --oro-suave:#FDF5E2;
+  --radio:16px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--fondo);color:var(--tinta);
+  font-family:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:17px;line-height:1.45;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:620px;margin:0 auto;padding:0 16px calc(56px + env(safe-area-inset-bottom))}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.02em}
+:focus-visible{outline:3px solid var(--oro);outline-offset:2px;border-radius:8px}
+
+/* ---------- barra superior ---------- */
+.barra-sup{
+  position:sticky;top:0;z-index:30;
+  background:rgba(252,252,249,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linea);padding-top:env(safe-area-inset-top);
+}
+.barra-sup .fila{max-width:620px;margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:10px;min-height:54px}
+.volver{
+  display:none;align-items:center;gap:7px;background:none;border:0;
+  padding:7px 9px 7px 4px;margin-left:-4px;font:inherit;font-size:15px;font-weight:600;
+  color:var(--tinta);cursor:pointer;border-radius:10px;
+}
+.volver.ver{display:inline-flex}
+.volver:active{background:var(--hueco)}
+.marca{font-size:15px;font-weight:800;letter-spacing:-.02em;flex:1}
+.buscador{flex:1;position:relative;display:flex;align-items:center}
+.buscador input{
+  width:100%;height:40px;border-radius:11px;border:1px solid var(--linea);
+  background:var(--hueco);padding:0 34px 0 12px;font:inherit;font-size:16px;color:var(--tinta);
+}
+.buscador input::placeholder{color:var(--gris)}
+.buscador input:focus{background:var(--carta);outline:none;border-color:var(--linea-fuerte)}
+.buscador .x{
+  position:absolute;right:6px;width:28px;height:28px;border-radius:8px;border:0;
+  background:none;color:var(--gris);font-size:18px;cursor:pointer;display:none;
+}
+.buscador .x.ver{display:block}
+
+/* ---------- cabecera ---------- */
+header{padding:28px 0 8px}
+.migas{font-size:13px;font-weight:600;color:var(--oliva);margin:0 0 10px}
+h1{font-size:clamp(40px,12vw,60px);line-height:.92}
+.sub{margin:12px 0 0;color:var(--gris);font-size:15px;font-weight:500}
+
+/* ---------- carpetas de categoría ---------- */
+.rejilla{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:26px}
+@media (max-width:400px){.rejilla{grid-template-columns:1fr}}
+.carpeta{
+  position:relative;text-align:left;cursor:pointer;
+  background:var(--carta);border:1px solid var(--linea);border-radius:var(--radio);
+  padding:0;overflow:hidden;font:inherit;color:inherit;box-shadow:var(--sombra);
+  transition:border-color .15s, transform .1s;
+}
+.carpeta:active{transform:translateY(1px)}
+.carpeta .lomo{height:7px;width:100%;display:block}
+.carpeta .dentro{padding:15px 15px 16px}
+.carpeta h2{font-size:19px;line-height:1.15;margin-bottom:6px}
+.carpeta .cuenta{font-size:14px;font-weight:600;color:var(--gris)}
+.carpeta .muestra{margin:10px 0 0;font-size:13px;color:var(--gris);line-height:1.35}
+
+/* ---------- lista de recetas ---------- */
+ul.recetas{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+ul.recetas a{
+  display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit;
+  background:var(--carta);border:1px solid var(--linea);border-radius:var(--radio);
+  padding:14px 15px;box-shadow:var(--sombra);
+}
+ul.recetas a:active{background:var(--hueco)}
+.punto{flex:0 0 auto;width:10px;height:10px;border-radius:50%}
+.datos{flex:1;min-width:0}
+.datos h3{font-size:18px;margin-bottom:3px}
+.datos p{margin:0;font-size:14px;color:var(--gris);font-weight:500}
+.flecha{color:var(--linea-fuerte);flex:0 0 auto}
+.etq{
+  font-size:12px;font-weight:600;color:var(--gris);background:var(--hueco);
+  border:1px solid var(--linea);border-radius:7px;padding:3px 7px;margin-left:8px;white-space:nowrap;
+}
+
+/* ---------- estados ---------- */
+.aviso{
+  margin-top:24px;background:var(--carta);border:1px solid var(--linea);
+  border-radius:var(--radio);padding:18px;box-shadow:var(--sombra);
+}
+.aviso h2{font-size:17px;margin-bottom:8px}
+.aviso p{margin:0 0 10px;font-size:15px;color:var(--gris)}
+.aviso p:last-child{margin-bottom:0}
+.aviso code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;
+  background:var(--hueco);border:1px solid var(--linea);border-radius:6px;padding:2px 6px;
+}
+.cargando{margin-top:26px;color:var(--gris);font-size:15px;font-weight:500;display:flex;align-items:center;gap:10px}
+.pulso{width:9px;height:9px;border-radius:50%;background:var(--oliva);animation:pulso 1.1s ease-in-out infinite}
+@keyframes pulso{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+.vacio{margin-top:26px;color:var(--gris);font-size:16px}
+footer{margin-top:34px;font-size:13px;color:var(--gris);text-align:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<nav class="barra-sup">
+  <div class="fila">
+    <button class="volver" id="volver">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      <span>Categorías</span>
+    </button>
+    <span class="marca" id="marca">Recetario</span>
+    <div class="buscador">
+      <input id="buscar" type="search" placeholder="Buscar receta o ingrediente" autocomplete="off" aria-label="Buscar receta">
+      <button class="x" id="limpiarBuscar" aria-label="Limpiar búsqueda">×</button>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+  <header id="cabecera"></header>
+  <div id="contenido"></div>
+  <footer id="pie"></footer>
+</div>
+
+<script>
+/* =========================================================
+   CONFIGURACIÓN
+   El índice no conoce ninguna receta: las descubre en tiempo
+   de carga. Orden de intentos:
+     1. Listado de directorio del servidor (autoindex)
+     2. recetas.json (manifiesto generado por el script)
+   Cada receta declara su categoría dentro de su propio HTML,
+   en un bloque <script type="application/json" id="meta-receta">.
+   ========================================================= */
+var CONFIG = {
+  carpetas:["recetas/", "./"],          // dónde buscar htmls de recetas
+  patron:/^receta-[^\/]*\.html$/i,      // convención de nombre de archivo
+  manifiesto:"recetas.json",            // plan B si no hay autoindex
+  paralelas:6
+};
+
+var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF57","#B03A6A"];
+
+(function(){
+  "use strict";
+
+  var recetas = [];
+  var cabecera = document.getElementById("cabecera");
+  var contenido = document.getElementById("contenido");
+  var pie = document.getElementById("pie");
+  var inputBuscar = document.getElementById("buscar");
+  var btnLimpiar = document.getElementById("limpiarBuscar");
+  var btnVolver = document.getElementById("volver");
+
+  /* ---------------- descubrimiento ---------------- */
+
+  function absoluta(href, base){
+    try{ return new URL(href, base).href; }catch(e){ return null; }
+  }
+  function archivoDe(url){
+    var p = url.split("?")[0].split("#")[0].split("/");
+    return decodeURIComponent(p[p.length-1] || "");
+  }
+
+  async function listarCarpeta(carpeta){
+    var base = new URL(carpeta, location.href).href;
+    var res;
+    try{ res = await fetch(base, {cache:"no-store"}); }catch(e){ return []; }
+    if(!res.ok) return [];
+    var html = await res.text();
+    var doc = new DOMParser().parseFromString(html, "text/html");
+    var salida = [];
+    Array.prototype.forEach.call(doc.querySelectorAll("a[href]"), function(a){
+      var url = absoluta(a.getAttribute("href"), base);
+      if(!url) return;
+      if(CONFIG.patron.test(archivoDe(url))) salida.push(url);
+    });
+    return salida;
+  }
+
+  function extraeMeta(html){
+    var m = html.match(/<script[^>]*id=["']meta-receta["'][^>]*>([\s\S]*?)<\/script>/i);
+    if(m){
+      try{ return JSON.parse(m[1]); }catch(e){}
+    }
+    return null;
+  }
+
+  async function leeReceta(url){
+    try{
+      var res = await fetch(url, {cache:"no-store"});
+      if(!res.ok) return null;
+      var html = await res.text();
+      var meta = extraeMeta(html);
+      if(!meta){
+        var t = html.match(/<title>([^<]*)<\/title>/i);
+        meta = { nombre: t ? t[1].split("·")[0].trim() : archivoDe(url) };
+      }
+      meta.url = url;
+      meta.archivo = archivoDe(url);
+      if(!meta.tipo) meta.tipo = { id:"otras", nombre:"Sin categoría" };
+      if(typeof meta.tipo === "string") meta.tipo = { id:meta.tipo, nombre:meta.tipo };
+      return meta;
+    }catch(e){ return null; }
+  }
+
+  async function enLotes(items, n, fn){
+    var out = [];
+    for(var i = 0; i < items.length; i += n){
+      out = out.concat(await Promise.all(items.slice(i, i+n).map(fn)));
+    }
+    return out;
+  }
+
+  async function descubrir(){
+    var urls = [];
+    for(var i = 0; i < CONFIG.carpetas.length; i++){
+      var enc = await listarCarpeta(CONFIG.carpetas[i]);
+      enc.forEach(function(u){ if(urls.indexOf(u) === -1) urls.push(u); });
+    }
+    if(urls.length){
+      var metas = await enLotes(urls, CONFIG.paralelas, leeReceta);
+      var ok = metas.filter(Boolean);
+      if(ok.length) return { origen:"carpeta", recetas:ok };
+    }
+    try{
+      var res = await fetch(CONFIG.manifiesto, {cache:"no-store"});
+      if(res.ok){
+        var datos = await res.json();
+        var lista = (datos.recetas || datos).map(function(r){
+          if(typeof r.tipo === "string") r.tipo = { id:r.tipo, nombre:r.tipo };
+          if(!r.tipo) r.tipo = { id:"otras", nombre:"Sin categoría" };
+          r.url = r.url || r.archivo;
+          return r;
+        });
+        if(lista.length) return { origen:"manifiesto", recetas:lista };
+      }
+    }catch(e){}
+    return { origen:"nada", recetas:[] };
+  }
+
+  /* ---------------- agrupación ---------------- */
+
+  function categorias(){
+    var mapa = {};
+    recetas.forEach(function(r){
+      var k = r.tipo.id;
+      if(!mapa[k]) mapa[k] = { id:k, nombre:r.tipo.nombre || k, recetas:[] };
+      mapa[k].recetas.push(r);
+    });
+    var arr = Object.keys(mapa).map(function(k){ return mapa[k]; });
+    arr.sort(function(a,b){ return a.nombre.localeCompare(b.nombre, "es"); });
+    arr.forEach(function(c, i){
+      c.color = PALETA[i % PALETA.length];
+      c.recetas.sort(function(a,b){ return (a.nombre||"").localeCompare(b.nombre||"", "es"); });
+    });
+    return arr;
+  }
+  function colorDe(tipoId){
+    var c = categorias().filter(function(x){ return x.id === tipoId; })[0];
+    return c ? c.color : "var(--gris)";
+  }
+
+  /* ---------------- render ---------------- */
+
+  function subtitulo(r){
+    var p = [];
+    if(r.tiempoTotal) p.push(r.tiempoTotal);
+    if(r.raciones) p.push(r.raciones + (r.raciones === 1 ? " ración" : " raciones"));
+    if(r.dificultad) p.push(r.dificultad);
+    return p.join(" · ");
+  }
+
+  function pintaCategorias(){
+    var cats = categorias();
+    cabecera.innerHTML =
+      '<h1>Recetario</h1>' +
+      '<p class="sub">' + recetas.length + (recetas.length === 1 ? " receta en " : " recetas en ") +
+      cats.length + (cats.length === 1 ? " categoría" : " categorías") + '</p>';
+    contenido.innerHTML = '<div class="rejilla">' + cats.map(function(c){
+      var muestra = c.recetas.slice(0,3).map(function(r){ return r.nombre; }).join(" · ");
+      return '<button class="carpeta" data-tipo="' + c.id + '">' +
+        '<span class="lomo" style="background:' + c.color + '"></span>' +
+        '<span class="dentro">' +
+          '<h2>' + c.nombre + '</h2>' +
+          '<span class="cuenta">' + c.recetas.length + (c.recetas.length === 1 ? " receta" : " recetas") + '</span>' +
+          '<p class="muestra">' + muestra + (c.recetas.length > 3 ? "…" : "") + '</p>' +
+        '</span></button>';
+    }).join("") + '</div>';
+    Array.prototype.forEach.call(contenido.querySelectorAll(".carpeta"), function(b){
+      b.addEventListener("click", function(){ location.hash = "#/tipo/" + b.dataset.tipo; });
+    });
+    btnVolver.classList.remove("ver");
+    document.getElementById("marca").style.display = "";
+  }
+
+  function filaReceta(r, mostrarTipo){
+    return '<li><a href="' + r.url + '">' +
+      '<span class="punto" style="background:' + colorDe(r.tipo.id) + '"></span>' +
+      '<span class="datos"><h3>' + (r.nombre || r.archivo) + '</h3>' +
+      '<p>' + subtitulo(r) + '</p></span>' +
+      (mostrarTipo ? '<span class="etq">' + r.tipo.nombre + '</span>' : '') +
+      '<svg class="flecha" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>' +
+      '</a></li>';
+  }
+
+  function pintaTipo(id){
+    var c = categorias().filter(function(x){ return x.id === id; })[0];
+    if(!c){ location.hash = "#/"; return; }
+    cabecera.innerHTML =
+      '<p class="migas">Categoría</p><h1>' + c.nombre + '</h1>' +
+      '<p class="sub">' + c.recetas.length + (c.recetas.length === 1 ? " receta" : " recetas") + '</p>';
+    contenido.innerHTML = '<ul class="recetas">' + c.recetas.map(function(r){ return filaReceta(r, false); }).join("") + '</ul>';
+    btnVolver.classList.add("ver");
+    document.getElementById("marca").style.display = "none";
+  }
+
+  function pintaBusqueda(q){
+    var t = q.toLowerCase().trim();
+    var res = recetas.filter(function(r){
+      var texto = [r.nombre, r.tipo.nombre, (r.ingredientes || []).join(" "), (r.etiquetas || []).join(" ")].join(" ").toLowerCase();
+      return texto.indexOf(t) !== -1;
+    });
+    cabecera.innerHTML = '<h1>Buscar</h1><p class="sub">' +
+      (res.length ? res.length + (res.length === 1 ? " resultado" : " resultados") : "Sin resultados") +
+      ' para “' + q + '”</p>';
+    contenido.innerHTML = res.length
+      ? '<ul class="recetas">' + res.map(function(r){ return filaReceta(r, true); }).join("") + '</ul>'
+      : '<p class="vacio">Prueba con otro nombre o con un ingrediente.</p>';
+    btnVolver.classList.remove("ver");
+  }
+
+  function sinRecetas(){
+    cabecera.innerHTML = '<h1>Recetario</h1><p class="sub">Todavía no hay recetas que mostrar</p>';
+    contenido.innerHTML =
+      '<div class="aviso">' +
+        '<h2>No he podido leer la carpeta</h2>' +
+        '<p>El índice busca archivos <code>receta-*.html</code> en <code>recetas/</code> y en esta misma carpeta. Para que funcione hace falta una de estas dos cosas:</p>' +
+        '<p><strong>1.</strong> Servirlo por HTTP con listado de directorios activado. Desde la carpeta del recetario: <code>python3 -m http.server 8000</code> y abre <code>http://localhost:8000</code>. Abrir el archivo con doble clic (<code>file://</code>) no vale: el navegador bloquea la lectura.</p>' +
+        '<p><strong>2.</strong> Generar el manifiesto <code>recetas.json</code> con el script <code>generar-recetas.py</code> y volver a cargar. Es lo que necesitarás en GitHub Pages, Netlify o cualquier hosting sin autoindex.</p>' +
+      '</div>';
+  }
+
+  function ruta(){
+    var h = location.hash || "#/";
+    if(inputBuscar.value.trim()){ pintaBusqueda(inputBuscar.value); return; }
+    var m = h.match(/^#\/tipo\/(.+)$/);
+    if(m) pintaTipo(decodeURIComponent(m[1]));
+    else pintaCategorias();
+    window.scrollTo(0,0);
+  }
+
+  window.addEventListener("hashchange", ruta);
+  btnVolver.addEventListener("click", function(){
+    inputBuscar.value = ""; btnLimpiar.classList.remove("ver");
+    if(location.hash && location.hash !== "#/") history.back();
+    else location.hash = "#/";
+  });
+  inputBuscar.addEventListener("input", function(){
+    btnLimpiar.classList.toggle("ver", !!inputBuscar.value);
+    ruta();
+  });
+  btnLimpiar.addEventListener("click", function(){
+    inputBuscar.value = ""; btnLimpiar.classList.remove("ver"); inputBuscar.focus(); ruta();
+  });
+
+  /* ---------------- arranque ---------------- */
+  cabecera.innerHTML = '<h1>Recetario</h1>';
+  contenido.innerHTML = '<div class="cargando"><span class="pulso"></span>Buscando recetas en la carpeta…</div>';
+
+  descubrir().then(function(r){
+    recetas = r.recetas;
+    if(!recetas.length){ sinRecetas(); return; }
+    pie.textContent = recetas.length + " recetas · leídas " +
+      (r.origen === "carpeta" ? "directamente de la carpeta" : "de recetas.json");
+    ruta();
+  });
+})();
+</script>
+</body>
+</html>
