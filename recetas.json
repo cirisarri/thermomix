@@ -542,6 +542,440 @@
       "archivo": "receta-empanada-champinones.html"
     },
     {
+      "id": "ensalada-aguacate-manzana",
+      "nombre": "Ensalada de aguacate y manzana",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aguacate",
+        "Manzanas rojas",
+        "Espinacas baby",
+        "Tomates verdes",
+        "Anacardos",
+        "Queso de cabra o gorgonzola",
+        "Zumo de limón",
+        "Aceite de oliva",
+        "Vinagre de manzana",
+        "Mostaza en grano",
+        "Mango",
+        "Miel",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "aguacate",
+        "manzana",
+        "espinacas",
+        "anacardos",
+        "queso de cabra"
+      ],
+      "url": "recetas/receta-ensalada-aguacate-manzana.html",
+      "archivo": "receta-ensalada-aguacate-manzana.html"
+    },
+    {
+      "id": "ensalada-brocoli-thermomix",
+      "nombre": "Ensalada de brócoli",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Ramilletes de brócoli",
+        "Manzana",
+        "Cebolla",
+        "Calabacín",
+        "Vinagre de sidra o zumo de limón",
+        "Aceite de oliva virgen extra",
+        "Sal",
+        "Pimienta molida",
+        "Pasas sin semillas"
+      ],
+      "etiquetas": [
+        "brócoli",
+        "manzana",
+        "pasas",
+        "cruda",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-ensalada-brocoli-thermomix.html",
+      "archivo": "receta-ensalada-brocoli-thermomix.html"
+    },
+    {
+      "id": "ensalada-burrata-tomate-limon",
+      "nombre": "Ensalada de burrata y tomate con aliño de limón",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Burratas",
+        "Tomates raff",
+        "Tomates azules",
+        "Tomates cherry variados",
+        "Menta fresca o albahaca",
+        "Ralladura de limón",
+        "Azúcar",
+        "Zumo de limón",
+        "Aceite de oliva virgen extra",
+        "Sal Maldon",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "burrata",
+        "tomate",
+        "limón",
+        "menta",
+        "verano"
+      ],
+      "url": "recetas/receta-ensalada-burrata-tomate-limon.html",
+      "archivo": "receta-ensalada-burrata-tomate-limon.html"
+    },
+    {
+      "id": "ensalada-confit-pato",
+      "nombre": "Ensalada de confit de pato",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Canónigos",
+        "Aguacate",
+        "Mango grande",
+        "Confit de pato",
+        "Aceite",
+        "Mostaza",
+        "Miel",
+        "Vinagre de Módena"
+      ],
+      "etiquetas": [
+        "pato",
+        "mango",
+        "aguacate",
+        "canónigos",
+        "vinagreta 3-1-1-1"
+      ],
+      "url": "recetas/receta-ensalada-confit-pato.html",
+      "archivo": "receta-ensalada-confit-pato.html"
+    },
+    {
+      "id": "ensalada-gulas-bacalao-ahumado",
+      "nombre": "Ensalada de gulas y bacalao ahumado",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Gulas",
+        "Salmón ahumado",
+        "Ensalada variada",
+        "Cebolleta",
+        "Manzana verde",
+        "Granada",
+        "Alcaparras",
+        "Mostaza",
+        "Miel",
+        "Vinagre",
+        "Cebollino picado"
+      ],
+      "etiquetas": [
+        "gulas",
+        "salmón ahumado",
+        "granada",
+        "vinagreta agridulce"
+      ],
+      "url": "recetas/receta-ensalada-gulas-bacalao-ahumado.html",
+      "archivo": "receta-ensalada-gulas-bacalao-ahumado.html"
+    },
+    {
+      "id": "ensalada-pasta-manzana",
+      "nombre": "Ensalada de pasta con manzana",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pasta",
+        "Pechuga de pollo",
+        "Lonchas de bacon",
+        "Manzanas",
+        "Queso Emmental",
+        "Mayonesa",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "pasta",
+        "pollo",
+        "manzana",
+        "bacon",
+        "emmental",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-pasta-manzana.html",
+      "archivo": "receta-ensalada-pasta-manzana.html"
+    },
+    {
+      "id": "ensalada-pasta-pina-palmitos",
+      "nombre": "Ensalada de pasta con piña, palmitos, gambas y palitos de cangrejo",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Espirales multicolor",
+        "Palmitos",
+        "Rodajas de piña",
+        "Maíz",
+        "Gambas peladas",
+        "Palitos de cangrejo",
+        "Huevo",
+        "Aceite",
+        "Kétchup",
+        "Salsa Perrins",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "pasta",
+        "salsa rosa",
+        "gambas",
+        "palitos",
+        "piña",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-pasta-pina-palmitos.html",
+      "archivo": "receta-ensalada-pasta-pina-palmitos.html"
+    },
+    {
+      "id": "ensalada-peras-nueces",
+      "nombre": "Ensalada de peras y nueces",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Nueces peladas",
+        "Berros",
+        "Canónigos",
+        "Peras",
+        "Queso gorgonzola",
+        "Zumo de limón",
+        "Aceite de nueces",
+        "Pimienta negra molida"
+      ],
+      "etiquetas": [
+        "pera",
+        "nueces",
+        "gorgonzola",
+        "berros",
+        "canónigos"
+      ],
+      "url": "recetas/receta-ensalada-peras-nueces.html",
+      "archivo": "receta-ensalada-peras-nueces.html"
+    },
+    {
+      "id": "ensalada-endivias-gulas-rabanos",
+      "nombre": "Ensalada templada de endivias, gulas y rábanos",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Endivias",
+        "Tomates",
+        "Chalotas",
+        "Gulas",
+        "Rábanos",
+        "Ajo",
+        "Aceite",
+        "Vinagre",
+        "Sal"
+      ],
+      "etiquetas": [
+        "endivias",
+        "gulas",
+        "rábano",
+        "templada",
+        "chalota"
+      ],
+      "url": "recetas/receta-ensalada-endivias-gulas-rabanos.html",
+      "archivo": "receta-ensalada-endivias-gulas-rabanos.html"
+    },
+    {
+      "id": "ensalada-tia-mcarmen",
+      "nombre": "Ensalada tía Mª Carmen",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lechuga",
+        "Cebolleta",
+        "Tomates",
+        "Salmón",
+        "Aguacate",
+        "Mango",
+        "Langostinos cocidos",
+        "Aceite",
+        "Soja"
+      ],
+      "etiquetas": [
+        "salmón",
+        "aguacate",
+        "mango",
+        "langostinos",
+        "familiar"
+      ],
+      "url": "recetas/receta-ensalada-tia-mcarmen.html",
+      "archivo": "receta-ensalada-tia-mcarmen.html"
+    },
+    {
+      "id": "ensalada-verde-quesos",
+      "nombre": "Ensalada verde con quesos",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cogollo de lechuga",
+        "Hojas variadas de lechuga",
+        "Cebolleta",
+        "Uvas blancas",
+        "Uvas negras",
+        "Almendras tostadas",
+        "Queso Brie",
+        "Queso de cabra",
+        "Naranja",
+        "Mostaza",
+        "Aceite de oliva virgen extra",
+        "Vinagre de vino tinto",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "queso brie",
+        "queso de cabra",
+        "uvas",
+        "vinagreta de naranja"
+      ],
+      "url": "recetas/receta-ensalada-verde-quesos.html",
+      "archivo": "receta-ensalada-verde-quesos.html"
+    },
+    {
+      "id": "ensalada-waldorf",
+      "nombre": "Ensalada Waldorf",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Col",
+        "Apio",
+        "Manzanas Granny Smith",
+        "Cebolla roja",
+        "Avellanas",
+        "Crema agria",
+        "Eneldo fresco",
+        "Arándanos secos",
+        "Sal",
+        "Pimienta",
+        "Chalota (mayonesa)",
+        "Yema de huevo",
+        "Mostaza Dijon",
+        "Sirope de Arce",
+        "Vinagre de sidra",
+        "Aceite de girasol",
+        "Aceite de oliva"
+      ],
+      "etiquetas": [
+        "col",
+        "manzana",
+        "avellanas",
+        "crema agria",
+        "mayonesa casera"
+      ],
+      "url": "recetas/receta-ensalada-waldorf.html",
+      "archivo": "receta-ensalada-waldorf.html"
+    },
+    {
       "id": "esparragos-ajo-pollo",
       "nombre": "Espárragos en «ajo pollo»",
       "tipo": {
@@ -1102,6 +1536,40 @@
       "archivo": "receta-rollitos-tortillas-trigo.html"
     },
     {
+      "id": "salsa-mango-frutos-secos",
+      "nombre": "Salsa de mango y frutos secos",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mango maduro",
+        "Yogur natural",
+        "Curry",
+        "Mostaza antigua",
+        "Azúcar moreno",
+        "Sal",
+        "Pimienta negra",
+        "Aceite 0,4",
+        "Pistachos pelados"
+      ],
+      "etiquetas": [
+        "mango",
+        "curry",
+        "pistachos",
+        "mostaza antigua",
+        "para carne"
+      ],
+      "url": "recetas/receta-salsa-mango-frutos-secos.html",
+      "archivo": "receta-salsa-mango-frutos-secos.html"
+    },
+    {
       "id": "salteado-verduras-curry",
       "nombre": "Salteado de verduras al curry",
       "tipo": {
@@ -1244,6 +1712,90 @@
       "archivo": "receta-tartar-salchichon.html"
     },
     {
+      "id": "tartar-tomate",
+      "nombre": "Tartar de tomate",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tomates pera pelados",
+        "Tomates secos",
+        "Pepinillos",
+        "Cilantro fresco",
+        "Mostaza de Dijon",
+        "Aceite de oliva virgen extra",
+        "Vinagre",
+        "Sal",
+        "Pimienta",
+        "Tabasco",
+        "Aguacate",
+        "Limón",
+        "Crackers integrales",
+        "Semillas de sésamo"
+      ],
+      "etiquetas": [
+        "tomate",
+        "aguacate",
+        "tabasco",
+        "crackers",
+        "verano"
+      ],
+      "url": "recetas/receta-tartar-tomate.html",
+      "archivo": "receta-tartar-tomate.html"
+    },
+    {
+      "id": "tartar-tomate-cigala-ajo-blanco",
+      "nombre": "Tartar de tomate con cigala y ajo blanco",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "3 h con reposo",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Tomates tipo ensalada",
+        "Cebolla",
+        "Aceite de oliva virgen extra",
+        "Dátiles",
+        "Cebollino",
+        "Salsa Perrins",
+        "Sal",
+        "Almendras crudas",
+        "Agua",
+        "Aceite de girasol",
+        "Ajos sin germen",
+        "Rebanadas de pan tostado",
+        "Aceite de oliva virgen extra",
+        "Vinagre de Jerez",
+        "Gambones marcados"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "tomate",
+        "cigala",
+        "ajo blanco",
+        "presentación",
+        "fiesta"
+      ],
+      "url": "recetas/receta-tartar-tomate-cigala-ajo-blanco.html",
+      "archivo": "receta-tartar-tomate-cigala-ajo-blanco.html"
+    },
+    {
       "id": "timbal-frio-crepes",
       "nombre": "Timbal frío de crepes",
       "tipo": {
@@ -1344,6 +1896,92 @@
       ],
       "url": "recetas/receta-verduras-salteadas.html",
       "archivo": "receta-verduras-salteadas.html"
+    },
+    {
+      "id": "vinagreta-aceitunas-negras",
+      "nombre": "Vinagreta de aceitunas negras",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite de oliva",
+        "Aceitunas negras",
+        "Mostaza",
+        "Zumo de limón",
+        "Agua",
+        "Sal",
+        "Azúcar",
+        "Pimienta negra"
+      ],
+      "etiquetas": [
+        "vinagreta",
+        "aceitunas negras",
+        "limón"
+      ],
+      "url": "recetas/receta-vinagreta-aceitunas-negras.html",
+      "archivo": "receta-vinagreta-aceitunas-negras.html"
+    },
+    {
+      "id": "vinagreta-mostaza-miel",
+      "nombre": "Vinagreta de mostaza y miel",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "2 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite de oliva virgen extra",
+        "Vinagre de Módena",
+        "Mostaza",
+        "Miel"
+      ],
+      "etiquetas": [
+        "vinagreta",
+        "mostaza",
+        "miel",
+        "base"
+      ],
+      "url": "recetas/receta-vinagreta-mostaza-miel.html",
+      "archivo": "receta-vinagreta-mostaza-miel.html"
+    },
+    {
+      "id": "vinagreta-pistacho",
+      "nombre": "Vinagreta de pistacho",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pistachos pelados",
+        "Vinagre de sidra",
+        "Aceite de pistacho u oliva",
+        "Sal"
+      ],
+      "etiquetas": [
+        "vinagreta",
+        "pistacho",
+        "vinagre de sidra"
+      ],
+      "url": "recetas/receta-vinagreta-pistacho.html",
+      "archivo": "receta-vinagreta-pistacho.html"
     }
   ]
 }
