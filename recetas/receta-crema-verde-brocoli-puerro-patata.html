@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema verde con brócoli, puerro y patata · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,41 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-verde-brocoli-puerro-patata",
+  "nombre": "Crema verde con brócoli, puerro y patata",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
+  "raciones": 4,
+  "tiempoTotal": "40 min",
   "tiempoPreparacion": "10 min",
   "dificultad": "Fácil",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
+    "Puerro",
+    "Ajo",
+    "Mantequilla",
     "Aceite de oliva",
-    "Tomate triturado en conserva",
-    "Sal",
-    "Pimienta molida"
+    "Ramilletes de brócoli fresco",
+    "Patata",
+    "Nata para cocinar",
+    "Leche",
+    "Agua",
+    "Pastilla de caldo de verduras",
+    "Pimienta molida",
+    "Queso parmesano rallado"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "brócoli",
+    "puerro",
+    "verde",
+    "queso"
   ]
 }
 </script>
@@ -302,73 +305,93 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-verde-brocoli-puerro-patata",
+  "nombre": "Crema verde con brócoli, puerro y patata",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 4,
   "tiempos": {
     "preparacion": "10 min",
-    "total": "45 min"
+    "total": "40 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
+      "id": "puerro",
+      "nom": "Puerro",
+      "prep": "solo la parte blanca, en rodajas",
+      "cant": 210,
       "uni": "g"
     },
     {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
+      "id": "ajo",
+      "nom": "Ajo",
+      "prep": "",
+      "cant": 1,
+      "uni": "diente"
     },
     {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "id": "mantequilla",
+      "nom": "Mantequilla",
+      "prep": "",
+      "cant": 30,
       "uni": "g"
     },
     {
       "id": "aceite",
       "nom": "Aceite de oliva",
       "prep": "",
-      "cant": 50,
+      "cant": 20,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
+      "id": "brocoli",
+      "nom": "Ramilletes de brócoli fresco",
+      "prep": "reserva 1-2 para decorar",
+      "cant": 300,
+      "uni": "g"
+    },
+    {
+      "id": "patata",
+      "nom": "Patata",
+      "prep": "pelada y en trozos pequeños (100-120 g)",
+      "cant": 1,
+      "uni": "u"
+    },
+    {
+      "id": "nata",
+      "nom": "Nata para cocinar",
+      "prep": "",
       "cant": 200,
       "uni": "g"
     },
     {
-      "id": "sal",
-      "nom": "Sal",
+      "id": "leche",
+      "nom": "Leche",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 400,
+      "uni": "g"
+    },
+    {
+      "id": "agua",
+      "nom": "Agua",
+      "prep": "",
+      "cant": 300,
+      "uni": "g"
+    },
+    {
+      "id": "caldo",
+      "nom": "Pastilla de caldo de verduras",
+      "prep": "o 1 cdta de concentrado casero",
+      "cant": 1,
+      "uni": "pastilla"
     },
     {
       "id": "pimienta",
@@ -376,72 +399,104 @@ var RECETA = {
       "prep": "",
       "cant": 1,
       "uni": "pellizco"
+    },
+    {
+      "id": "parmesano",
+      "nom": "Queso parmesano rallado",
+      "prep": "",
+      "cant": 50,
+      "uni": "g"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Trocear y sofreír el puerro",
+      "texto": "Pon en el vaso el puerro, el ajo, la mantequilla y el aceite. Trocea 2 seg/vel 5 y sofríe.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "2 seg",
           "c": "t"
+        },
+        {
+          "t": "vel 5",
+          "c": ""
+        },
+        {
+          "t": "+ 5 min",
+          "c": "t"
+        },
+        {
+          "t": "120 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 300
+    },
+    {
+      "titulo": "Rehogar brócoli y patata",
+      "texto": "Añade el brócoli (reserva 1-2 ramilletes) y la patata y programa.",
+      "ajustes": [
+        {
+          "t": "3 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 180
+    },
+    {
+      "titulo": "Cocer con nata, leche y caldo",
+      "texto": "Incorpora la nata, la leche, 150 g de agua y la pastilla de caldo y programa.",
+      "ajustes": [
+        {
+          "t": "20 min",
+          "c": "t"
+        },
+        {
+          "t": "90 °C",
+          "c": "c"
         },
         {
           "t": "vel 4",
           "c": ""
         }
       ],
-      "seg": 5
+      "seg": 1200
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Triturar con parmesano",
+      "texto": "Agrega los 150 g de agua restantes, la pimienta y 30 g del parmesano rallado y tritura progresivamente hasta que quede fina.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "1 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 5-10",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 60
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
-      "ajustes": [
-        {
-          "t": "16 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 960
+      "titulo": "Servir",
+      "texto": "Sirve la crema en tazas decorando con los ramilletes de brócoli reservados y algunos trocitos de brócoli crudo. Espolvorea con el parmesano restante.",
+      "ajustes": [],
+      "seg": 0
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "En tazas, decorada con ramilletes de brócoli reservados y trocitos de brócoli crudo por encima."
 };
 
   /* rutas previstas para el resto de la app */

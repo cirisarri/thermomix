@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema de trigueros y calabacín · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,37 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-trigueros-calabacin",
+  "nombre": "Crema de trigueros y calabacín",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
+  "raciones": 5,
   "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
+  "tiempoPreparacion": "15 min",
   "dificultad": "Fácil",
   "ingredientes": [
+    "Trigueros",
+    "Aceite",
     "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Calabacín pelado",
+    "Caldo de verduras",
     "Sal",
-    "Pimienta molida"
+    "Pimienta",
+    "Nata ligera"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "espárrago",
+    "calabacín",
+    "primavera",
+    "verde"
   ]
 }
 </script>
@@ -302,89 +301,138 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-trigueros-calabacin",
+  "nombre": "Crema de trigueros y calabacín",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 5,
   "tiempos": {
-    "preparacion": "10 min",
+    "preparacion": "15 min",
     "total": "45 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
+      "id": "trigueros",
+      "nom": "Trigueros",
+      "prep": "manojos",
+      "cant": 2,
+      "uni": "manojo"
     },
     {
       "id": "aceite",
-      "nom": "Aceite de oliva",
+      "nom": "Aceite",
       "prep": "",
       "cant": 50,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "cebolla",
+      "nom": "Cebolla",
+      "prep": "",
+      "cant": 150,
+      "uni": "g"
+    },
+    {
+      "id": "calabacin",
+      "nom": "Calabacín pelado",
+      "prep": "",
+      "cant": 350,
+      "uni": "g"
+    },
+    {
+      "id": "caldo",
+      "nom": "Caldo de verduras",
+      "prep": "caliente",
+      "cant": 600,
       "uni": "g"
     },
     {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 1,
+      "uni": "pellizco"
     },
     {
       "id": "pimienta",
-      "nom": "Pimienta molida",
+      "nom": "Pimienta",
       "prep": "",
       "cant": 1,
       "uni": "pellizco"
+    },
+    {
+      "id": "nata",
+      "nom": "Nata ligera",
+      "prep": "",
+      "cant": 150,
+      "uni": "g"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Preparar los trigueros",
+      "texto": "Quita los tallos duros, trocea los tallos y separa las puntas.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Calentar el aceite",
+      "texto": "Pon el aceite en el vaso.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "1 min",
+          "c": "t"
+        },
+        {
+          "t": "Varoma",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 60
+    },
+    {
+      "titulo": "Rehogar las puntas",
+      "texto": "Añade las puntas y rehoga.",
+      "ajustes": [
+        {
+          "t": "5 min",
+          "c": "t"
+        },
+        {
+          "t": "Varoma",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 300
+    },
+    {
+      "titulo": "Reservar las puntas",
+      "texto": "Retira las puntas del vaso sin retirar el aceite, escurriéndolas. Reserva.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Trocear la cebolla",
+      "texto": "En el aceite añade la cebolla y trocea.",
+      "ajustes": [
+        {
+          "t": "4 seg",
           "c": "t"
         },
         {
@@ -392,56 +440,101 @@ var RECETA = {
           "c": ""
         }
       ],
-      "seg": 5
+      "seg": 4
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Sofreír la cebolla",
+      "texto": "Sofríe la cebolla.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "5 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 300
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Rehogar calabacín y tallos",
+      "texto": "Incorpora el calabacín troceado y los tallos de los espárragos.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "7 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 420
+    },
+    {
+      "titulo": "Cocer con caldo",
+      "texto": "Añade el caldo caliente, sal y pimienta y programa.",
+      "ajustes": [
+        {
+          "t": "20 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 1200
+    },
+    {
+      "titulo": "Añadir la nata",
+      "texto": "Incorpora la nata.",
+      "ajustes": [
+        {
+          "t": "1 min",
+          "c": "t"
+        },
+        {
+          "t": "90 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 4",
+          "c": ""
+        }
+      ],
+      "seg": 60
+    },
+    {
+      "titulo": "Triturar y servir",
+      "texto": "Tritura bien. Sirve con las puntas reservadas por encima.",
+      "ajustes": [
+        {
+          "t": "1 min",
+          "c": "t"
+        },
+        {
+          "t": "vel 5-10",
+          "c": ""
+        }
+      ],
+      "seg": 60
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Con las puntas de los trigueros reservadas por encima como guarnición."
 };
 
   /* rutas previstas para el resto de la app */

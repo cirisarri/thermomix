@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Espárragos en «ajo pollo» · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,8 +203,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "esparragos-ajo-pollo",
+  "nombre": "Espárragos en «ajo pollo»",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -216,24 +216,25 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
-  "dificultad": "Fácil",
+  "raciones": 2,
+  "tiempoTotal": "40 min",
+  "tiempoPreparacion": "20 min",
+  "dificultad": "Media",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Espárragos verdes",
+    "Aceite de oliva virgen extra",
+    "Almendras crudas sin piel",
+    "Ñora",
+    "Ajo",
+    "Rebanada de pan",
+    "Agua",
     "Sal",
     "Pimienta molida"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
+    "espárragos",
+    "almendras",
+    "andaluza",
     "clásico"
   ]
 }
@@ -302,8 +303,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "esparragos-ajo-pollo",
+  "nombre": "Espárragos en «ajo pollo»",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -315,51 +316,58 @@ var RECETA = {
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 2,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "20 min",
+    "total": "40 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "id": "esparragos",
+      "nom": "Espárragos verdes",
+      "prep": "",
+      "cant": 500,
       "uni": "g"
     },
     {
       "id": "aceite",
-      "nom": "Aceite de oliva",
+      "nom": "Aceite de oliva virgen extra",
       "prep": "",
-      "cant": 50,
+      "cant": 100,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
+      "id": "almendras",
+      "nom": "Almendras crudas sin piel",
+      "prep": "",
+      "cant": 40,
+      "uni": "g"
+    },
+    {
+      "id": "nora",
+      "nom": "Ñora",
+      "prep": "sin pepitas (o pimiento choricero)",
+      "cant": 1,
+      "uni": "u"
+    },
+    {
+      "id": "ajo",
+      "nom": "Ajo",
+      "prep": "",
+      "cant": 2,
+      "uni": "diente"
+    },
+    {
+      "id": "pan",
+      "nom": "Rebanada de pan",
+      "prep": "en trozos (10 g aprox.)",
+      "cant": 1,
+      "uni": "u"
+    },
+    {
+      "id": "agua",
+      "nom": "Agua",
+      "prep": "",
       "cant": 200,
       "uni": "g"
     },
@@ -367,7 +375,7 @@ var RECETA = {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
-      "cant": 0.5,
+      "cant": 1,
       "uni": "cdta"
     },
     {
@@ -375,31 +383,43 @@ var RECETA = {
       "nom": "Pimienta molida",
       "prep": "",
       "cant": 1,
-      "uni": "pellizco"
+      "uni": "cdta"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Preparar los espárragos",
+      "texto": "Separa los extremos duros de los espárragos partiéndolos y deséchalos. Corta los espárragos en trozos regulares y ponlos en remojo en agua fría durante 10 minutos.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Freír las almendras (sartén)",
+      "texto": "Calienta 50 g de aceite de oliva en una sartén y fríe las almendras. Ponlas en un plato sobre papel absorbente y reserva.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Triturar ñora y ajo",
+      "texto": "Pon en el vaso la ñora y los dientes de ajo y tritura. Vierte en un bol y reserva.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "8 seg",
           "c": "t"
         },
         {
-          "t": "vel 4",
+          "t": "vel 10",
           "c": ""
         }
       ],
-      "seg": 5
+      "seg": 8
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Calentar el aceite",
+      "texto": "Pon 50 g de aceite de oliva en el vaso y calienta.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "5 min",
           "c": "t"
         },
         {
@@ -407,41 +427,86 @@ var RECETA = {
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 300
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Sofreír la picada con el pan",
+      "texto": "Incorpora la picada de ajo y ñora y el pan y programa. Con la espátula, baja los ingredientes hacia el fondo del vaso.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "5 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "100 °C",
           "c": "c"
         },
         {
-          "t": "giro inverso",
+          "t": "vel 1",
           "c": ""
+        }
+      ],
+      "seg": 300
+    },
+    {
+      "titulo": "Triturar con las almendras",
+      "texto": "Agrega las almendras fritas y tritura.",
+      "ajustes": [
+        {
+          "t": "20 seg",
+          "c": "t"
+        },
+        {
+          "t": "vel 5",
+          "c": ""
+        }
+      ],
+      "seg": 20
+    },
+    {
+      "titulo": "Rehogar los espárragos",
+      "texto": "Escurre los espárragos en el cestillo, agrégalos al vaso y programa.",
+      "ajustes": [
+        {
+          "t": "3 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
         },
         {
           "t": "vel cuchara",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 180
+    },
+    {
+      "titulo": "Guisar",
+      "texto": "Añade el agua, la sal y la pimienta y programa. Sirve caliente.",
+      "ajustes": [
+        {
+          "t": "15 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel cuchara",
+          "c": ""
+        }
+      ],
+      "seg": 900
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Caliente. Receta facilitada por Carmen Robles Tarrago. Tip: puedes comprar directamente almendras fritas."
 };
 
   /* rutas previstas para el resto de la app */

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Verduras salteadas · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,8 +203,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "verduras-salteadas",
+  "nombre": "Verduras salteadas",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -212,29 +212,25 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
   "aparato": "Thermomix",
   "modelos": [
     "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
+    "TM6"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
+  "raciones": 4,
+  "tiempoTotal": "30 min",
+  "tiempoPreparacion": "15 min",
   "dificultad": "Fácil",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
     "Aceite de oliva",
-    "Tomate triturado en conserva",
-    "Sal",
-    "Pimienta molida"
+    "Pimientos variados",
+    "Aceite de oliva",
+    "Cebolla roja",
+    "Zanahoria",
+    "Sal"
   ],
   "etiquetas": [
     "vegetariano",
     "sin gluten",
     "guarnición",
-    "clásico"
+    "rápido"
   ]
 }
 </script>
@@ -302,8 +298,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "verduras-salteadas",
+  "nombre": "Verduras salteadas",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -311,137 +307,82 @@ var RECETA = {
   "aparato": "Thermomix",
   "modelos": [
     "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
+    "TM6"
   ],
-  "racionesBase": 3,
+  "racionesBase": 4,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "15 min",
+    "total": "30 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "aceite",
+      "id": "aceite1",
       "nom": "Aceite de oliva",
-      "prep": "",
-      "cant": 50,
+      "prep": "para los pimientos",
+      "cant": 15,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
+      "id": "pimientos",
+      "nom": "Pimientos variados",
+      "prep": "en tiras de 5 × 0,5 cm",
       "cant": 200,
+      "uni": "g"
+    },
+    {
+      "id": "aceite2",
+      "nom": "Aceite de oliva",
+      "prep": "para la cebolla y la zanahoria",
+      "cant": 10,
+      "uni": "g"
+    },
+    {
+      "id": "cebroja",
+      "nom": "Cebolla roja",
+      "prep": "en tiras de 5 × 0,5 cm",
+      "cant": 100,
+      "uni": "g"
+    },
+    {
+      "id": "zanahoria",
+      "nom": "Zanahoria",
+      "prep": "en tiras de 5 × 0,5 cm",
+      "cant": 150,
       "uni": "g"
     },
     {
       "id": "sal",
       "nom": "Sal",
-      "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
-    },
-    {
-      "id": "pimienta",
-      "nom": "Pimienta molida",
-      "prep": "",
+      "prep": "al gusto",
       "cant": 1,
       "uni": "pellizco"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Saltear los pimientos",
+      "texto": "Pon en el vaso 15 g de aceite y los pimientos. Inicia Alta Temperatura (el aparato decide el tiempo, aprox. 6-8 min).",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "Alta Temperatura",
           "c": "t"
-        },
-        {
-          "t": "vel 4",
-          "c": ""
         }
       ],
-      "seg": 5
+      "seg": 0
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Saltear cebolla y zanahoria",
+      "texto": "Añade 10 g de aceite, la cebolla roja y la zanahoria. Inicia Alta Temperatura. Sazona al gusto y sirve inmediatamente.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "Alta Temperatura",
           "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
         }
       ],
-      "seg": 840
-    },
-    {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
-      "ajustes": [
-        {
-          "t": "16 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 960
+      "seg": 0
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Recién hecho, como guarnición de un plato principal."
 };
 
   /* rutas previstas para el resto de la app */

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema de puerros y pera · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,37 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-puerros-pera",
+  "nombre": "Crema de puerros y pera",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
+  "raciones": 4,
+  "tiempoTotal": "40 min",
   "tiempoPreparacion": "10 min",
   "dificultad": "Fácil",
   "ingredientes": [
+    "Puerros",
     "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
     "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Patata pelada",
+    "Caldo de pollo",
+    "Peras",
     "Sal",
-    "Pimienta molida"
+    "Pimienta"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "puerro",
+    "pera",
+    "otoño",
+    "elegante"
   ]
 }
 </script>
@@ -302,51 +301,36 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-puerros-pera",
+  "nombre": "Crema de puerros y pera",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 4,
   "tiempos": {
     "preparacion": "10 min",
-    "total": "45 min"
+    "total": "40 min"
   },
   "ingredientes": [
     {
+      "id": "puerro",
+      "nom": "Puerros",
+      "prep": "",
+      "cant": 200,
+      "uni": "g"
+    },
+    {
       "id": "cebolla",
       "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "prep": "",
+      "cant": 100,
       "uni": "g"
     },
     {
@@ -357,22 +341,36 @@ var RECETA = {
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "patata",
+      "nom": "Patata pelada",
+      "prep": "",
+      "cant": 150,
       "uni": "g"
+    },
+    {
+      "id": "caldo",
+      "nom": "Caldo de pollo",
+      "prep": "",
+      "cant": 600,
+      "uni": "g"
+    },
+    {
+      "id": "pera",
+      "nom": "Peras",
+      "prep": "en cuadritos",
+      "cant": 3,
+      "uni": "u"
     },
     {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 1,
+      "uni": "pellizco"
     },
     {
       "id": "pimienta",
-      "nom": "Pimienta molida",
+      "nom": "Pimienta",
       "prep": "",
       "cant": 1,
       "uni": "pellizco"
@@ -380,68 +378,106 @@ var RECETA = {
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Trocear y sofreír puerro y cebolla",
+      "texto": "Pon en el vaso el puerro, la cebolla y el aceite. Trocea 3 seg/vel 5 y sofríe.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "3 seg",
           "c": "t"
         },
         {
-          "t": "vel 4",
+          "t": "vel 5",
           "c": ""
-        }
-      ],
-      "seg": 5
-    },
-    {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
-      "ajustes": [
+        },
         {
-          "t": "14 min",
+          "t": "+ 8 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 480
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Rehogar la patata",
+      "texto": "Incorpora la patata en trocitos y rehoga.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "3 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 180
+    },
+    {
+      "titulo": "Cocer con caldo",
+      "texto": "Agrega el caldo y cuece.",
+      "ajustes": [
+        {
+          "t": "15 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 900
+    },
+    {
+      "titulo": "Añadir las peras y sazonar",
+      "texto": "Añade las peras en cuadritos, sal y pimienta.",
+      "ajustes": [
+        {
+          "t": "10 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 600
+    },
+    {
+      "titulo": "Triturar",
+      "texto": "Tritura hasta que quede fina.",
+      "ajustes": [
+        {
+          "t": "1 min",
+          "c": "t"
+        },
+        {
+          "t": "vel 5-10",
+          "c": ""
+        }
+      ],
+      "seg": 60
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Con parmesano en tiras o virutas de jamón. También queda muy bien triturada con un poco de gorgonzola al final."
 };
 
   /* rutas previstas para el resto de la app */

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Berenjenas a la parmesana · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,8 +203,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "berenjenas-parmesana",
+  "nombre": "Berenjenas a la parmesana",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -213,27 +213,28 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
   "modelos": [
     "TM7",
     "TM6",
-    "TM5",
-    "TM31"
+    "TM5"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
+  "raciones": 6,
+  "tiempoTotal": "1 h",
   "tiempoPreparacion": "10 min",
-  "dificultad": "Fácil",
+  "dificultad": "Media",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Tomate entero en conserva",
+    "Aceite de oliva virgen extra",
+    "Azúcar",
     "Sal",
-    "Pimienta molida"
+    "Orégano seco",
+    "Albahaca fresca",
+    "Berenjenas",
+    "Queso parmesano rallado",
+    "Queso mozzarella"
   ],
   "etiquetas": [
+    "italiana",
+    "berenjena",
+    "horno",
     "vegetariano",
-    "sin gluten",
-    "guarnición",
     "clásico"
   ]
 }
@@ -302,8 +303,8 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "berenjenas-parmesana",
+  "nombre": "Berenjenas a la parmesana",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
@@ -312,136 +313,155 @@ var RECETA = {
   "modelos": [
     "TM7",
     "TM6",
-    "TM5",
-    "TM31"
+    "TM5"
   ],
-  "racionesBase": 3,
+  "racionesBase": 6,
   "tiempos": {
     "preparacion": "10 min",
-    "total": "45 min"
+    "total": "1 h"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "id": "tomate",
+      "nom": "Tomate entero en conserva",
+      "prep": "escurrido (o tomate pelado)",
+      "cant": 800,
       "uni": "g"
     },
     {
       "id": "aceite",
-      "nom": "Aceite de oliva",
+      "nom": "Aceite de oliva virgen extra",
       "prep": "",
-      "cant": 50,
+      "cant": 70,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
-      "uni": "g"
+      "id": "azucar",
+      "nom": "Azúcar",
+      "prep": "",
+      "cant": 1,
+      "uni": "cda"
     },
     {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
+      "cant": 1,
+      "uni": "cdta"
+    },
+    {
+      "id": "oregano",
+      "nom": "Orégano seco",
+      "prep": "",
       "cant": 0.5,
       "uni": "cdta"
     },
     {
-      "id": "pimienta",
-      "nom": "Pimienta molida",
+      "id": "albahaca",
+      "nom": "Albahaca fresca",
+      "prep": "picada, solo las hojas (20 g)",
+      "cant": 4,
+      "uni": "ramita"
+    },
+    {
+      "id": "berenjena",
+      "nom": "Berenjenas",
+      "prep": "en rodajas de 5 mm",
+      "cant": 3,
+      "uni": "u"
+    },
+    {
+      "id": "parmesano",
+      "nom": "Queso parmesano rallado",
       "prep": "",
-      "cant": 1,
-      "uni": "pellizco"
+      "cant": 100,
+      "uni": "g"
+    },
+    {
+      "id": "mozzarella",
+      "nom": "Queso mozzarella",
+      "prep": "",
+      "cant": 150,
+      "uni": "g"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Triturar el tomate",
+      "texto": "Pon el tomate en el vaso y tritura. Con la espátula, baja el tomate hacia el fondo.",
       "ajustes": [
         {
           "t": "5 seg",
           "c": "t"
         },
         {
-          "t": "vel 4",
+          "t": "vel 5",
           "c": ""
         }
       ],
       "seg": 5
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Cocer al vapor las berenjenas y la salsa",
+      "texto": "Añade al vaso el aceite, el azúcar, la sal, el orégano y la albahaca. Sitúa el Varoma en su posición y coloca las berenjenas verticalmente para dejar libres las ranuras y que circule el vapor. Tapa y programa. Retira el Varoma al terminar.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "30 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 1800
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Precalentar el horno",
+      "texto": "Precalienta el horno a 200 °C.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "200 °C",
+          "c": "c"
+        }
+      ],
+      "seg": 0
+    },
+    {
+      "titulo": "Montar las capas",
+      "texto": "En una fuente de horno, dispón ⅓ de las rodajas de berenjena, espolvorea con ⅓ del parmesano, reparte ½ mozzarella en trocitos y vierte ⅓ de la salsa de tomate. Repite las 4 capas. Termina con una capa de berenjena cubierta con el resto del tomate y espolvorea con parmesano.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Hornear y gratinar",
+      "texto": "Hornea 15 minutos a 200 °C, sube la temperatura a 250 °C y gratina 5 minutos más. Sirve caliente.",
+      "ajustes": [
+        {
+          "t": "15 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "200 °C",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
+          "t": "+ 5 min",
+          "c": "t"
         },
         {
-          "t": "vel cuchara",
-          "c": ""
+          "t": "250 °C",
+          "c": "c"
         }
       ],
-      "seg": 960
+      "seg": 900
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Caliente, recién sacada del horno. También se puede preparar en raciones individuales en moldes refractarios."
 };
 
   /* rutas previstas para el resto de la app */

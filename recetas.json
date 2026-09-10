@@ -1,6 +1,391 @@
 {
   "recetas": [
     {
+      "id": "berenjenas-parmesana",
+      "nombre": "Berenjenas a la parmesana",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6",
+        "TM5"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Tomate entero en conserva",
+        "Aceite de oliva virgen extra",
+        "Azúcar",
+        "Sal",
+        "Orégano seco",
+        "Albahaca fresca",
+        "Berenjenas",
+        "Queso parmesano rallado",
+        "Queso mozzarella"
+      ],
+      "etiquetas": [
+        "italiana",
+        "berenjena",
+        "horno",
+        "vegetariano",
+        "clásico"
+      ],
+      "url": "recetas/receta-berenjenas-parmesana.html",
+      "archivo": "receta-berenjenas-parmesana.html"
+    },
+    {
+      "id": "crema-calabaza-curry",
+      "nombre": "Crema de calabaza y curry",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mantequilla",
+        "Puerro o cebolla",
+        "Manzanas",
+        "Calabaza limpia",
+        "Patata",
+        "Agua",
+        "Pastilla de caldo",
+        "Sal",
+        "Pimienta",
+        "Quesitos",
+        "Curry"
+      ],
+      "etiquetas": [
+        "calabaza",
+        "curry",
+        "otoño",
+        "sin gluten"
+      ],
+      "url": "recetas/receta-crema-calabaza-curry.html",
+      "archivo": "receta-crema-calabaza-curry.html"
+    },
+    {
+      "id": "crema-lombarda",
+      "nombre": "Crema de lombarda",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 10,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lombarda pequeña",
+        "Cebolla",
+        "Puerro",
+        "Manzanas reinetas",
+        "Caldo de ave",
+        "Nata líquida",
+        "Aceite",
+        "Sal",
+        "Yogures griegos",
+        "Avellanas tostadas y picadas"
+      ],
+      "etiquetas": [
+        "lombarda",
+        "manzana",
+        "invierno",
+        "olla",
+        "tradicional"
+      ],
+      "url": "recetas/receta-crema-lombarda.html",
+      "archivo": "receta-crema-lombarda.html"
+    },
+    {
+      "id": "crema-puerros-pera",
+      "nombre": "Crema de puerros y pera",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Puerros",
+        "Cebolla",
+        "Aceite de oliva",
+        "Patata pelada",
+        "Caldo de pollo",
+        "Peras",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "puerro",
+        "pera",
+        "otoño",
+        "elegante"
+      ],
+      "url": "recetas/receta-crema-puerros-pera.html",
+      "archivo": "receta-crema-puerros-pera.html"
+    },
+    {
+      "id": "crema-trigueros-calabacin",
+      "nombre": "Crema de trigueros y calabacín",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 5,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Trigueros",
+        "Aceite",
+        "Cebolla",
+        "Calabacín pelado",
+        "Caldo de verduras",
+        "Sal",
+        "Pimienta",
+        "Nata ligera"
+      ],
+      "etiquetas": [
+        "espárrago",
+        "calabacín",
+        "primavera",
+        "verde"
+      ],
+      "url": "recetas/receta-crema-trigueros-calabacin.html",
+      "archivo": "receta-crema-trigueros-calabacin.html"
+    },
+    {
+      "id": "crema-fria-berros",
+      "nombre": "Crema fría de berros",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 7,
+      "tiempoTotal": "1 h + reposo en nevera",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite",
+        "Puerros",
+        "Patatas",
+        "Atados de berros",
+        "Ajo",
+        "Caldo de pollo o agua",
+        "Sal",
+        "Pimienta recién molida",
+        "Nata",
+        "Lima"
+      ],
+      "etiquetas": [
+        "berros",
+        "fría",
+        "verano",
+        "lima",
+        "olla"
+      ],
+      "url": "recetas/receta-crema-fria-berros.html",
+      "archivo": "receta-crema-fria-berros.html"
+    },
+    {
+      "id": "crema-verde-brocoli-puerro-patata",
+      "nombre": "Crema verde con brócoli, puerro y patata",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Puerro",
+        "Ajo",
+        "Mantequilla",
+        "Aceite de oliva",
+        "Ramilletes de brócoli fresco",
+        "Patata",
+        "Nata para cocinar",
+        "Leche",
+        "Agua",
+        "Pastilla de caldo de verduras",
+        "Pimienta molida",
+        "Queso parmesano rallado"
+      ],
+      "etiquetas": [
+        "brócoli",
+        "puerro",
+        "verde",
+        "queso"
+      ],
+      "url": "recetas/receta-crema-verde-brocoli-puerro-patata.html",
+      "archivo": "receta-crema-verde-brocoli-puerro-patata.html"
+    },
+    {
+      "id": "esparragos-ajo-pollo",
+      "nombre": "Espárragos en «ajo pollo»",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 2,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Espárragos verdes",
+        "Aceite de oliva virgen extra",
+        "Almendras crudas sin piel",
+        "Ñora",
+        "Ajo",
+        "Rebanada de pan",
+        "Agua",
+        "Sal",
+        "Pimienta molida"
+      ],
+      "etiquetas": [
+        "espárragos",
+        "almendras",
+        "andaluza",
+        "clásico"
+      ],
+      "url": "recetas/receta-esparragos-ajo-pollo.html",
+      "archivo": "receta-esparragos-ajo-pollo.html"
+    },
+    {
+      "id": "lasana-bolonesa-champinones",
+      "nombre": "Lasaña boloñesa con champiñones",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "1 h 45 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Queso",
+        "Champiñones frescos",
+        "Zanahorias",
+        "Cebolla",
+        "Ajo",
+        "Pimiento verde italiano",
+        "Tomate frito Helios®",
+        "Aceite de oliva",
+        "Carne picada mixta",
+        "Pastillas de caldo de carne",
+        "Orégano seco",
+        "Hoja de laurel seca",
+        "Pimienta molida",
+        "Leche",
+        "Mantequilla",
+        "Harina",
+        "Sal",
+        "Nuez moscada molida",
+        "Placas de lasaña secas precocidas",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "italiana",
+        "horno",
+        "carne picada",
+        "queso",
+        "clásico"
+      ],
+      "url": "recetas/receta-lasana-bolonesa-champinones.html",
+      "archivo": "receta-lasana-bolonesa-champinones.html"
+    },
+    {
+      "id": "magret-pato-sal",
+      "nombre": "Magret de pato a la sal con puré dulce de pera y vainilla",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "1 h 20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Cebolla",
+        "Mantequilla",
+        "Peras conferencia",
+        "Vainas de vainilla",
+        "Vino Pedro Ximénez",
+        "Sal gorda",
+        "Magrets de pato",
+        "Agua"
+      ],
+      "etiquetas": [
+        "pato",
+        "sal",
+        "vainilla",
+        "fiesta",
+        "Pedro Ximénez"
+      ],
+      "url": "recetas/receta-magret-pato-sal.html",
+      "archivo": "receta-magret-pato-sal.html"
+    },
+    {
       "id": "pisto",
       "nombre": "Pisto",
       "tipo": {
@@ -36,6 +421,77 @@
       ],
       "url": "recetas/receta-pisto.html",
       "archivo": "receta-pisto.html"
+    },
+    {
+      "id": "salteado-verduras-curry",
+      "nombre": "Salteado de verduras al curry",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Zanahoria",
+        "Tirabeques",
+        "Guisantes frescos",
+        "Pimiento rojo",
+        "Aceite de oliva",
+        "Curry en polvo",
+        "Cebolla",
+        "Ajo",
+        "Puerro",
+        "Salsa de soja",
+        "Sal",
+        "Pimienta molida"
+      ],
+      "etiquetas": [
+        "vegetariano",
+        "guarnición",
+        "asiático",
+        "curry"
+      ],
+      "url": "recetas/receta-salteado-verduras-curry.html",
+      "archivo": "receta-salteado-verduras-curry.html"
+    },
+    {
+      "id": "verduras-salteadas",
+      "nombre": "Verduras salteadas",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7",
+        "TM6"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite de oliva",
+        "Pimientos variados",
+        "Aceite de oliva",
+        "Cebolla roja",
+        "Zanahoria",
+        "Sal"
+      ],
+      "etiquetas": [
+        "vegetariano",
+        "sin gluten",
+        "guarnición",
+        "rápido"
+      ],
+      "url": "recetas/receta-verduras-salteadas.html",
+      "archivo": "receta-verduras-salteadas.html"
     }
   ]
 }

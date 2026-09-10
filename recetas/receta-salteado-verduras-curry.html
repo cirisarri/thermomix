@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Salteado de verduras al curry · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,39 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "salteado-verduras-curry",
+  "nombre": "Salteado de verduras al curry",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
+    "TM6"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
+  "raciones": 4,
+  "tiempoTotal": "30 min",
+  "tiempoPreparacion": "15 min",
   "dificultad": "Fácil",
   "ingredientes": [
-    "Cebolla",
+    "Zanahoria",
+    "Tirabeques",
+    "Guisantes frescos",
     "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
     "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Curry en polvo",
+    "Cebolla",
+    "Ajo",
+    "Puerro",
+    "Salsa de soja",
     "Sal",
     "Pimienta molida"
   ],
   "etiquetas": [
     "vegetariano",
-    "sin gluten",
     "guarnición",
-    "clásico"
+    "asiático",
+    "curry"
   ]
 }
 </script>
@@ -302,108 +303,140 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "salteado-verduras-curry",
+  "nombre": "Salteado de verduras al curry",
   "tipo": {
     "id": "verduras",
     "nombre": "Verduras"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
+    "TM6"
   ],
-  "racionesBase": 3,
+  "racionesBase": 4,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "15 min",
+    "total": "30 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
+      "id": "zanahoria",
+      "nom": "Zanahoria",
+      "prep": "en juliana",
+      "cant": 200,
+      "uni": "g"
+    },
+    {
+      "id": "tirabeques",
+      "nom": "Tirabeques",
+      "prep": "o 150 g de judías verdes planas frescas en trozos de 4 cm",
       "cant": 150,
+      "uni": "g"
+    },
+    {
+      "id": "guisantes",
+      "nom": "Guisantes frescos",
+      "prep": "o congelados",
+      "cant": 120,
       "uni": "g"
     },
     {
       "id": "projo",
       "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "prep": "en tiras de 1 cm",
+      "cant": 200,
       "uni": "g"
     },
     {
       "id": "aceite",
       "nom": "Aceite de oliva",
       "prep": "",
-      "cant": 50,
+      "cant": 40,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "curry",
+      "nom": "Curry en polvo",
+      "prep": "",
+      "cant": 2,
+      "uni": "cdta"
+    },
+    {
+      "id": "cebolla",
+      "nom": "Cebolla",
+      "prep": "en juliana",
+      "cant": 80,
+      "uni": "g"
+    },
+    {
+      "id": "ajo",
+      "nom": "Ajo",
+      "prep": "picados",
+      "cant": 3,
+      "uni": "diente"
+    },
+    {
+      "id": "puerro",
+      "nom": "Puerro",
+      "prep": "en rodajas de 5 mm",
+      "cant": 300,
+      "uni": "g"
+    },
+    {
+      "id": "soja",
+      "nom": "Salsa de soja",
+      "prep": "",
+      "cant": 30,
       "uni": "g"
     },
     {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 2,
+      "uni": "pellizco"
     },
     {
       "id": "pimienta",
       "nom": "Pimienta molida",
       "prep": "",
-      "cant": 1,
+      "cant": 3,
       "uni": "pellizco"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Dorar las verduras",
+      "texto": "Pon en el vaso las zanahorias, los tirabeques, los guisantes, el pimiento rojo y 20 g de aceite de oliva. Inicia Alta Temperatura. Retira a un bol y reserva.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "Alta Temperatura",
           "c": "t"
-        },
-        {
-          "t": "vel 4",
-          "c": ""
         }
       ],
-      "seg": 5
+      "seg": 0
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Sofreír cebolla, ajo y puerro",
+      "texto": "Pon en el vaso 20 g de aceite de oliva, el curry, la cebolla, el ajo y el puerro. Inicia Alta Temperatura.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "Alta Temperatura",
+          "c": "t"
+        }
+      ],
+      "seg": 0
+    },
+    {
+      "titulo": "Unirlo todo con la soja",
+      "texto": "Añade la salsa de soja, las verduras doradas reservadas, la sal y la pimienta negra molida. Sin poner el cubilete, programa 2 min/100 °C/giro inverso/vel cuchara. Reparte en boles y sirve inmediatamente.",
+      "ajustes": [
+        {
+          "t": "2 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "100 °C",
           "c": "c"
         },
         {
@@ -415,33 +448,10 @@ var RECETA = {
           "c": ""
         }
       ],
-      "seg": 840
-    },
-    {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
-      "ajustes": [
-        {
-          "t": "16 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 960
+      "seg": 120
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Con arroz blanco o fideos chinos."
 };
 
   /* rutas previstas para el resto de la app */

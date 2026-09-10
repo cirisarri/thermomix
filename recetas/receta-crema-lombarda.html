@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema de lombarda · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,36 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-lombarda",
+  "nombre": "Crema de lombarda",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
-  "aparato": "Thermomix",
-  "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
-  ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
+  "aparato": "Tradicional",
+  "modelos": [],
+  "raciones": 10,
+  "tiempoTotal": "1 h",
+  "tiempoPreparacion": "15 min",
   "dificultad": "Fácil",
   "ingredientes": [
+    "Lombarda pequeña",
     "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Puerro",
+    "Manzanas reinetas",
+    "Caldo de ave",
+    "Nata líquida",
+    "Aceite",
     "Sal",
-    "Pimienta molida"
+    "Yogures griegos",
+    "Avellanas tostadas y picadas"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "lombarda",
+    "manzana",
+    "invierno",
+    "olla",
+    "tradicional"
   ]
 }
 </script>
@@ -302,146 +300,136 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-lombarda",
+  "nombre": "Crema de lombarda",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
-  "aparato": "Thermomix",
-  "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
-  ],
-  "racionesBase": 3,
+  "aparato": "Tradicional",
+  "modelos": [],
+  "racionesBase": 10,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "15 min",
+    "total": "1 h"
   },
   "ingredientes": [
     {
+      "id": "lombarda",
+      "nom": "Lombarda pequeña",
+      "prep": "troceada",
+      "cant": 1,
+      "uni": "u"
+    },
+    {
       "id": "cebolla",
       "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
+      "prep": "",
+      "cant": 1,
+      "uni": "u"
     },
     {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
+      "id": "puerro",
+      "nom": "Puerro",
+      "prep": "",
+      "cant": 1,
+      "uni": "u"
     },
     {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
+      "id": "manzana",
+      "nom": "Manzanas reinetas",
+      "prep": "",
+      "cant": 2,
+      "uni": "u"
     },
     {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
+      "id": "caldo",
+      "nom": "Caldo de ave",
+      "prep": "de brick o de pastilla",
+      "cant": 2000,
+      "uni": "ml"
+    },
+    {
+      "id": "nata",
+      "nom": "Nata líquida",
+      "prep": "",
+      "cant": 250,
+      "uni": "ml"
     },
     {
       "id": "aceite",
-      "nom": "Aceite de oliva",
+      "nom": "Aceite",
       "prep": "",
-      "cant": 50,
-      "uni": "g"
-    },
-    {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
-      "uni": "g"
+      "cant": 1,
+      "uni": "cda"
     },
     {
       "id": "sal",
       "nom": "Sal",
-      "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
-    },
-    {
-      "id": "pimienta",
-      "nom": "Pimienta molida",
-      "prep": "",
+      "prep": "al gusto",
       "cant": 1,
       "uni": "pellizco"
+    },
+    {
+      "id": "yogur",
+      "nom": "Yogures griegos",
+      "prep": "para servir",
+      "cant": 2,
+      "uni": "u"
+    },
+    {
+      "id": "avellanas",
+      "nom": "Avellanas tostadas y picadas",
+      "prep": "para decorar",
+      "cant": 30,
+      "uni": "g"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
-      "ajustes": [
-        {
-          "t": "5 seg",
-          "c": "t"
-        },
-        {
-          "t": "vel 4",
-          "c": ""
-        }
-      ],
-      "seg": 5
+      "titulo": "Picar cebolla, puerro y manzanas",
+      "texto": "Pica en trozos la cebolla, el puerro y las manzanas.",
+      "ajustes": [],
+      "seg": 0
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
-      "ajustes": [
-        {
-          "t": "14 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 840
+      "titulo": "Sofreír",
+      "texto": "Pon al fuego una olla con un poco de aceite y sofríe la cebolla y el puerro.",
+      "ajustes": [],
+      "seg": 0
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
-      "ajustes": [
-        {
-          "t": "16 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 960
+      "titulo": "Rehogar la lombarda",
+      "texto": "Añade la lombarda troceada y rehoga unos minutos.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Incorporar manzanas y caldo",
+      "texto": "Añade las manzanas y el caldo de ave.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Cocer",
+      "texto": "Cuece durante alrededor de 30 minutos o hasta que la lombarda esté tierna.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Triturar y añadir nata",
+      "texto": "Tritura y añade la nata líquida.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Rectificar y servir",
+      "texto": "Rectifica de sal. Sirve con un yogur griego en el centro y avellanas tostadas y picadas por encima.",
+      "ajustes": [],
+      "seg": 0
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Con un yogur griego en el centro del plato y avellanas tostadas y picadas por encima."
 };
 
   /* rutas previstas para el resto de la app */

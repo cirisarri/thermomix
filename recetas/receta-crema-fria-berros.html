@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema fría de berros · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,36 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-fria-berros",
+  "nombre": "Crema fría de berros",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
-  "aparato": "Thermomix",
-  "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
-  ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
+  "aparato": "Tradicional",
+  "modelos": [],
+  "raciones": 7,
+  "tiempoTotal": "1 h + reposo en nevera",
+  "tiempoPreparacion": "20 min",
   "dificultad": "Fácil",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Aceite",
+    "Puerros",
+    "Patatas",
+    "Atados de berros",
+    "Ajo",
+    "Caldo de pollo o agua",
     "Sal",
-    "Pimienta molida"
+    "Pimienta recién molida",
+    "Nata",
+    "Lima"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "berros",
+    "fría",
+    "verano",
+    "lima",
+    "olla"
   ]
 }
 </script>
@@ -302,146 +300,124 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-fria-berros",
+  "nombre": "Crema fría de berros",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
-  "aparato": "Thermomix",
-  "modelos": [
-    "TM7",
-    "TM6",
-    "TM5",
-    "TM31"
-  ],
-  "racionesBase": 3,
+  "aparato": "Tradicional",
+  "modelos": [],
+  "racionesBase": 7,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "20 min",
+    "total": "1 h + reposo en nevera"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
       "id": "aceite",
-      "nom": "Aceite de oliva",
+      "nom": "Aceite",
       "prep": "",
-      "cant": 50,
-      "uni": "g"
+      "cant": 2,
+      "uni": "cda"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
+      "id": "puerro",
+      "nom": "Puerros",
+      "prep": "solo la parte blanca, cortados",
       "cant": 200,
       "uni": "g"
     },
     {
+      "id": "patata",
+      "nom": "Patatas",
+      "prep": "en rodajas",
+      "cant": 200,
+      "uni": "g"
+    },
+    {
+      "id": "berros",
+      "nom": "Atados de berros",
+      "prep": "dos puñados",
+      "cant": 2,
+      "uni": "manojo"
+    },
+    {
+      "id": "ajo",
+      "nom": "Ajo",
+      "prep": "aplastado",
+      "cant": 1,
+      "uni": "diente"
+    },
+    {
+      "id": "caldo",
+      "nom": "Caldo de pollo o agua",
+      "prep": "",
+      "cant": 1000,
+      "uni": "ml"
+    },
+    {
       "id": "sal",
       "nom": "Sal",
-      "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "prep": "al gusto",
+      "cant": 1,
+      "uni": "pellizco"
     },
     {
       "id": "pimienta",
-      "nom": "Pimienta molida",
-      "prep": "",
+      "nom": "Pimienta recién molida",
+      "prep": "al gusto",
       "cant": 1,
       "uni": "pellizco"
+    },
+    {
+      "id": "nata",
+      "nom": "Nata",
+      "prep": "para decorar",
+      "cant": 150,
+      "uni": "ml"
+    },
+    {
+      "id": "lima",
+      "nom": "Lima",
+      "prep": "zumo y ralladura",
+      "cant": 1,
+      "uni": "u"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
-      "ajustes": [
-        {
-          "t": "5 seg",
-          "c": "t"
-        },
-        {
-          "t": "vel 4",
-          "c": ""
-        }
-      ],
-      "seg": 5
+      "titulo": "Cocinar puerro y patata",
+      "texto": "Calienta el aceite en una olla y añade el puerro en trozos grandes y las patatas en rodajas gordas. Tapa y cocina durante 10 minutos o hasta que las verduras estén blandas, removiendo de vez en cuando.",
+      "ajustes": [],
+      "seg": 0
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
-      "ajustes": [
-        {
-          "t": "14 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 840
+      "titulo": "Añadir berros y ajo",
+      "texto": "Agrega los berros y el ajo. Cocina durante 2-3 minutos o hasta que los berros comiencen a perder consistencia.",
+      "ajustes": [],
+      "seg": 0
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
-      "ajustes": [
-        {
-          "t": "16 min",
-          "c": "t"
-        },
-        {
-          "t": "120 °C",
-          "c": "c"
-        },
-        {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
-          "c": ""
-        }
-      ],
-      "seg": 960
+      "titulo": "Cocer con caldo",
+      "texto": "Vierte el caldo, condimenta y lleva a ebullición. Cocina a fuego lento durante 10-15 minutos.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Triturar y enfriar",
+      "texto": "Tritura la sopa en una batidora o robot de cocina. Vierte en un recipiente e incorpora la mayor parte de la nata y el zumo de lima. Deja enfriar antes de introducir en la nevera.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Servir",
+      "texto": "Rectifica el condimento y sirve en platos soperos fríos. Decora con el resto de la nata y la ralladura de lima.",
+      "ajustes": [],
+      "seg": 0
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Muy fría, decorada con hilos de nata y ralladura de lima por encima."
 };
 
   /* rutas previstas para el resto de la app */

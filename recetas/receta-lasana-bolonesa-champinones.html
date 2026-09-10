@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Lasaña boloñesa con champiñones · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,11 +203,11 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "lasana-bolonesa-champinones",
+  "nombre": "Lasaña boloñesa con champiñones",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "pastas",
+    "nombre": "Pastas y arroces"
   },
   "aparato": "Thermomix",
   "modelos": [
@@ -216,24 +216,37 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
-  "dificultad": "Fácil",
+  "raciones": 8,
+  "tiempoTotal": "1 h 45 min",
+  "tiempoPreparacion": "30 min",
+  "dificultad": "Media",
   "ingredientes": [
+    "Queso",
+    "Champiñones frescos",
+    "Zanahorias",
     "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
+    "Ajo",
+    "Pimiento verde italiano",
+    "Tomate frito Helios®",
     "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Carne picada mixta",
+    "Pastillas de caldo de carne",
+    "Orégano seco",
+    "Hoja de laurel seca",
+    "Pimienta molida",
+    "Leche",
+    "Mantequilla",
+    "Harina",
     "Sal",
-    "Pimienta molida"
+    "Nuez moscada molida",
+    "Placas de lasaña secas precocidas",
+    "Mantequilla"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
+    "italiana",
+    "horno",
+    "carne picada",
+    "queso",
     "clásico"
   ]
 }
@@ -302,11 +315,11 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "lasana-bolonesa-champinones",
+  "nombre": "Lasaña boloñesa con champiñones",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "pastas",
+    "nombre": "Pastas y arroces"
   },
   "aparato": "Thermomix",
   "modelos": [
@@ -315,38 +328,59 @@ var RECETA = {
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 8,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "30 min",
+    "total": "1 h 45 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
+      "id": "queso",
+      "nom": "Queso",
+      "prep": "en trozos de 3 cm (manchego semicurado, emmental...)",
+      "cant": 175,
       "uni": "g"
     },
     {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
+      "id": "champis",
+      "nom": "Champiñones frescos",
+      "prep": "en trozos",
+      "cant": 200,
       "uni": "g"
+    },
+    {
+      "id": "zanahoria",
+      "nom": "Zanahorias",
+      "prep": "en trozos",
+      "cant": 130,
+      "uni": "g"
+    },
+    {
+      "id": "cebolla",
+      "nom": "Cebolla",
+      "prep": "en trozos",
+      "cant": 130,
+      "uni": "g"
+    },
+    {
+      "id": "ajo",
+      "nom": "Ajo",
+      "prep": "",
+      "cant": 1,
+      "uni": "diente"
     },
     {
       "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
+      "nom": "Pimiento verde italiano",
+      "prep": "en trozos (o 1 trozo de apio)",
+      "cant": 1,
+      "uni": "u"
     },
     {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
+      "id": "tomate",
+      "nom": "Tomate frito Helios®",
+      "prep": "",
+      "cant": 400,
       "uni": "g"
     },
     {
@@ -357,49 +391,146 @@ var RECETA = {
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "carne",
+      "nom": "Carne picada mixta",
+      "prep": "",
+      "cant": 500,
       "uni": "g"
     },
     {
-      "id": "sal",
-      "nom": "Sal",
+      "id": "caldo",
+      "nom": "Pastillas de caldo de carne",
       "prep": "",
-      "cant": 0.5,
+      "cant": 2,
+      "uni": "pastilla"
+    },
+    {
+      "id": "oregano",
+      "nom": "Orégano seco",
+      "prep": "",
+      "cant": 1,
       "uni": "cdta"
+    },
+    {
+      "id": "laurel",
+      "nom": "Hoja de laurel seca",
+      "prep": "",
+      "cant": 1,
+      "uni": "hoja"
     },
     {
       "id": "pimienta",
       "nom": "Pimienta molida",
       "prep": "",
-      "cant": 1,
+      "cant": 2,
       "uni": "pellizco"
+    },
+    {
+      "id": "leche",
+      "nom": "Leche",
+      "prep": "para la bechamel",
+      "cant": 800,
+      "uni": "g"
+    },
+    {
+      "id": "mantqbech",
+      "nom": "Mantequilla",
+      "prep": "para la bechamel",
+      "cant": 60,
+      "uni": "g"
+    },
+    {
+      "id": "harina",
+      "nom": "Harina",
+      "prep": "para la bechamel",
+      "cant": 70,
+      "uni": "g"
+    },
+    {
+      "id": "salbech",
+      "nom": "Sal",
+      "prep": "para la bechamel",
+      "cant": 0.5,
+      "uni": "cdta"
+    },
+    {
+      "id": "nuezmosc",
+      "nom": "Nuez moscada molida",
+      "prep": "para la bechamel",
+      "cant": 0.25,
+      "uni": "cdta"
+    },
+    {
+      "id": "placas",
+      "nom": "Placas de lasaña secas precocidas",
+      "prep": "",
+      "cant": 18,
+      "uni": "u"
+    },
+    {
+      "id": "mantqmont",
+      "nom": "Mantequilla",
+      "prep": "para engrasar y coronar",
+      "cant": 5,
+      "uni": "cdta"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Rallar el queso",
+      "texto": "Pon en el vaso el queso y ralla. Retira a un bol y reserva.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "15 seg",
           "c": "t"
         },
         {
-          "t": "vel 4",
+          "t": "vel 10",
           "c": ""
         }
       ],
-      "seg": 5
+      "seg": 15
     },
     {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
+      "titulo": "Trocear las verduras (boloñesa)",
+      "texto": "Pon en el vaso los champiñones, las zanahorias, la cebolla, el ajo y el pimiento verde. Trocea.",
       "ajustes": [
         {
-          "t": "14 min",
+          "t": "2 seg",
+          "c": "t"
+        },
+        {
+          "t": "vel 5",
+          "c": ""
+        }
+      ],
+      "seg": 2
+    },
+    {
+      "titulo": "Sofreír con tomate y aceite",
+      "texto": "Incorpora el tomate y el aceite y sofríe.",
+      "ajustes": [
+        {
+          "t": "7 min",
+          "c": "t"
+        },
+        {
+          "t": "120 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 420
+    },
+    {
+      "titulo": "Rehogar con la carne y las especias",
+      "texto": "Añade la carne picada, las pastillas de caldo, el orégano, el laurel y la pimienta. Mezcla bien con la espátula rompiendo el bloque de carne en trozos pequeños y rehoga. Retira del vaso y reserva.",
+      "ajustes": [
+        {
+          "t": "25 min",
           "c": "t"
         },
         {
@@ -411,37 +542,65 @@ var RECETA = {
           "c": ""
         },
         {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 1500
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Bechamel",
+      "texto": "Pon en el vaso la leche, la mantequilla, la harina, 20-30 g del queso rallado reservado, la sal y la nuez moscada. Programa.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "10 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "100 °C",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 3",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 600
+    },
+    {
+      "titulo": "Precalentar el horno y engrasar la fuente",
+      "texto": "Precalienta el horno a 180 °C. Engrasa ligeramente una fuente de horno con mantequilla.",
+      "ajustes": [
+        {
+          "t": "180 °C",
+          "c": "c"
+        }
+      ],
+      "seg": 0
+    },
+    {
+      "titulo": "Montar la lasaña",
+      "texto": "Cubre el fondo de la fuente con una capa fina de salsa boloñesa. Pon una capa de placas de lasaña, cubre con más boloñesa, espolvorea con queso rallado y añade una capa de bechamel. Repite hasta acabar los ingredientes. Termina con bechamel, espolvorea con queso rallado y reparte trocitos de mantequilla por encima.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Hornear y reposar",
+      "texto": "Hornea 30 min a 180 °C. Deja reposar la lasaña 15 minutos, corta en porciones y sirve.",
+      "ajustes": [
+        {
+          "t": "30 min",
+          "c": "t"
+        },
+        {
+          "t": "180 °C",
+          "c": "c"
+        }
+      ],
+      "seg": 1800
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "En porciones, tras reposar 15 minutos para que asiente. Se congela muy bien en fuentes pequeñas."
 };
 
   /* rutas previstas para el resto de la app */

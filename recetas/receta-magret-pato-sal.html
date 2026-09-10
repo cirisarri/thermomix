@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Magret de pato a la sal con puré dulce de pera y vainilla · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,11 +203,11 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "magret-pato-sal",
+  "nombre": "Magret de pato a la sal con puré dulce de pera y vainilla",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "carnes",
+    "nombre": "Carnes"
   },
   "aparato": "Thermomix",
   "modelos": [
@@ -216,25 +216,26 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
-  "tiempoTotal": "45 min",
-  "tiempoPreparacion": "10 min",
-  "dificultad": "Fácil",
+  "raciones": 6,
+  "tiempoTotal": "1 h 20 min",
+  "tiempoPreparacion": "15 min",
+  "dificultad": "Media",
   "ingredientes": [
     "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
-    "Sal",
-    "Pimienta molida"
+    "Mantequilla",
+    "Peras conferencia",
+    "Vainas de vainilla",
+    "Vino Pedro Ximénez",
+    "Sal gorda",
+    "Magrets de pato",
+    "Agua"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "pato",
+    "sal",
+    "vainilla",
+    "fiesta",
+    "Pedro Ximénez"
   ]
 }
 </script>
@@ -302,11 +303,11 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "magret-pato-sal",
+  "nombre": "Magret de pato a la sal con puré dulce de pera y vainilla",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "carnes",
+    "nombre": "Carnes"
   },
   "aparato": "Thermomix",
   "modelos": [
@@ -315,91 +316,84 @@ var RECETA = {
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 6,
   "tiempos": {
-    "preparacion": "10 min",
-    "total": "45 min"
+    "preparacion": "15 min",
+    "total": "1 h 20 min"
   },
   "ingredientes": [
     {
       "id": "cebolla",
       "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
+      "prep": "en trozos",
+      "cant": 300,
       "uni": "g"
     },
     {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "aceite",
-      "nom": "Aceite de oliva",
+      "id": "mantequilla",
+      "nom": "Mantequilla",
       "prep": "",
-      "cant": 50,
+      "cant": 80,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "pera",
+      "nom": "Peras conferencia",
+      "prep": "peladas, sin semillas y troceadas",
+      "cant": 600,
+      "uni": "g"
+    },
+    {
+      "id": "vainilla",
+      "nom": "Vainas de vainilla",
+      "prep": "abiertas por la mitad longitudinalmente y raspadas",
+      "cant": 2,
+      "uni": "vaina"
+    },
+    {
+      "id": "ximenez",
+      "nom": "Vino Pedro Ximénez",
+      "prep": "",
+      "cant": 100,
       "uni": "g"
     },
     {
       "id": "sal",
-      "nom": "Sal",
+      "nom": "Sal gorda",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 2000,
+      "uni": "g"
     },
     {
-      "id": "pimienta",
-      "nom": "Pimienta molida",
+      "id": "magret",
+      "nom": "Magrets de pato",
       "prep": "",
-      "cant": 1,
-      "uni": "pellizco"
+      "cant": 2,
+      "uni": "u"
+    },
+    {
+      "id": "agua",
+      "nom": "Agua",
+      "prep": "",
+      "cant": 500,
+      "uni": "g"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Triturar y sofreír la cebolla",
+      "texto": "Pon en el vaso la cebolla y la mantequilla. Trocea 3 seg/vel 5 y sofríe a continuación.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "3 seg",
           "c": "t"
         },
         {
-          "t": "vel 4",
+          "t": "vel 5",
           "c": ""
-        }
-      ],
-      "seg": 5
-    },
-    {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
-      "ajustes": [
+        },
         {
-          "t": "14 min",
+          "t": "+ 15 min",
           "c": "t"
         },
         {
@@ -407,22 +401,18 @@ var RECETA = {
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 900
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Cocer las peras con vainilla y Pedro Ximénez",
+      "texto": "Añade la pera, las vainas de vainilla y el Pedro Ximénez. Programa el tiempo indicado.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "30 min",
           "c": "t"
         },
         {
@@ -430,18 +420,54 @@ var RECETA = {
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 1800
+    },
+    {
+      "titulo": "Triturar el puré",
+      "texto": "Retira las vainas de vainilla y tritura. Saca el puré del vaso y reserva.",
+      "ajustes": [
+        {
+          "t": "10 seg",
+          "c": "t"
+        },
+        {
+          "t": "vel 6",
+          "c": ""
+        }
+      ],
+      "seg": 10
+    },
+    {
+      "titulo": "Preparar los magrets en la sal",
+      "texto": "Coloca el Varoma sobre su tapa boca arriba para no manchar. Cubre el fondo del recipiente Varoma con la mitad de la sal gorda. Pon los magrets encima y cúbrelos totalmente con la sal restante. Tapa el Varoma.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Cocer al vapor sobre sal",
+      "texto": "Pon el agua en el vaso y sitúa el Varoma en su posición. Programa el tiempo indicado. Retira el Varoma, saca los magrets, aclara 1-2 segundos bajo el grifo para quitar el exceso de sal, corta en lonchas finas y sirve con el puré de pera.",
+      "ajustes": [
+        {
+          "t": "18 min",
+          "c": "t"
+        },
+        {
+          "t": "Varoma",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 1080
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "En lonchas finas sobre el puré dulce de pera, con una ensalada de escarola con granada como acompañamiento."
 };
 
   /* rutas previstas para el resto de la app */

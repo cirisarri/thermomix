@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pisto · Recetario Thermomix</title>
+<title>Crema de calabaza y curry · Recetario Thermomix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -203,38 +203,40 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
 </style>
 <script type="application/json" id="meta-receta">
 {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-calabaza-curry",
+  "nombre": "Crema de calabaza y curry",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "raciones": 3,
+  "raciones": 4,
   "tiempoTotal": "45 min",
   "tiempoPreparacion": "10 min",
   "dificultad": "Fácil",
   "ingredientes": [
-    "Cebolla",
-    "Pimiento rojo",
-    "Pimiento verde",
-    "Calabacín",
-    "Aceite de oliva",
-    "Tomate triturado en conserva",
+    "Mantequilla",
+    "Puerro o cebolla",
+    "Manzanas",
+    "Calabaza limpia",
+    "Patata",
+    "Agua",
+    "Pastilla de caldo",
     "Sal",
-    "Pimienta molida"
+    "Pimienta",
+    "Quesitos",
+    "Curry"
   ],
   "etiquetas": [
-    "vegetariano",
-    "sin gluten",
-    "guarnición",
-    "clásico"
+    "calabaza",
+    "curry",
+    "otoño",
+    "sin gluten"
   ]
 }
 </script>
@@ -302,146 +304,223 @@ footer .btn.sec{flex:none;width:100%;max-width:300px}
    de /data/recetas.json y la página será /receta.html?r=pisto
    ========================================================= */
 var RECETA = {
-  "id": "pisto",
-  "nombre": "Pisto",
+  "id": "crema-calabaza-curry",
+  "nombre": "Crema de calabaza y curry",
   "tipo": {
-    "id": "verduras",
-    "nombre": "Verduras"
+    "id": "cremas",
+    "nombre": "Cremas y sopas"
   },
   "aparato": "Thermomix",
   "modelos": [
-    "TM7",
     "TM6",
     "TM5",
     "TM31"
   ],
-  "racionesBase": 3,
+  "racionesBase": 4,
   "tiempos": {
     "preparacion": "10 min",
     "total": "45 min"
   },
   "ingredientes": [
     {
-      "id": "cebolla",
-      "nom": "Cebolla",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "projo",
-      "nom": "Pimiento rojo",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "pverde",
-      "nom": "Pimiento verde",
-      "prep": "en trozos de unos 3 cm",
-      "cant": 75,
-      "uni": "g"
-    },
-    {
-      "id": "calabacin",
-      "nom": "Calabacín",
-      "prep": "sin pelar, en cuartos a lo largo y luego en trozos de 3 cm",
-      "cant": 150,
-      "uni": "g"
-    },
-    {
-      "id": "aceite",
-      "nom": "Aceite de oliva",
+      "id": "mantequilla",
+      "nom": "Mantequilla",
       "prep": "",
-      "cant": 50,
+      "cant": 70,
       "uni": "g"
     },
     {
-      "id": "tomate",
-      "nom": "Tomate triturado en conserva",
-      "prep": "media lata",
-      "cant": 200,
+      "id": "puerro",
+      "nom": "Puerro o cebolla",
+      "prep": "",
+      "cant": 150,
       "uni": "g"
+    },
+    {
+      "id": "manzana",
+      "nom": "Manzanas",
+      "prep": "peladas y cortadas en cuadraditos",
+      "cant": 2,
+      "uni": "u"
+    },
+    {
+      "id": "calabaza",
+      "nom": "Calabaza limpia",
+      "prep": "en trocitos",
+      "cant": 700,
+      "uni": "g"
+    },
+    {
+      "id": "patata",
+      "nom": "Patata",
+      "prep": "en cuadraditos",
+      "cant": 150,
+      "uni": "g"
+    },
+    {
+      "id": "agua",
+      "nom": "Agua",
+      "prep": "",
+      "cant": 500,
+      "uni": "g"
+    },
+    {
+      "id": "caldo",
+      "nom": "Pastilla de caldo",
+      "prep": "",
+      "cant": 1,
+      "uni": "pastilla"
     },
     {
       "id": "sal",
       "nom": "Sal",
       "prep": "",
-      "cant": 0.5,
-      "uni": "cdta"
+      "cant": 1,
+      "uni": "pellizco"
     },
     {
       "id": "pimienta",
-      "nom": "Pimienta molida",
+      "nom": "Pimienta",
       "prep": "",
       "cant": 1,
       "uni": "pellizco"
+    },
+    {
+      "id": "quesitos",
+      "nom": "Quesitos",
+      "prep": "",
+      "cant": 4,
+      "uni": "u"
+    },
+    {
+      "id": "curry",
+      "nom": "Curry",
+      "prep": "",
+      "cant": 1,
+      "uni": "cdta"
     }
   ],
   "pasos": [
     {
-      "titulo": "Trocear la verdura",
-      "texto": "Pon en el vaso la cebolla, el pimiento rojo, el pimiento verde y el calabacín.",
+      "titulo": "Derretir la mantequilla",
+      "texto": "Pon la mantequilla en el vaso.",
       "ajustes": [
         {
-          "t": "5 seg",
+          "t": "2 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 2",
+          "c": ""
+        }
+      ],
+      "seg": 120
+    },
+    {
+      "titulo": "Sofreír el puerro",
+      "texto": "Añade el puerro (o cebolla), tritura 2 seg/vel 4 y programa el sofrito.",
+      "ajustes": [
+        {
+          "t": "2 seg",
           "c": "t"
         },
         {
           "t": "vel 4",
           "c": ""
-        }
-      ],
-      "seg": 5
-    },
-    {
-      "titulo": "Pochar con el aceite",
-      "texto": "Añade el aceite de oliva sobre la verdura troceada.",
-      "ajustes": [
+        },
         {
-          "t": "14 min",
+          "t": "+ 7 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 840
+      "seg": 420
     },
     {
-      "titulo": "Añadir el tomate",
-      "texto": "Incorpora el tomate triturado, la sal y la pimienta. Cuando acabe, sirve caliente.",
+      "titulo": "Rehogar la manzana",
+      "texto": "Añade las manzanas peladas y cortadas en cuadraditos.",
       "ajustes": [
         {
-          "t": "16 min",
+          "t": "5 min",
           "c": "t"
         },
         {
-          "t": "120 °C",
+          "t": "Varoma",
           "c": "c"
         },
         {
-          "t": "giro inverso",
-          "c": ""
-        },
-        {
-          "t": "vel cuchara",
+          "t": "vel 1",
           "c": ""
         }
       ],
-      "seg": 960
+      "seg": 300
+    },
+    {
+      "titulo": "Rehogar calabaza y patata",
+      "texto": "Añade la calabaza y la patata en cuadraditos.",
+      "ajustes": [
+        {
+          "t": "5 min",
+          "c": "t"
+        },
+        {
+          "t": "Varoma",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 300
+    },
+    {
+      "titulo": "Cocer con caldo",
+      "texto": "Añade el agua y la pastilla de caldo.",
+      "ajustes": [
+        {
+          "t": "20 min",
+          "c": "t"
+        },
+        {
+          "t": "100 °C",
+          "c": "c"
+        },
+        {
+          "t": "vel 1",
+          "c": ""
+        }
+      ],
+      "seg": 1200
+    },
+    {
+      "titulo": "Triturar con quesitos y curry",
+      "texto": "Añade los quesitos y el curry y tritura progresivamente hasta que quede fina.",
+      "ajustes": [
+        {
+          "t": "1 min",
+          "c": "t"
+        },
+        {
+          "t": "vel 5-10",
+          "c": ""
+        }
+      ],
+      "seg": 60
     }
   ],
-  "servir": "Caliente, con arroz blanco y un par de huevos fritos o revueltos por encima."
+  "servir": "Muy caliente, con un chorrito de aceite de oliva y unas semillas por encima."
 };
 
   /* rutas previstas para el resto de la app */
