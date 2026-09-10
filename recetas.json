@@ -1,6 +1,265 @@
 {
   "recetas": [
     {
+      "id": "acelgas-tomate-thermomix",
+      "nombre": "Acelgas con tomate y jamón (Thermomix)",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Aceite de oliva",
+        "Taquitos de jamón mini",
+        "Tomate troceado",
+        "Azúcar",
+        "Hojas de acelgas"
+      ],
+      "etiquetas": [
+        "acelgas",
+        "tomate",
+        "jamón",
+        "Thermomix",
+        "Varoma"
+      ],
+      "url": "recetas/receta-acelgas-tomate-thermomix.html",
+      "archivo": "receta-acelgas-tomate-thermomix.html"
+    },
+    {
+      "id": "albondigas-tomate",
+      "nombre": "Albóndigas en salsa de tomate",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Carne picada",
+        "Huevos batidos",
+        "Pan mojado en leche",
+        "Harina",
+        "Aceite",
+        "Cebolla en trocitos",
+        "Tomate pelado",
+        "Ajo",
+        "Perejil",
+        "Agua",
+        "Sal"
+      ],
+      "etiquetas": [
+        "albóndigas",
+        "carne picada",
+        "salsa de tomate",
+        "clásico",
+        "familiar"
+      ],
+      "url": "recetas/receta-albondigas-tomate.html",
+      "archivo": "receta-albondigas-tomate.html"
+    },
+    {
+      "id": "alcachofas-estofadas",
+      "nombre": "Alcachofas estofadas",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Alcachofas",
+        "Cebolla",
+        "Ajos",
+        "Vino blanco",
+        "Caldo",
+        "Zanahoria",
+        "Harina",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "alcachofa",
+        "vino blanco",
+        "zanahoria",
+        "estofado",
+        "clásico"
+      ],
+      "url": "recetas/receta-alcachofas-estofadas.html",
+      "archivo": "receta-alcachofas-estofadas.html"
+    },
+    {
+      "id": "arroz-basmati-verduras-thermomix",
+      "nombre": "Arroz basmati con verduras (Thermomix)",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 7,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Bacon en lonchas",
+        "Cebolla grande",
+        "Puerro",
+        "Zanahorias",
+        "Aceite",
+        "Arroz basmati",
+        "Salsa de soja",
+        "Agua",
+        "Ajos"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "arroz basmati",
+        "verduras",
+        "bacon",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-arroz-basmati-verduras-thermomix.html",
+      "archivo": "receta-arroz-basmati-verduras-thermomix.html"
+    },
+    {
+      "id": "arroz-caldoso-marisco",
+      "nombre": "Arroz caldoso de marisco",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 11,
+      "tiempoTotal": "2 h",
+      "tiempoPreparacion": "1 h",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Caja de gambones congelados crudos",
+        "Cebolla (caldo)",
+        "Puerros (caldo)",
+        "Zanahorias (caldo)",
+        "Tomates (caldo)",
+        "Rama de apio (caldo)",
+        "Cebollas (sofrito)",
+        "Tomate frito rico",
+        "Pimiento",
+        "Manzana",
+        "Ramas de laurel",
+        "Vaina de cayena",
+        "Vino Jerez",
+        "Mejillones en escabeche",
+        "Pescado blanco crudo",
+        "Huevos duros",
+        "Calamares troceados congelados Mercadona",
+        "Arroz",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Rocío Ortiz",
+        "arroz caldoso",
+        "gambones",
+        "mejillones",
+        "pescado",
+        "fiesta"
+      ],
+      "url": "recetas/receta-arroz-caldoso-marisco.html",
+      "archivo": "receta-arroz-caldoso-marisco.html"
+    },
+    {
+      "id": "arroz-chirlas",
+      "nombre": "Arroz con chirlas",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h + remojo",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Chirlas",
+        "Cebolla",
+        "Perejil",
+        "Ajos",
+        "Arroz",
+        "Pimentón dulce",
+        "Caldo de pescado"
+      ],
+      "etiquetas": [
+        "arroz",
+        "chirlas",
+        "pimentón",
+        "caldo de pescado"
+      ],
+      "url": "recetas/receta-arroz-chirlas.html",
+      "archivo": "receta-arroz-chirlas.html"
+    },
+    {
+      "id": "asado-negro-venezolano",
+      "nombre": "Asado negro venezolano",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min + marinada",
+      "tiempoPreparacion": "30 min + marinada 14 h",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Redondo de ternera",
+        "Aceite de oliva",
+        "Cebolla rallada",
+        "Dientes de ajo machacados",
+        "Tomate rallado sin piel ni semillas",
+        "Pimiento rojo rallado",
+        "Salsa inglesa (Perrins)",
+        "Hoja de laurel",
+        "Sal",
+        "Pimienta negra",
+        "Papelón troceado (o panela o azúcar moreno)",
+        "Vino tinto",
+        "Maicena"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "María José Angurel",
+        "venezolano",
+        "redondo",
+        "papelón",
+        "olla exprés",
+        "fiesta"
+      ],
+      "url": "recetas/receta-asado-negro-venezolano.html",
+      "archivo": "receta-asado-negro-venezolano.html"
+    },
+    {
       "id": "berenjenas-parmesana",
       "nombre": "Berenjenas a la parmesana",
       "tipo": {
@@ -39,6 +298,105 @@
       "archivo": "receta-berenjenas-parmesana.html"
     },
     {
+      "id": "berenjenas-gambas-jamon-serrano",
+      "nombre": "Berenjenas con gambas y jamón serrano",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "2 h",
+      "tiempoPreparacion": "15 min + 1 h reposo",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Berenjenas",
+        "Sal",
+        "Harina",
+        "Aceite",
+        "Gambas crudas peladas",
+        "Jamón serrano",
+        "Bechamel clara"
+      ],
+      "etiquetas": [
+        "berenjena",
+        "gambas",
+        "jamón serrano",
+        "bechamel",
+        "horno"
+      ],
+      "url": "recetas/receta-berenjenas-gambas-jamon-serrano.html",
+      "archivo": "receta-berenjenas-gambas-jamon-serrano.html"
+    },
+    {
+      "id": "berenjenas-jamon",
+      "nombre": "Berenjenas con jamón (rápidas)",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Berenjenas",
+        "Harina",
+        "Aceite",
+        "Tomate frito",
+        "Jamón serrano",
+        "Bechamel",
+        "Queso"
+      ],
+      "etiquetas": [
+        "berenjena",
+        "jamón serrano",
+        "tomate frito",
+        "bechamel",
+        "horno"
+      ],
+      "url": "recetas/receta-berenjenas-jamon.html",
+      "archivo": "receta-berenjenas-jamon.html"
+    },
+    {
+      "id": "calabacines-rellenos-gambas",
+      "nombre": "Calabacines rellenos de gambas",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Calabacines",
+        "Cebolla",
+        "Pimiento verde",
+        "Gambas peladas",
+        "Pan rallado",
+        "Sal",
+        "Agua",
+        "Mantequilla",
+        "Bechamel",
+        "Queso rallado"
+      ],
+      "etiquetas": [
+        "calabacín",
+        "gambas",
+        "bechamel",
+        "horno",
+        "relleno"
+      ],
+      "url": "recetas/receta-calabacines-rellenos-gambas.html",
+      "archivo": "receta-calabacines-rellenos-gambas.html"
+    },
+    {
       "id": "calamares-en-su-tinta",
       "nombre": "Calamares en su tinta",
       "tipo": {
@@ -69,6 +427,70 @@
       ],
       "url": "recetas/receta-calamares-en-su-tinta.html",
       "archivo": "receta-calamares-en-su-tinta.html"
+    },
+    {
+      "id": "caldo-basico",
+      "nombre": "Caldo básico de pollo",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "2 h",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pollo sin piel",
+        "Cebolla",
+        "Apio",
+        "Tomate",
+        "Zanahoria",
+        "Hueso de caña o rodilla",
+        "Garbanzos"
+      ],
+      "etiquetas": [
+        "caldo",
+        "base",
+        "pollo",
+        "invierno",
+        "olla"
+      ],
+      "url": "recetas/receta-caldo-basico.html",
+      "archivo": "receta-caldo-basico.html"
+    },
+    {
+      "id": "caldo-diuretico",
+      "nombre": "Caldo diurético",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tomates",
+        "Apio",
+        "Puerro",
+        "Pimiento rojo",
+        "Perejil",
+        "Cebollas",
+        "Piernas de pollo"
+      ],
+      "etiquetas": [
+        "caldo",
+        "diurético",
+        "ligero",
+        "depurativo",
+        "verduras"
+      ],
+      "url": "recetas/receta-caldo-diuretico.html",
+      "archivo": "receta-caldo-diuretico.html"
     },
     {
       "id": "canape-cebolla",
@@ -128,6 +550,168 @@
       ],
       "url": "recetas/receta-canape-tortilla-patatas.html",
       "archivo": "receta-canape-tortilla-patatas.html"
+    },
+    {
+      "id": "canelones-setas-foie",
+      "nombre": "Canelones de setas con foie",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pasta de canelones (o lasaña fresca verde/al huevo)",
+        "Setas (mezcladas con champiñón, cardo)",
+        "Tiritas de beicon",
+        "Foie",
+        "Cebolla",
+        "Puerro",
+        "Aceite de oliva",
+        "Caldo de ave",
+        "Nata líquida 18%",
+        "Brandy",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "canelones",
+        "setas",
+        "champiñón",
+        "foie",
+        "bacon",
+        "brandy"
+      ],
+      "url": "recetas/receta-canelones-setas-foie.html",
+      "archivo": "receta-canelones-setas-foie.html"
+    },
+    {
+      "id": "carne-guisada-cebollitas-champinones",
+      "nombre": "Carne guisada con cebollitas y champiñones",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Ternera",
+        "Harina",
+        "Cebollitas francesas",
+        "Champiñones",
+        "Zanahorias",
+        "Pastilla de caldo de carne",
+        "Agua",
+        "Vino",
+        "Nata líquida",
+        "Patatas pequeñas",
+        "Mantequilla",
+        "Perejil"
+      ],
+      "etiquetas": [
+        "ternera",
+        "cebollitas francesas",
+        "champiñones",
+        "nata",
+        "guiso",
+        "patatas al perejil"
+      ],
+      "url": "recetas/receta-carne-guisada-cebollitas-champinones.html",
+      "archivo": "receta-carne-guisada-cebollitas-champinones.html"
+    },
+    {
+      "id": "carne-guisada-olla-expres",
+      "nombre": "Carne guisada rápida en olla exprés",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Carne para guisar",
+        "Cebolla en cuadritos",
+        "Harina",
+        "Zanahoria en cuadritos",
+        "Guisantes",
+        "Pastilla Avecrem",
+        "Agua",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "ternera",
+        "olla exprés",
+        "zanahoria",
+        "guisantes",
+        "rápido",
+        "clásico"
+      ],
+      "url": "recetas/receta-carne-guisada-olla-expres.html",
+      "archivo": "receta-carne-guisada-olla-expres.html"
+    },
+    {
+      "id": "carrilleras-cordero-cous-cous-glaseado",
+      "nombre": "Carrilleras (o cordero) glaseadas con cous-cous de frutos secos",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "2 h 30 min",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Pierna de cordero en trozos o carrilleras de ternera",
+        "Harina",
+        "Aceite",
+        "Cebollas",
+        "Zanahorias",
+        "Rama de apio",
+        "Puerro",
+        "Ajos",
+        "Vino oloroso dulce, Oporto o Málaga",
+        "Caldo de carne",
+        "Cous-cous",
+        "Zumo de manzana",
+        "Caldo de pollo",
+        "Piñones",
+        "Almendras laminadas",
+        "Pasas",
+        "Dátiles",
+        "Aceite de oliva virgen (cous-cous)",
+        "Azúcar moreno",
+        "Vinagre de Módena",
+        "Cacao",
+        "Maicena",
+        "Sal",
+        "Pimienta negra"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "carrilleras",
+        "cordero",
+        "cous cous",
+        "glaseado",
+        "cacao",
+        "oloroso",
+        "fiesta"
+      ],
+      "url": "recetas/receta-carrilleras-cordero-cous-cous-glaseado.html",
+      "archivo": "receta-carrilleras-cordero-cous-cous-glaseado.html"
     },
     {
       "id": "chapata-queso",
@@ -195,6 +779,43 @@
       ],
       "url": "recetas/receta-chupitos-guisantes-camembert-jamon.html",
       "archivo": "receta-chupitos-guisantes-camembert-jamon.html"
+    },
+    {
+      "id": "corona-surimi-cangrejo-salmon",
+      "nombre": "Corona de surimi de cangrejo y salmón",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min con reposo",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Lonchas de salmón ahumado",
+        "Carne de cangrejo real o centollo",
+        "Cebolleta picada",
+        "Perejil picado",
+        "Cebollino picado",
+        "Albahaca",
+        "Aceite de oliva",
+        "Limón",
+        "Naranja",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Telva",
+        "salmón ahumado",
+        "cangrejo real",
+        "centollo",
+        "aros de emplatar",
+        "frío",
+        "fiesta"
+      ],
+      "url": "recetas/receta-corona-surimi-cangrejo-salmon.html",
+      "archivo": "receta-corona-surimi-cangrejo-salmon.html"
     },
     {
       "id": "crema-calabaza-curry",
@@ -448,6 +1069,37 @@
       "archivo": "receta-crepes-base.html"
     },
     {
+      "id": "croquetas-sese",
+      "nombre": "Croquetas Sesé (masa concentrada con gelatina)",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h + reposo en nevera",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Mantequilla",
+        "Harina",
+        "Leche",
+        "Relleno al gusto",
+        "Hojas de gelatina",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Sesé",
+        "croquetas",
+        "bechamel",
+        "gelatina",
+        "truco"
+      ],
+      "url": "recetas/receta-croquetas-sese.html",
+      "archivo": "receta-croquetas-sese.html"
+    },
+    {
       "id": "crudites-cabrales",
       "nombre": "Crudités al queso de Cabrales",
       "tipo": {
@@ -478,6 +1130,91 @@
       ],
       "url": "recetas/receta-crudites-cabrales.html",
       "archivo": "receta-crudites-cabrales.html"
+    },
+    {
+      "id": "cocer-arroz-base",
+      "nombre": "Cómo cocer arroz (base)",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 1,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Arroz",
+        "Agua",
+        "Sal"
+      ],
+      "etiquetas": [
+        "arroz",
+        "base",
+        "guarnición",
+        "técnica"
+      ],
+      "url": "recetas/receta-cocer-arroz-base.html",
+      "archivo": "receta-cocer-arroz-base.html"
+    },
+    {
+      "id": "dip-caviar",
+      "nombre": "Dip de caviar",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "15 min + reposo",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla pequeña",
+        "Zumo de limón",
+        "Nata para montar",
+        "Caviar de mújol",
+        "Mayonesa Heinz"
+      ],
+      "etiquetas": [
+        "caviar",
+        "cebolla",
+        "nata montada",
+        "sin cocción",
+        "untar"
+      ],
+      "url": "recetas/receta-dip-caviar.html",
+      "archivo": "receta-dip-caviar.html"
+    },
+    {
+      "id": "dip-mejillones-berberechos",
+      "nombre": "Dip de mejillones y de berberechos",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Queso Philadelphia",
+        "Mejillones en escabeche"
+      ],
+      "etiquetas": [
+        "mejillones",
+        "berberechos",
+        "philadelphia",
+        "sin cocción",
+        "untar",
+        "crudités"
+      ],
+      "url": "recetas/receta-dip-mejillones-berberechos.html",
+      "archivo": "receta-dip-mejillones-berberechos.html"
     },
     {
       "id": "datiles-roquefort-nuez",
@@ -581,6 +1318,66 @@
       "archivo": "receta-ensalada-aguacate-manzana.html"
     },
     {
+      "id": "ensalada-arroz-basmati",
+      "nombre": "Ensalada de arroz basmati",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Arroz basmati cocido y frío",
+        "Tomates cherry",
+        "Nueces picadas",
+        "Palmitos",
+        "Manzana",
+        "Pasas",
+        "Vinagreta de soja"
+      ],
+      "etiquetas": [
+        "arroz basmati",
+        "vinagreta de soja",
+        "nueces",
+        "manzana",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-arroz-basmati.html",
+      "archivo": "receta-ensalada-arroz-basmati.html"
+    },
+    {
+      "id": "ensalada-bacalao",
+      "nombre": "Ensalada de bacalao",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min + 1 día de reposo",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Bacalao desalado Mercadona",
+        "Pasas",
+        "Aceite de oliva"
+      ],
+      "etiquetas": [
+        "Cristina Torres",
+        "bacalao",
+        "pasas",
+        "aceite de oliva",
+        "conservación"
+      ],
+      "url": "recetas/receta-ensalada-bacalao.html",
+      "archivo": "receta-ensalada-bacalao.html"
+    },
+    {
       "id": "ensalada-brocoli-thermomix",
       "nombre": "Ensalada de brócoli",
       "tipo": {
@@ -655,6 +1452,67 @@
       "archivo": "receta-ensalada-burrata-tomate-limon.html"
     },
     {
+      "id": "ensalada-cangrejo-manzana",
+      "nombre": "Ensalada de cangrejo con manzana",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Palitos de cangrejo",
+        "Manzanas",
+        "Zanahorias",
+        "Mayonesa",
+        "Nata líquida",
+        "Estragón"
+      ],
+      "etiquetas": [
+        "surimi",
+        "manzana",
+        "zanahoria",
+        "estragón",
+        "mayonesa",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-cangrejo-manzana.html",
+      "archivo": "receta-ensalada-cangrejo-manzana.html"
+    },
+    {
+      "id": "ensalada-col-pollo",
+      "nombre": "Ensalada de col con pollo",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Repollo blanco pequeño",
+        "Pechugas de pollo",
+        "Manzanas rojas",
+        "Salsa rosa"
+      ],
+      "etiquetas": [
+        "col",
+        "pollo",
+        "manzana",
+        "salsa rosa",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-col-pollo.html",
+      "archivo": "receta-ensalada-col-pollo.html"
+    },
+    {
       "id": "ensalada-confit-pato",
       "nombre": "Ensalada de confit de pato",
       "tipo": {
@@ -686,6 +1544,35 @@
       ],
       "url": "recetas/receta-ensalada-confit-pato.html",
       "archivo": "receta-ensalada-confit-pato.html"
+    },
+    {
+      "id": "ensalada-espinacas-simple",
+      "nombre": "Ensalada de espinacas (rápida)",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Espinacas frescas",
+        "Queso azul",
+        "Bacon",
+        "Picatostes"
+      ],
+      "etiquetas": [
+        "espinacas",
+        "queso azul",
+        "bacon",
+        "picatostes",
+        "rápido"
+      ],
+      "url": "recetas/receta-ensalada-espinacas-simple.html",
+      "archivo": "receta-ensalada-espinacas-simple.html"
     },
     {
       "id": "ensalada-gulas-bacalao-ahumado",
@@ -721,6 +1608,102 @@
       ],
       "url": "recetas/receta-ensalada-gulas-bacalao-ahumado.html",
       "archivo": "receta-ensalada-gulas-bacalao-ahumado.html"
+    },
+    {
+      "id": "ensalada-jamon-foie",
+      "nombre": "Ensalada de jamón ibérico y foie",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Jamón ibérico",
+        "Foie",
+        "Lechuga de hoja de roble",
+        "Nueces picadas",
+        "Vinagre de Módena",
+        "Aceite de oliva"
+      ],
+      "etiquetas": [
+        "jamón ibérico",
+        "foie",
+        "hoja de roble",
+        "nueces",
+        "vinagreta de Módena"
+      ],
+      "url": "recetas/receta-ensalada-jamon-foie.html",
+      "archivo": "receta-ensalada-jamon-foie.html"
+    },
+    {
+      "id": "ensalada-lechuga-aguacate",
+      "nombre": "Ensalada de lechuga y aguacate",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lechuga",
+        "Endivias",
+        "Tomate cherry",
+        "Aguacate",
+        "Aceitunas negras",
+        "Cebolleta",
+        "Huevo duro",
+        "Aceite",
+        "Vinagre",
+        "Sal"
+      ],
+      "etiquetas": [
+        "lechuga",
+        "endivias",
+        "aguacate",
+        "aceitunas negras"
+      ],
+      "url": "recetas/receta-ensalada-lechuga-aguacate.html",
+      "archivo": "receta-ensalada-lechuga-aguacate.html"
+    },
+    {
+      "id": "ensalada-pasta-fiambre-pavo",
+      "nombre": "Ensalada de pasta con fiambre de pavo",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pasta",
+        "Fiambre de pavo",
+        "Queso fresco de cabra",
+        "Pepinillos agridulces",
+        "Cebolleta",
+        "Zanahoria"
+      ],
+      "etiquetas": [
+        "pasta",
+        "pavo",
+        "queso de cabra",
+        "vinagreta de mostaza",
+        "fría"
+      ],
+      "url": "recetas/receta-ensalada-pasta-fiambre-pavo.html",
+      "archivo": "receta-ensalada-pasta-fiambre-pavo.html"
     },
     {
       "id": "ensalada-pasta-manzana",
@@ -826,6 +1809,71 @@
       ],
       "url": "recetas/receta-ensalada-peras-nueces.html",
       "archivo": "receta-ensalada-peras-nueces.html"
+    },
+    {
+      "id": "ensalada-pollo-mayo",
+      "nombre": "Ensalada de pollo con salsa rosa",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lechuga",
+        "Tomates",
+        "Cebolleta",
+        "Manzanas",
+        "Jamón de York",
+        "Pechuga de pollo",
+        "Salsa rosa"
+      ],
+      "etiquetas": [
+        "pollo",
+        "salsa rosa",
+        "manzana",
+        "familiar"
+      ],
+      "url": "recetas/receta-ensalada-pollo-mayo.html",
+      "archivo": "receta-ensalada-pollo-mayo.html"
+    },
+    {
+      "id": "ensalada-repollo-manzana",
+      "nombre": "Ensalada de repollo con manzana y pasas",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Repollo picado",
+        "Cebolla picada",
+        "Manzanas Golden",
+        "Pasas de Corinto",
+        "Almendras crudas",
+        "Aceite",
+        "Vinagre",
+        "Sal",
+        "Mayonesa ligera"
+      ],
+      "etiquetas": [
+        "Montse Solano",
+        "repollo",
+        "manzana Golden",
+        "pasas de Corinto",
+        "mayonesa"
+      ],
+      "url": "recetas/receta-ensalada-repollo-manzana.html",
+      "archivo": "receta-ensalada-repollo-manzana.html"
     },
     {
       "id": "ensalada-endivias-gulas-rabanos",
@@ -976,6 +2024,172 @@
       "archivo": "receta-ensalada-waldorf.html"
     },
     {
+      "id": "escalibada",
+      "nombre": "Escalibada",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h 40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Berenjenas",
+        "Pimientos rojos",
+        "Cebollas",
+        "Ajo",
+        "Tomates",
+        "Aceite de oliva",
+        "Sal"
+      ],
+      "etiquetas": [
+        "berenjena",
+        "pimiento rojo",
+        "cebolla",
+        "tomate",
+        "horno",
+        "catalana"
+      ],
+      "url": "recetas/receta-escalibada.html",
+      "archivo": "receta-escalibada.html"
+    },
+    {
+      "id": "espaguetis-verdura-soja",
+      "nombre": "Espaguetis con verdura y salsa de soja",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Espaguetis",
+        "Cebolla",
+        "Champiñón",
+        "Pimiento rojo",
+        "Pimiento verde",
+        "Calabacín",
+        "Pastilla de caldo de pollo",
+        "Salsa de soja",
+        "Lata de atún",
+        "Queso parmesano"
+      ],
+      "etiquetas": [
+        "espaguetis",
+        "verdura",
+        "salsa de soja",
+        "atún",
+        "asiático"
+      ],
+      "url": "recetas/receta-espaguetis-verdura-soja.html",
+      "archivo": "receta-espaguetis-verdura-soja.html"
+    },
+    {
+      "id": "espinacas-catalana",
+      "nombre": "Espinacas a la catalana",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Espinacas frescas",
+        "Ajos",
+        "Piñones",
+        "Pasas",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "espinacas",
+        "piñones",
+        "pasas",
+        "ajo",
+        "catalana"
+      ],
+      "url": "recetas/receta-espinacas-catalana.html",
+      "archivo": "receta-espinacas-catalana.html"
+    },
+    {
+      "id": "espinacas-carne-bechamel",
+      "nombre": "Espinacas con carne, bechamel y puré",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Carne picada",
+        "Cebolla",
+        "Pastilla avecrem",
+        "Vino",
+        "Tomate frito",
+        "Espinacas",
+        "Bechamel clara",
+        "Puré de patata",
+        "Queso"
+      ],
+      "etiquetas": [
+        "espinacas",
+        "carne picada",
+        "bechamel",
+        "puré",
+        "horno"
+      ],
+      "url": "recetas/receta-espinacas-carne-bechamel.html",
+      "archivo": "receta-espinacas-carne-bechamel.html"
+    },
+    {
+      "id": "espinacas-pasta-gambas",
+      "nombre": "Espinacas con pasta y gambas",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pasta",
+        "Espinacas congeladas",
+        "Gambas",
+        "Queso gruyère rallado",
+        "Ajos",
+        "Aceite",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "espinacas",
+        "gambas",
+        "gruyère",
+        "pasta",
+        "punto de grasa"
+      ],
+      "url": "recetas/receta-espinacas-pasta-gambas.html",
+      "archivo": "receta-espinacas-pasta-gambas.html"
+    },
+    {
       "id": "esparragos-ajo-pollo",
       "nombre": "Espárragos en «ajo pollo»",
       "tipo": {
@@ -1014,6 +2228,224 @@
       "archivo": "receta-esparragos-ajo-pollo.html"
     },
     {
+      "id": "fiambre-carne-trufa",
+      "nombre": "Fiambre de carne con trufa (Mamá)",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Ternera",
+        "Pechugas de pollo",
+        "Magro de cerdo",
+        "Jamón serrano",
+        "Huevos",
+        "Pan rallado",
+        "Mantequilla",
+        "Coñac",
+        "Lata de trufa",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "fiambre",
+        "ternera",
+        "pollo",
+        "cerdo",
+        "jamón",
+        "trufa"
+      ],
+      "url": "recetas/receta-fiambre-carne-trufa.html",
+      "archivo": "receta-fiambre-carne-trufa.html"
+    },
+    {
+      "id": "fiambre-carne-jamon-pollo",
+      "nombre": "Fiambre de carne, jamón y pollo",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Carne picada mixta",
+        "Pechuga de pollo grande",
+        "Jamón serrano",
+        "Huevos",
+        "Vino Jerez / PX",
+        "Pan rallado",
+        "Papel de aluminio",
+        "Manzana Golden",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "fiambre",
+        "carne picada",
+        "pollo",
+        "jamón serrano",
+        "PX",
+        "baño María",
+        "manzana golden"
+      ],
+      "url": "recetas/receta-fiambre-carne-jamon-pollo.html",
+      "archivo": "receta-fiambre-carne-jamon-pollo.html"
+    },
+    {
+      "id": "filetes-salsa-pimiento-rojo",
+      "nombre": "Filetes con salsa y pimiento rojo (Mamá)",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Filetes de ternera",
+        "Harina",
+        "Cebolla",
+        "Tomate pelado y picado",
+        "Ajo",
+        "Perejil",
+        "Agua",
+        "Lata de pimientos",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "filetes",
+        "ternera",
+        "pimiento",
+        "salsa",
+        "clásico"
+      ],
+      "url": "recetas/receta-filetes-salsa-pimiento-rojo.html",
+      "archivo": "receta-filetes-salsa-pimiento-rojo.html"
+    },
+    {
+      "id": "fingers-pollo-tres-salsas",
+      "nombre": "Fingers de pollo con salsa tártara, miel-mostaza y yogur",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h + marinada",
+      "tiempoPreparacion": "30 min + marinada 2 h",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pechugas enteras",
+        "Salsa de soja (marinada 1)",
+        "Aceite de sésamo",
+        "Vino blanco (marinada 1)",
+        "Diente de ajo (marinada 1)",
+        "Cilantro o perejil (marinada 2)",
+        "Jengibre rallado (marinada 2)",
+        "Zumo de naranja (marinada 2)",
+        "Ralladura de limón (marinada 2)",
+        "Patatas (guarnición)",
+        "Canela, pimentón, curry (patatas)",
+        "Aceite (patatas)",
+        "Mayonesa (tártara)",
+        "Mostaza (tártara)",
+        "Pepinillos, alcaparras (tártara)",
+        "Aceitunas verdes y negras (tártara)",
+        "Huevo duro picado (tártara)",
+        "Aceite (salsa miel-mostaza)",
+        "Mostaza americana",
+        "Miel",
+        "Curry (miel-mostaza)",
+        "Yogur (salsa yogur)",
+        "Jalea de arándanos"
+      ],
+      "etiquetas": [
+        "Sesé San Martín",
+        "pollo",
+        "fingers",
+        "empanados",
+        "salsas",
+        "patatas al horno"
+      ],
+      "url": "recetas/receta-fingers-pollo-tres-salsas.html",
+      "archivo": "receta-fingers-pollo-tres-salsas.html"
+    },
+    {
+      "id": "flan-puerros-gambas",
+      "nombre": "Flan de puerros y gambas",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Puerros",
+        "Gambas (o lacón)",
+        "Nata líquida",
+        "Huevos",
+        "Queso emmental o gruyère",
+        "Mantequilla",
+        "Sal",
+        "Pimienta negra"
+      ],
+      "etiquetas": [
+        "Ruth Navarro",
+        "puerros",
+        "gambas",
+        "lacón",
+        "flan",
+        "horno"
+      ],
+      "url": "recetas/receta-flan-puerros-gambas.html",
+      "archivo": "receta-flan-puerros-gambas.html"
+    },
+    {
+      "id": "flores-alcachofas-confitadas",
+      "nombre": "Flores de alcachofas confitadas",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "3 h",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Alcachofas naturales",
+        "Aceite de oliva",
+        "Sal"
+      ],
+      "etiquetas": [
+        "alcachofa",
+        "confitada",
+        "plancha",
+        "presentación"
+      ],
+      "url": "recetas/receta-flores-alcachofas-confitadas.html",
+      "archivo": "receta-flores-alcachofas-confitadas.html"
+    },
+    {
       "id": "fumet-gambas",
       "nombre": "Fumet de gambas",
       "tipo": {
@@ -1043,6 +2475,77 @@
       ],
       "url": "recetas/receta-fumet-gambas.html",
       "archivo": "receta-fumet-gambas.html"
+    },
+    {
+      "id": "galette-puerros-bacon-gruyere-raclette",
+      "nombre": "Galette de puerros y bacon con gruyère y raclette",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 20 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Harina espelta integral",
+        "Mantequilla",
+        "Agua fría",
+        "Sal, pimienta",
+        "Puerros",
+        "Bacon en tacos",
+        "Pimientos verdes",
+        "Nata líquida",
+        "Queso raclette",
+        "Queso gruyère",
+        "Pan rallado"
+      ],
+      "etiquetas": [
+        "Telva",
+        "galette",
+        "puerros",
+        "bacon",
+        "gruyère",
+        "raclette",
+        "harina espelta"
+      ],
+      "url": "recetas/receta-galette-puerros-bacon-gruyere-raclette.html",
+      "archivo": "receta-galette-puerros-bacon-gruyere-raclette.html"
+    },
+    {
+      "id": "guisantes-jamon-thermomix",
+      "nombre": "Guisantes con jamón (Thermomix)",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Aceite de oliva virgen extra",
+        "Guisantes congelados",
+        "Agua",
+        "Jamón ibérico"
+      ],
+      "etiquetas": [
+        "guisantes",
+        "jamón ibérico",
+        "clásico",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-guisantes-jamon-thermomix.html",
+      "archivo": "receta-guisantes-jamon-thermomix.html"
     },
     {
       "id": "huevos-tripe",
@@ -1114,6 +2617,41 @@
       "archivo": "receta-huevos-rotos-champinones-espinacas.html"
     },
     {
+      "id": "judias-estofadas-olla",
+      "nombre": "Judías estofadas en olla",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Judías verdes",
+        "Tomate pelado",
+        "Patatas",
+        "Zanahoria",
+        "Cebolla",
+        "Pimiento",
+        "Pimentón dulce",
+        "Cabeza de ajo",
+        "Aceite",
+        "Agua"
+      ],
+      "etiquetas": [
+        "judías verdes",
+        "olla exprés",
+        "pimentón",
+        "tradicional",
+        "verduras estofadas"
+      ],
+      "url": "recetas/receta-judias-estofadas-olla.html",
+      "archivo": "receta-judias-estofadas-olla.html"
+    },
+    {
       "id": "langostinos-frutos-secos-mango",
       "nombre": "Langostinos con costra de frutos secos y salsa de mango",
       "tipo": {
@@ -1145,6 +2683,46 @@
       ],
       "url": "recetas/receta-langostinos-frutos-secos-mango.html",
       "archivo": "receta-langostinos-frutos-secos-mango.html"
+    },
+    {
+      "id": "lasagne-champinones-puerros-ricotta",
+      "nombre": "Lasagne de champiñones y puerros con ricotta",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 9,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Lasaña",
+        "Requesón o ricotta",
+        "Parmesano rallado",
+        "Puerros",
+        "Champiñones",
+        "Ajos",
+        "Mantequilla",
+        "Harina",
+        "Leche",
+        "Queso azul",
+        "Queso rallado tipo mozzarella",
+        "Sal",
+        "Pimienta",
+        "Nuez moscada"
+      ],
+      "etiquetas": [
+        "lasaña",
+        "champiñones",
+        "puerros",
+        "ricotta",
+        "queso azul",
+        "italiana"
+      ],
+      "url": "recetas/receta-lasagne-champinones-puerros-ricotta.html",
+      "archivo": "receta-lasagne-champinones-puerros-ricotta.html"
     },
     {
       "id": "lasana-bolonesa-champinones",
@@ -1197,6 +2775,211 @@
       "archivo": "receta-lasana-bolonesa-champinones.html"
     },
     {
+      "id": "lasana-clasica-jerez",
+      "nombre": "Lasaña clásica con jerez",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Carne picada",
+        "Jamón serrano",
+        "Cebolla",
+        "Zanahorias",
+        "Tomate triturado",
+        "Vino de Jerez",
+        "Bechamel",
+        "Queso Emmental rallado",
+        "Placas de lasaña",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "lasaña",
+        "carne picada",
+        "jerez",
+        "bechamel",
+        "clásico"
+      ],
+      "url": "recetas/receta-lasana-clasica-jerez.html",
+      "archivo": "receta-lasana-clasica-jerez.html"
+    },
+    {
+      "id": "lasana-alcachofas",
+      "nombre": "Lasaña de alcachofas",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Lasaña fresca Rana",
+        "Corazones de alcachofas congeladas",
+        "Cebolla grande",
+        "Mantequilla",
+        "Harina",
+        "Leche",
+        "Parmesano rallado",
+        "Sal",
+        "Pimienta negra",
+        "Nuez moscada"
+      ],
+      "etiquetas": [
+        "lasaña",
+        "alcachofas",
+        "parmesano",
+        "bechamel",
+        "horno"
+      ],
+      "url": "recetas/receta-lasana-alcachofas.html",
+      "archivo": "receta-lasana-alcachofas.html"
+    },
+    {
+      "id": "lazos-ahumados",
+      "nombre": "Lazos con ahumados y caviar",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lazos (pasta)",
+        "Salmón ahumado",
+        "Caviar",
+        "Nata líquida"
+      ],
+      "etiquetas": [
+        "pasta",
+        "salmón ahumado",
+        "caviar",
+        "nata",
+        "rápido"
+      ],
+      "url": "recetas/receta-lazos-ahumados.html",
+      "archivo": "receta-lazos-ahumados.html"
+    },
+    {
+      "id": "lombarda-confitada",
+      "nombre": "Lombarda confitada",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lombarda",
+        "Cebolla grande",
+        "Vinagre de Módena",
+        "Vino tinto",
+        "Vino Oporto",
+        "Mantequilla",
+        "Pasas",
+        "Orejones",
+        "Manzana"
+      ],
+      "etiquetas": [
+        "lombarda",
+        "vino tinto",
+        "Oporto",
+        "confitada",
+        "pasas",
+        "orejones"
+      ],
+      "url": "recetas/receta-lombarda-confitada.html",
+      "archivo": "receta-lombarda-confitada.html"
+    },
+    {
+      "id": "lomo-naranja",
+      "nombre": "Lomo a la naranja",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lomo de cerdo",
+        "Cebolla",
+        "Zumo de naranja",
+        "Pastilla de Avecrem",
+        "Vino blanco",
+        "Aceite",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "lomo de cerdo",
+        "naranja",
+        "vino blanco",
+        "rápido",
+        "avecrem"
+      ],
+      "url": "recetas/receta-lomo-naranja.html",
+      "archivo": "receta-lomo-naranja.html"
+    },
+    {
+      "id": "lomo-pina-ciruelas",
+      "nombre": "Lomo a la piña con ciruelas",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cinta de lomo de cerdo",
+        "Aceite de oliva",
+        "Lata grande de piña en rodajas",
+        "Bacon en trocitos",
+        "Hojas de laurel",
+        "Tomillo",
+        "Sal",
+        "Pimienta",
+        "Ciruelas pasas sin hueso",
+        "Brik pequeño de zumo de piña",
+        "Maicena"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "lomo de cerdo",
+        "piña",
+        "ciruelas pasas",
+        "bacon",
+        "salsa dulce"
+      ],
+      "url": "recetas/receta-lomo-pina-ciruelas.html",
+      "archivo": "receta-lomo-pina-ciruelas.html"
+    },
+    {
       "id": "magret-pato-sal",
       "nombre": "Magret de pato a la sal con puré dulce de pera y vainilla",
       "tipo": {
@@ -1235,6 +3018,34 @@
       "archivo": "receta-magret-pato-sal.html"
     },
     {
+      "id": "mermelada-pimiento",
+      "nombre": "Mermelada de pimiento",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pimiento congelado Mercadona",
+        "Vinagre de manzana",
+        "Azúcar moreno"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "mermelada",
+        "pimiento",
+        "para queso",
+        "conserva"
+      ],
+      "url": "recetas/receta-mermelada-pimiento.html",
+      "archivo": "receta-mermelada-pimiento.html"
+    },
+    {
       "id": "mousse-caviar",
       "nombre": "Mousse de caviar",
       "tipo": {
@@ -1266,6 +3077,40 @@
       ],
       "url": "recetas/receta-mousse-caviar.html",
       "archivo": "receta-mousse-caviar.html"
+    },
+    {
+      "id": "musaka-rapida",
+      "nombre": "Musaka (rápida)",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Berenjenas",
+        "Carne picada",
+        "Salsa de tomate",
+        "Cebolla",
+        "Bechamel",
+        "Queso rallado",
+        "Aceite",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "musaka",
+        "berenjena",
+        "carne picada",
+        "bechamel",
+        "griega"
+      ],
+      "url": "recetas/receta-musaka-rapida.html",
+      "archivo": "receta-musaka-rapida.html"
     },
     {
       "id": "olla-aranesa",
@@ -1303,6 +3148,426 @@
       ],
       "url": "recetas/receta-olla-aranesa.html",
       "archivo": "receta-olla-aranesa.html"
+    },
+    {
+      "id": "otras-empanadas-variantes",
+      "nombre": "Otras empanadas (4 variantes)",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Planchas de hojaldre",
+        "Huevo",
+        "Queso en lonchas + gorgonzola",
+        "Dátiles + bacon en tiras",
+        "Cebolla caramelizada + morcilla + pasas + piñones + pera/manzana",
+        "Mermelada cebolla + tomate + rulo de cabra",
+        "Pera + roquefort + pasas + nueces + miel"
+      ],
+      "etiquetas": [
+        "empanada",
+        "hojaldre",
+        "variantes",
+        "queso",
+        "cebolla caramelizada"
+      ],
+      "url": "recetas/receta-otras-empanadas-variantes.html",
+      "archivo": "receta-otras-empanadas-variantes.html"
+    },
+    {
+      "id": "paella-clasica",
+      "nombre": "Paella clásica",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 7,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Arroz",
+        "Aceite de oliva",
+        "Chuleta de aguja de cerdo",
+        "Pimiento verde",
+        "Calamares",
+        "Chirlas",
+        "Cebolla",
+        "Ajos",
+        "Perejil",
+        "Tomate natural o frito",
+        "Caldo de pescado sin marisco",
+        "Pastilla de avecrem",
+        "Azafrán",
+        "Gambas",
+        "Limón"
+      ],
+      "etiquetas": [
+        "paella",
+        "clásica",
+        "azafrán",
+        "marisco",
+        "carne",
+        "fideuá"
+      ],
+      "url": "recetas/receta-paella-clasica.html",
+      "archivo": "receta-paella-clasica.html"
+    },
+    {
+      "id": "paella-chipirones-tres-pimientos",
+      "nombre": "Paella de chipirones con tres pimientos",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Chipirones",
+        "Pimiento rojo",
+        "Pimiento verde",
+        "Pimiento amarillo",
+        "Cebolla",
+        "Arroz redondo",
+        "Caldo de pescado",
+        "Aceite de oliva",
+        "Azafrán",
+        "Pimentón dulce",
+        "Sal",
+        "Dientes de ajo",
+        "Aceite de oliva",
+        "Nata 35%"
+      ],
+      "etiquetas": [
+        "Telva",
+        "paella",
+        "chipirones",
+        "pimientos",
+        "crema de ajo asado",
+        "fiesta"
+      ],
+      "url": "recetas/receta-paella-chipirones-tres-pimientos.html",
+      "archivo": "receta-paella-chipirones-tres-pimientos.html"
+    },
+    {
+      "id": "paninis-berenjenas",
+      "nombre": "Paninis de berenjenas",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Berenjenas",
+        "Tomate frito",
+        "Queso rallado",
+        "Jamón York o pavo",
+        "Aceitunas negras",
+        "Tomate cherry"
+      ],
+      "etiquetas": [
+        "berenjena",
+        "horno",
+        "queso",
+        "jamón",
+        "aceitunas",
+        "rápido"
+      ],
+      "url": "recetas/receta-paninis-berenjenas.html",
+      "archivo": "receta-paninis-berenjenas.html"
+    },
+    {
+      "id": "pasta-ahumados-eneldo",
+      "nombre": "Pasta con ahumados y eneldo",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Parpardelle frescos",
+        "Salmón ahumado",
+        "Nata",
+        "Maicena",
+        "Mostaza suave",
+        "Eneldo picado"
+      ],
+      "etiquetas": [
+        "parpardelle",
+        "salmón ahumado",
+        "eneldo",
+        "mostaza",
+        "nata"
+      ],
+      "url": "recetas/receta-pasta-ahumados-eneldo.html",
+      "archivo": "receta-pasta-ahumados-eneldo.html"
+    },
+    {
+      "id": "pasta-setas-nata",
+      "nombre": "Pasta con setas",
+      "tipo": {
+        "id": "pastas",
+        "nombre": "Pastas y arroces"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pasta fresca",
+        "Aceite de oliva",
+        "Nata",
+        "Setas de temporada",
+        "Parmesano en láminas",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "pasta fresca",
+        "setas",
+        "nata",
+        "parmesano",
+        "salsa cremosa"
+      ],
+      "url": "recetas/receta-pasta-setas-nata.html",
+      "archivo": "receta-pasta-setas-nata.html"
+    },
+    {
+      "id": "pastel-atun-simple",
+      "nombre": "Pastel de atún",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Atún al natural",
+        "Huevos",
+        "Nata líquida",
+        "Tomate frito",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "atún",
+        "horno",
+        "tomate frito",
+        "rápido",
+        "fiambre"
+      ],
+      "url": "recetas/receta-pastel-atun-simple.html",
+      "archivo": "receta-pastel-atun-simple.html"
+    },
+    {
+      "id": "pastel-carne-ketchup",
+      "nombre": "Pastel de carne con ketchup",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Carne picada de ternera",
+        "Huevo",
+        "Kétchup",
+        "Salsa de soja",
+        "Champiñones",
+        "Pan rallado",
+        "Cebolla picada",
+        "Mantequilla",
+        "Papel de aluminio",
+        "Bechamel clarita"
+      ],
+      "etiquetas": [
+        "carne picada",
+        "ketchup",
+        "champiñones",
+        "bechamel",
+        "horno"
+      ],
+      "url": "recetas/receta-pastel-carne-ketchup.html",
+      "archivo": "receta-pastel-carne-ketchup.html"
+    },
+    {
+      "id": "pastel-champinon-jamon",
+      "nombre": "Pastel de champiñón y jamón",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 20 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Jamón york",
+        "Huevos + 2 claras",
+        "Champiñón",
+        "Lata de trufas",
+        "Nata líquida",
+        "Mantequilla",
+        "Coñac",
+        "Caldo",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "champiñón",
+        "jamón york",
+        "trufa",
+        "baño maría",
+        "molde"
+      ],
+      "url": "recetas/receta-pastel-champinon-jamon.html",
+      "archivo": "receta-pastel-champinon-jamon.html"
+    },
+    {
+      "id": "pastel-crepes-jamon",
+      "nombre": "Pastel de crepes al jamón",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Jamón York",
+        "Palmitos",
+        "Manzanas",
+        "Tallos de apio",
+        "Salsa rosa",
+        "Crepes"
+      ],
+      "etiquetas": [
+        "crepes",
+        "jamón York",
+        "palmitos",
+        "manzana",
+        "frío"
+      ],
+      "url": "recetas/receta-pastel-crepes-jamon.html",
+      "archivo": "receta-pastel-crepes-jamon.html"
+    },
+    {
+      "id": "pastel-puerros-langostinos-salsa-esparragos",
+      "nombre": "Pastel de puerros y langostinos con salsa de espárragos verdes",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "1 h 20 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Puerros",
+        "Langostinos crudos o gambones congelados Mercadona",
+        "Aceite de oliva",
+        "Mantequilla",
+        "Huevos",
+        "Nata líquida de montar",
+        "Queso rallado Edam, Gruyère o Cheddar",
+        "Sal",
+        "Pimienta",
+        "Vinagre de Módena",
+        "Espárragos verdes trigueros",
+        "Cebollas picadas",
+        "Ajo",
+        "Aceite de oliva",
+        "Sal y pimienta",
+        "Vino blanco",
+        "Vinagre de Módena"
+      ],
+      "etiquetas": [
+        "puerros",
+        "langostinos",
+        "espárragos",
+        "baño María",
+        "fiesta"
+      ],
+      "url": "recetas/receta-pastel-puerros-langostinos-salsa-esparragos.html",
+      "archivo": "receta-pastel-puerros-langostinos-salsa-esparragos.html"
+    },
+    {
+      "id": "pastel-verduras-simple",
+      "nombre": "Pastel de verduras",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Leche Ideal",
+        "Pimienta",
+        "Sal",
+        "Calabacines",
+        "Zanahorias",
+        "Puerro",
+        "Manojo de ajetes",
+        "Bechamel aclarada con caldo"
+      ],
+      "etiquetas": [
+        "María Mallo",
+        "verduras",
+        "baño María",
+        "bechamel",
+        "molde"
+      ],
+      "url": "recetas/receta-pastel-verduras-simple.html",
+      "archivo": "receta-pastel-verduras-simple.html"
     },
     {
       "id": "pate-queso-anchoas",
@@ -1366,6 +3631,178 @@
       "archivo": "receta-pate-queso-datiles.html"
     },
     {
+      "id": "pechuga-pavo-mostaza",
+      "nombre": "Pechuga de pavo (o solomillo de cerdo) con salsa de mostaza",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pechuga de pavo sin red (o solomillo/lomo)",
+        "Cebollas",
+        "Azúcar moreno",
+        "Mostaza",
+        "Aceite de oliva",
+        "Vino blanco, jerez dulce o Valdespino",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "pavo",
+        "cerdo",
+        "mostaza",
+        "azúcar moreno",
+        "horno",
+        "lombarda"
+      ],
+      "url": "recetas/receta-pechuga-pavo-mostaza.html",
+      "archivo": "receta-pechuga-pavo-mostaza.html"
+    },
+    {
+      "id": "pechuga-cocida-65",
+      "nombre": "Pechuga de pollo cocida a 65 °C",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h + enfriado",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Papel film",
+        "Agua"
+      ],
+      "etiquetas": [
+        "pollo",
+        "cocción a baja temperatura",
+        "film",
+        "ensalada",
+        "frío"
+      ],
+      "url": "recetas/receta-pechuga-cocida-65.html",
+      "archivo": "receta-pechuga-cocida-65.html"
+    },
+    {
+      "id": "pechugas-rellenas-jamon-queso",
+      "nombre": "Pechugas rellenas de jamón y queso",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pechugas de pollo",
+        "Jamón York",
+        "Queso en lonchas",
+        "Harina",
+        "Aceite",
+        "Cebolla picada",
+        "Agua",
+        "Coñac",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "pollo",
+        "jamón",
+        "queso",
+        "coñac",
+        "clásico"
+      ],
+      "url": "recetas/receta-pechugas-rellenas-jamon-queso.html",
+      "archivo": "receta-pechugas-rellenas-jamon-queso.html"
+    },
+    {
+      "id": "pez-ternera-horno-jugo",
+      "nombre": "Pez de ternera al horno en su jugo",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pieza de pez de ternera",
+        "Cebollas",
+        "Zanahorias medianas",
+        "Puerro grande",
+        "Vino blanco",
+        "Cabeza de ajos",
+        "Aceite de oliva",
+        "Mix de pimientas o pimienta negra",
+        "Sal",
+        "Rama de tomillo"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "María José Angurel",
+        "pez de ternera",
+        "horno",
+        "cabeza de ajos",
+        "tomillo"
+      ],
+      "url": "recetas/receta-pez-ternera-horno-jugo.html",
+      "archivo": "receta-pez-ternera-horno-jugo.html"
+    },
+    {
+      "id": "pierna-cordero-glaseada-pedro-jimenez",
+      "nombre": "Pierna de cordero glaseada con Pedro Jiménez",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 7,
+      "tiempoTotal": "3 h + marinada",
+      "tiempoPreparacion": "2 h + marinada",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Piernas de cordero deshuesadas",
+        "Naranja",
+        "Curry, canela, pimienta negra",
+        "Cayena",
+        "Romero",
+        "Aceite de oliva",
+        "Pedro Jiménez",
+        "Azúcar moreno",
+        "Sal",
+        "Patatas medianas",
+        "Pimentón, ajo en polvo, perejil, orégano",
+        "Aceite (patatas)"
+      ],
+      "etiquetas": [
+        "Telva",
+        "cordero",
+        "Pedro Ximénez",
+        "patatas al pimentón",
+        "horno",
+        "fiesta"
+      ],
+      "url": "recetas/receta-pierna-cordero-glaseada-pedro-jimenez.html",
+      "archivo": "receta-pierna-cordero-glaseada-pedro-jimenez.html"
+    },
+    {
       "id": "pisto",
       "nombre": "Pisto",
       "tipo": {
@@ -1403,6 +3840,305 @@
       "archivo": "receta-pisto.html"
     },
     {
+      "id": "pollo-curry-ana-albert",
+      "nombre": "Pollo al curry",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Cebollas grandes",
+        "Nata para cocinar",
+        "Curry en polvo",
+        "Aceite",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "pollo",
+        "curry",
+        "nata",
+        "rápido"
+      ],
+      "url": "recetas/receta-pollo-curry-ana-albert.html",
+      "archivo": "receta-pollo-curry-ana-albert.html"
+    },
+    {
+      "id": "pollo-verduras-teriyaki",
+      "nombre": "Pollo con verduras al teriyaki",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Puerro",
+        "Pimiento rojo",
+        "Pimiento verde",
+        "Zanahoria",
+        "Espárragos trigueros",
+        "Champiñones",
+        "Calabacín",
+        "Salsa teriyaki",
+        "Pollo en tiras",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "pollo",
+        "wok",
+        "teriyaki",
+        "asiático",
+        "verduras"
+      ],
+      "url": "recetas/receta-pollo-verduras-teriyaki.html",
+      "archivo": "receta-pollo-verduras-teriyaki.html"
+    },
+    {
+      "id": "pollo-pepitoria-arroz-pilaf",
+      "nombre": "Pollo en pepitoria con arroz pilaf",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Filetes de muslo",
+        "Cebollas",
+        "Ajos",
+        "Azafrán en hebra + polvo",
+        "Jerez",
+        "Caldo de pollo Hacendado",
+        "Almendra molida",
+        "Almendra fileteada",
+        "Hoja de laurel",
+        "Huevos duros",
+        "Harina",
+        "Aceite",
+        "Sal",
+        "Pimienta",
+        "Arroz largo o basmati (pilaf)",
+        "Caldo de ave (pilaf)",
+        "Mantequilla (pilaf)",
+        "Piñones (pilaf)",
+        "Pasas (pilaf)"
+      ],
+      "etiquetas": [
+        "Sesé San Martín",
+        "pollo",
+        "pepitoria",
+        "azafrán",
+        "almendras",
+        "arroz pilaf",
+        "clásico"
+      ],
+      "url": "recetas/receta-pollo-pepitoria-arroz-pilaf.html",
+      "archivo": "receta-pollo-pepitoria-arroz-pilaf.html"
+    },
+    {
+      "id": "pollo-relleno-mama",
+      "nombre": "Pollo relleno (Mamá)",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pollo deshuesado",
+        "Carne picada mixta",
+        "Pechuga cortada en tiras",
+        "Huevos",
+        "Manzana reineta o Golden",
+        "Jamón serrano",
+        "Pasas de Corinto",
+        "Sal",
+        "Pimienta",
+        "Cebolla",
+        "Zanahorias",
+        "Ajos enteros",
+        "Aceite",
+        "Coñac"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "pollo",
+        "carne picada",
+        "manzana",
+        "pasas",
+        "horno",
+        "fiesta"
+      ],
+      "url": "recetas/receta-pollo-relleno-mama.html",
+      "archivo": "receta-pollo-relleno-mama.html"
+    },
+    {
+      "id": "pollo-relleno-frutos-secos-butifarra",
+      "nombre": "Pollo relleno de frutos secos y butifarra",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "2 h",
+      "tiempoPreparacion": "30 min + noche de maceración",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pavi-pollo deshuesado",
+        "Butifarras",
+        "Carne picada de pollo",
+        "Orejones",
+        "Pipas de girasol",
+        "Pasas de Corinto",
+        "Anacardos y nueces",
+        "Vino oloroso Jerez",
+        "Aceite",
+        "Sal",
+        "Pimienta negra",
+        "Limón"
+      ],
+      "etiquetas": [
+        "pavi-pollo",
+        "butifarra",
+        "frutos secos",
+        "orejones",
+        "oloroso",
+        "Navidad",
+        "fiesta"
+      ],
+      "url": "recetas/receta-pollo-relleno-frutos-secos-butifarra.html",
+      "archivo": "receta-pollo-relleno-frutos-secos-butifarra.html"
+    },
+    {
+      "id": "pudin-setas-gambas-langosta",
+      "nombre": "Pudin de setas y gambas con salsa de langosta",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Setas de cardo",
+        "Ajos",
+        "Aceite de oliva",
+        "Gambas",
+        "Leche Ideal",
+        "Leche",
+        "Huevos",
+        "Sal",
+        "Pimienta",
+        "Nuez moscada",
+        "Crema de langosta Campbell's",
+        "Nata líquida para cocinar"
+      ],
+      "etiquetas": [
+        "setas de cardo",
+        "gambas",
+        "langosta",
+        "microondas",
+        "molde de corona"
+      ],
+      "url": "recetas/receta-pudin-setas-gambas-langosta.html",
+      "archivo": "receta-pudin-setas-gambas-langosta.html"
+    },
+    {
+      "id": "pudin-verduras-microondas",
+      "nombre": "Pudin de verduras al microondas",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Verdura (espárragos, calabacín…)",
+        "Jamón de york o bacon",
+        "Huevos",
+        "Quesitos en porciones",
+        "Nata",
+        "Queso",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "verduras",
+        "microondas",
+        "molde de corona",
+        "rápido"
+      ],
+      "url": "recetas/receta-pudin-verduras-microondas.html",
+      "archivo": "receta-pudin-verduras-microondas.html"
+    },
+    {
+      "id": "queso-brie-camembert-variantes",
+      "nombre": "Queso brie o camembert (variantes al horno)",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Queso brie o camembert",
+        "Azúcar moreno",
+        "Coñac o Pedro Ximénez",
+        "Almendras",
+        "Pistachos",
+        "Arándanos deshidratados",
+        "Nueces",
+        "Miel",
+        "Aceite de oliva",
+        "Sal gruesa"
+      ],
+      "etiquetas": [
+        "queso",
+        "horno",
+        "frutos secos",
+        "miel",
+        "compartir"
+      ],
+      "url": "recetas/receta-queso-brie-camembert-variantes.html",
+      "archivo": "receta-queso-brie-camembert-variantes.html"
+    },
+    {
       "id": "quiche-cabra-esparragos",
       "nombre": "Quiche de queso de cabra con espárragos",
       "tipo": {
@@ -1434,6 +4170,49 @@
       ],
       "url": "recetas/receta-quiche-cabra-esparragos.html",
       "archivo": "receta-quiche-cabra-esparragos.html"
+    },
+    {
+      "id": "quiche-salmon-parmesano-pepinos",
+      "nombre": "Quiche de salmón y parmesano con cobertura de pepinos al eneldo",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 45 min",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Harina (masa)",
+        "Mantequilla (masa)",
+        "Yemas de huevo (masa)",
+        "Agua fría (masa)",
+        "Sal, pimienta (masa)",
+        "Pepinos",
+        "Vinagre de sidra",
+        "Eneldo fresco",
+        "Azúcar glas",
+        "Sal (pepinos)",
+        "Lomo de salmón",
+        "Salmón ahumado",
+        "Nata líquida o leche evaporada",
+        "Huevos (relleno)",
+        "Eneldo fresco (relleno)",
+        "Parmesano en taco"
+      ],
+      "etiquetas": [
+        "Telva",
+        "quiche",
+        "salmón",
+        "parmesano",
+        "pepinos",
+        "eneldo",
+        "masa quebrada"
+      ],
+      "url": "recetas/receta-quiche-salmon-parmesano-pepinos.html",
+      "archivo": "receta-quiche-salmon-parmesano-pepinos.html"
     },
     {
       "id": "quiche-javier",
@@ -1504,6 +4283,180 @@
       "archivo": "receta-quiche-lorraine.html"
     },
     {
+      "id": "quinoa-tartar",
+      "nombre": "Quinoa (base y tartar)",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Quinoa",
+        "Agua hirviendo",
+        "Tomate",
+        "Aguacate",
+        "Huevos duros",
+        "Cebolleta"
+      ],
+      "etiquetas": [
+        "quinoa",
+        "base",
+        "tartar",
+        "aguacate",
+        "saludable"
+      ],
+      "url": "recetas/receta-quinoa-tartar.html",
+      "archivo": "receta-quinoa-tartar.html"
+    },
+    {
+      "id": "redondo-zanahorias-glaseadas",
+      "nombre": "Redondo con zanahorias glaseadas",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "2 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Redondo",
+        "Tomates",
+        "Manteca",
+        "Cebollas grandes",
+        "Puerros",
+        "Ajos",
+        "Harina",
+        "Vino blanco",
+        "Sal",
+        "Pimienta blanca",
+        "Perejil",
+        "Azúcar",
+        "Clavos, tomillo y laurel",
+        "Caldo",
+        "Mantequilla",
+        "Azúcar",
+        "Zanahorias"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "redondo",
+        "ternera",
+        "zanahorias glaseadas",
+        "asado",
+        "tradicional"
+      ],
+      "url": "recetas/receta-redondo-zanahorias-glaseadas.html",
+      "archivo": "receta-redondo-zanahorias-glaseadas.html"
+    },
+    {
+      "id": "redondo-naranja-vino-tinto",
+      "nombre": "Redondo de ternera con salsa de naranja y vino tinto",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Redondo de ternera",
+        "Cebollas grandes",
+        "Aceite",
+        "Zumo de naranja",
+        "Vino tinto",
+        "Azúcar",
+        "Agua",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "redondo",
+        "ternera",
+        "naranja",
+        "vino tinto",
+        "caramelo",
+        "salsa"
+      ],
+      "url": "recetas/receta-redondo-naranja-vino-tinto.html",
+      "archivo": "receta-redondo-naranja-vino-tinto.html"
+    },
+    {
+      "id": "risotto-boletus-calabaza",
+      "nombre": "Risotto de boletus y calabaza",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Arroz arborio",
+        "Mantequilla",
+        "Calabaza sin piel",
+        "Parmesano rallado",
+        "Cebolleta",
+        "Aceite de oliva virgen extra",
+        "Jerez seco",
+        "Pimienta",
+        "Caldo de ave caliente",
+        "Boletus",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "risotto",
+        "boletus",
+        "calabaza",
+        "parmesano",
+        "otoño"
+      ],
+      "url": "recetas/receta-risotto-boletus-calabaza.html",
+      "archivo": "receta-risotto-boletus-calabaza.html"
+    },
+    {
+      "id": "roast-beef",
+      "nombre": "Roast beef",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 17,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Lomo gallego",
+        "Manteca",
+        "Sal gorda"
+      ],
+      "etiquetas": [
+        "ternera",
+        "lomo gallego",
+        "horno",
+        "asado",
+        "fiesta"
+      ],
+      "url": "recetas/receta-roast-beef.html",
+      "archivo": "receta-roast-beef.html"
+    },
+    {
       "id": "rollitos-tortillas-trigo",
       "nombre": "Rollitos con tortillas de trigo",
       "tipo": {
@@ -1534,6 +4487,38 @@
       ],
       "url": "recetas/receta-rollitos-tortillas-trigo.html",
       "archivo": "receta-rollitos-tortillas-trigo.html"
+    },
+    {
+      "id": "rollo-pollo-jamon-york-bacon",
+      "nombre": "Rollo de pollo y jamón de York con bacon",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pechugas de pollo picadas",
+        "Jamón York picado",
+        "Huevos",
+        "Bacon ahumado (muy fino)",
+        "Pasas",
+        "Vino blanco",
+        "Sal"
+      ],
+      "etiquetas": [
+        "pollo",
+        "jamón York",
+        "bacon ahumado",
+        "baño María",
+        "pasas"
+      ],
+      "url": "recetas/receta-rollo-pollo-jamon-york-bacon.html",
+      "archivo": "receta-rollo-pollo-jamon-york-bacon.html"
     },
     {
       "id": "salsa-mango-frutos-secos",
@@ -1606,6 +4591,192 @@
       ],
       "url": "recetas/receta-salteado-verduras-curry.html",
       "archivo": "receta-salteado-verduras-curry.html"
+    },
+    {
+      "id": "solomillitos-macerados-rosti-camembert",
+      "nombre": "Solomillitos macerados con rösti de camembert y pasas",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h + marinada",
+      "tiempoPreparacion": "30 min + marinada 2 h",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Solomillos de cerdo",
+        "Vino moscatel",
+        "Vinagre de sidra",
+        "Azúcar",
+        "Aceite",
+        "Caldo de carne",
+        "Sal",
+        "Patatas (rösti)",
+        "Cebolla (rösti)",
+        "Queso camembert (rösti)",
+        "Pasas (rösti)",
+        "Vino dulce (rösti)",
+        "Mantequilla (rösti)"
+      ],
+      "etiquetas": [
+        "Sesé San Martín",
+        "solomillo cerdo",
+        "moscatel",
+        "vinagre de sidra",
+        "rösti",
+        "camembert",
+        "pasas"
+      ],
+      "url": "recetas/receta-solomillitos-macerados-rosti-camembert.html",
+      "archivo": "receta-solomillitos-macerados-rosti-camembert.html"
+    },
+    {
+      "id": "solomillo-horno-cebolla",
+      "nombre": "Solomillo al horno con cebolla",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 14,
+      "tiempoTotal": "1 h 20 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Solomillo",
+        "Cebolla",
+        "Aceite",
+        "Coñac",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "solomillo",
+        "ternera",
+        "cebolla",
+        "horno",
+        "coñac",
+        "fiesta"
+      ],
+      "url": "recetas/receta-solomillo-horno-cebolla.html",
+      "archivo": "receta-solomillo-horno-cebolla.html"
+    },
+    {
+      "id": "solomillo-cerdo-verduras-miel",
+      "nombre": "Solomillo de cerdo con verduras glaseadas con miel",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h 10 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Solomillo de cerdo",
+        "Cebollitas francesas (o manojo de cebolletas)",
+        "Miel",
+        "Nabos (según tamaño)",
+        "Pimiento",
+        "Zanahorias",
+        "Cominos",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "solomillo cerdo",
+        "miel",
+        "cebollitas francesas",
+        "nabo",
+        "zanahorias",
+        "cominos",
+        "horno"
+      ],
+      "url": "recetas/receta-solomillo-cerdo-verduras-miel.html",
+      "archivo": "receta-solomillo-cerdo-verduras-miel.html"
+    },
+    {
+      "id": "solomillo-wellington-frutos-rojos-manzana",
+      "nombre": "Solomillo Wellington con salsas de frutos rojos y manzana",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "45 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Solomillo de ternera",
+        "Aceite de oliva virgen extra",
+        "Planchas cuadradas de hojaldre",
+        "Latita de foie",
+        "Huevo",
+        "Sal",
+        "Pimienta",
+        "Manzanas reineta",
+        "Mantequilla",
+        "Azúcar",
+        "Sal, agua",
+        "Caldo de pollo (2 zanahorias, 1 cebolla, 1 puerro, perejil, 1 carcasa)",
+        "Jalea de grosellas, arándanos o frambuesas",
+        "Maicena"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "solomillo",
+        "wellington",
+        "hojaldre Buitoni",
+        "foie",
+        "frutos rojos",
+        "manzana",
+        "fiesta"
+      ],
+      "url": "recetas/receta-solomillo-wellington-frutos-rojos-manzana.html",
+      "archivo": "receta-solomillo-wellington-frutos-rojos-manzana.html"
+    },
+    {
+      "id": "solomillos-cerdo-ciruelas-mama",
+      "nombre": "Solomillos de cerdo con ciruelas (Mamá)",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h + remojo",
+      "tiempoPreparacion": "15 min + 4 h remojo",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Solomillos de cerdo",
+        "Ciruelas negras",
+        "Vino blanco",
+        "Mantequilla",
+        "Aceite",
+        "Caldo de pollo",
+        "Nata",
+        "Jalea de grosella negra",
+        "Harina",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "solomillo cerdo",
+        "ciruelas",
+        "vino blanco",
+        "nata",
+        "grosella"
+      ],
+      "url": "recetas/receta-solomillos-cerdo-ciruelas-mama.html",
+      "archivo": "receta-solomillos-cerdo-ciruelas-mama.html"
     },
     {
       "id": "sopa-boletus-aceite-trufa",
@@ -1682,6 +4853,152 @@
       ],
       "url": "recetas/receta-sopa-cebolla.html",
       "archivo": "receta-sopa-cebolla.html"
+    },
+    {
+      "id": "sopa-pescado",
+      "nombre": "Sopa de pescado",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pescado variado + cabezas de gambas",
+        "Cebolla",
+        "Tomate pelado",
+        "Ajo",
+        "Chirlas",
+        "Calamar",
+        "Arroz",
+        "Gambas peladas",
+        "Sal"
+      ],
+      "etiquetas": [
+        "pescado",
+        "chirlas",
+        "arroz",
+        "gambas",
+        "sofrito"
+      ],
+      "url": "recetas/receta-sopa-pescado.html",
+      "archivo": "receta-sopa-pescado.html"
+    },
+    {
+      "id": "steak-tartar-vaca-clasico",
+      "nombre": "Steak tartar de vaca clásico",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 2,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min + 20 min nevera",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Ternera picada (PEZ)",
+        "Cebolla morada",
+        "Alcaparras",
+        "Mostaza de Dijon",
+        "Huevo",
+        "Salsa Worcestershire",
+        "Soja",
+        "Tabasco",
+        "Piparra",
+        "Sal",
+        "Pimienta negra molida"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "María José Angurel",
+        "steak tartar",
+        "vaca",
+        "yema",
+        "crudo",
+        "clásico"
+      ],
+      "url": "recetas/receta-steak-tartar-vaca-clasico.html",
+      "archivo": "receta-steak-tartar-vaca-clasico.html"
+    },
+    {
+      "id": "tarrina-jamon-queso",
+      "nombre": "Tarrina de jamón y queso",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min + reposo",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Jamón de york",
+        "Queso Philadelphia",
+        "Cebolletas",
+        "Mayonesa",
+        "Gelatina Aspic royal (o 4 colas de pescado)",
+        "Zumo de limón",
+        "Mantequilla",
+        "Agua caliente"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "jamón york",
+        "philadelphia",
+        "gelatina",
+        "capas",
+        "frío"
+      ],
+      "url": "recetas/receta-tarrina-jamon-queso.html",
+      "archivo": "receta-tarrina-jamon-queso.html"
+    },
+    {
+      "id": "tarta-crujiente-espinacas-pimientos-huevo",
+      "nombre": "Tarta crujiente de espinacas, pimientos confitados y huevo",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 5,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "35 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Paquete de masa filo",
+        "Huevos duros",
+        "Espinacas frescas",
+        "Uvas pasas",
+        "Bote de pimiento piquillo en tiras",
+        "Azúcar moreno",
+        "Mantequilla derretida",
+        "Sal, pimienta",
+        "Mantequilla (bechamel)",
+        "Harina",
+        "Leche",
+        "Perejil picado",
+        "Nuez moscada",
+        "Sésamo"
+      ],
+      "etiquetas": [
+        "Telva",
+        "masa filo",
+        "espinacas",
+        "pimientos piquillo",
+        "sésamo",
+        "huevo duro"
+      ],
+      "url": "recetas/receta-tarta-crujiente-espinacas-pimientos-huevo.html",
+      "archivo": "receta-tarta-crujiente-espinacas-pimientos-huevo.html"
     },
     {
       "id": "tartar-salchichon",
@@ -1796,6 +5113,170 @@
       "archivo": "receta-tartar-tomate-cigala-ajo-blanco.html"
     },
     {
+      "id": "terrina-foie-manzana-caramelizada",
+      "nombre": "Terrina de foie con manzana caramelizada",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h + 2 h nevera",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Manzanas golden",
+        "Manzanas reinetas",
+        "Mantequilla",
+        "Azúcar",
+        "Vainilla",
+        "Pedro Ximénez",
+        "Foie mi-cuit",
+        "Azúcar (vinagreta PX)",
+        "Agua (vinagreta)",
+        "Pedro Ximénez (vinagreta)",
+        "Vinagre de Módena",
+        "Aceite de oliva virgen"
+      ],
+      "etiquetas": [
+        "foie mi-cuit",
+        "manzana",
+        "Pedro Ximénez",
+        "vainilla",
+        "vinagreta PX",
+        "fiesta"
+      ],
+      "url": "recetas/receta-terrina-foie-manzana-caramelizada.html",
+      "archivo": "receta-terrina-foie-manzana-caramelizada.html"
+    },
+    {
+      "id": "terrina-hongos-quesos-salsa-calabaza",
+      "nombre": "Terrina de hongos y quesos con salsa de calabaza",
+      "tipo": {
+        "id": "pudines",
+        "nombre": "Pudines y pasteles"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Hongos",
+        "Puerros",
+        "Jamón serrano",
+        "Vino blanco seco",
+        "Quesos rallados variados",
+        "Queso parmesano",
+        "Huevos",
+        "Nata líquida 35%",
+        "Mantequilla",
+        "Cebolla",
+        "Calabaza troceada",
+        "Vinagre de manzana",
+        "Azúcar moreno",
+        "Caldo de ave o verduras",
+        "Nuez moscada",
+        "Sal y pimienta"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "hongos",
+        "quesos",
+        "puerros",
+        "calabaza",
+        "agridulce"
+      ],
+      "url": "recetas/receta-terrina-hongos-quesos-salsa-calabaza.html",
+      "archivo": "receta-terrina-hongos-quesos-salsa-calabaza.html"
+    },
+    {
+      "id": "terrina-pollo-tomate-albahaca",
+      "nombre": "Terrina de pollo con tomate y albahaca",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "50 min + enfriado",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Pechugas de pollo",
+        "Tomate seco",
+        "Hojas de albahaca",
+        "Piñones",
+        "Pistachos",
+        "Tomate fresco",
+        "Hojas variadas para ensalada",
+        "Salsa de soja (vinagreta)",
+        "Vinagre de Jerez",
+        "Aceite de oliva",
+        "Caldo cocido",
+        "Zumo de lima"
+      ],
+      "etiquetas": [
+        "pollo",
+        "tomate seco",
+        "albahaca",
+        "pistachos",
+        "cocción baja",
+        "presentación",
+        "frío"
+      ],
+      "url": "recetas/receta-terrina-pollo-tomate-albahaca.html",
+      "archivo": "receta-terrina-pollo-tomate-albahaca.html"
+    },
+    {
+      "id": "terrina-pollo-pistachos-gelee-oloroso",
+      "nombre": "Terrina de pollo y pistachos con gelée de oloroso",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 30 min + reposo",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Pechuga de pollo",
+        "Panceta cortada gorda",
+        "Carne de cerdo picada",
+        "Chalotas",
+        "Huevos",
+        "Vino tinto",
+        "Pistachos",
+        "Sal",
+        "Pimienta",
+        "Estragón",
+        "Vino oloroso, Oporto o PX",
+        "Hojas de gelatina"
+      ],
+      "etiquetas": [
+        "terrina",
+        "pollo",
+        "cerdo picado",
+        "panceta",
+        "pistachos",
+        "oloroso",
+        "gelatina",
+        "estragón",
+        "fiesta"
+      ],
+      "url": "recetas/receta-terrina-pollo-pistachos-gelee-oloroso.html",
+      "archivo": "receta-terrina-pollo-pistachos-gelee-oloroso.html"
+    },
+    {
       "id": "timbal-frio-crepes",
       "nombre": "Timbal frío de crepes",
       "tipo": {
@@ -1833,6 +5314,70 @@
       "archivo": "receta-timbal-frio-crepes.html"
     },
     {
+      "id": "tortilla-calabacines-parmesano",
+      "nombre": "Tortilla de calabacines con parmesano y albahaca",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos grandes",
+        "Cebolla",
+        "Parmesano Reggiano rallado",
+        "Calabacín grande",
+        "Hojas de albahaca",
+        "Láminas de almendra",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "tortilla",
+        "calabacín",
+        "parmesano",
+        "albahaca",
+        "almendras"
+      ],
+      "url": "recetas/receta-tortilla-calabacines-parmesano.html",
+      "archivo": "receta-tortilla-calabacines-parmesano.html"
+    },
+    {
+      "id": "tostas-aguacate-salmon-huevo",
+      "nombre": "Tostas de aguacate, salmón o jamón y huevo poché",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pan grande",
+        "Aguacate o guacamole",
+        "Tomate",
+        "Pavo, jamón de York, salmón o huevo poché",
+        "Granada",
+        "Pipas de calabaza"
+      ],
+      "etiquetas": [
+        "tosta",
+        "aguacate",
+        "salmón",
+        "jamón",
+        "huevo poché",
+        "brunch"
+      ],
+      "url": "recetas/receta-tostas-aguacate-salmon-huevo.html",
+      "archivo": "receta-tostas-aguacate-salmon-huevo.html"
+    },
+    {
       "id": "trenza-colmenillas",
       "nombre": "Trenza de colmenillas",
       "tipo": {
@@ -1863,6 +5408,47 @@
       ],
       "url": "recetas/receta-trenza-colmenillas.html",
       "archivo": "receta-trenza-colmenillas.html"
+    },
+    {
+      "id": "turbante-arroz-verduras",
+      "nombre": "Turbante de arroz con verduras",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "55 min",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Arroz",
+        "Cebolla",
+        "Ajos",
+        "Pastilla de caldo de carne",
+        "Perejil",
+        "Champiñones",
+        "Puerro",
+        "Zanahorias medianas",
+        "Calabacines",
+        "Vino blanco",
+        "Vino oloroso",
+        "Salsa de tomate",
+        "Harina",
+        "Agua",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "arroz",
+        "verduras",
+        "oloroso",
+        "presentación",
+        "molde"
+      ],
+      "url": "recetas/receta-turbante-arroz-verduras.html",
+      "archivo": "receta-turbante-arroz-verduras.html"
     },
     {
       "id": "verduras-salteadas",
@@ -1982,6 +5568,76 @@
       ],
       "url": "recetas/receta-vinagreta-pistacho.html",
       "archivo": "receta-vinagreta-pistacho.html"
+    },
+    {
+      "id": "vinagreta-tomate",
+      "nombre": "Vinagreta de tomate",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "2 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mermelada de tomate",
+        "Aceite de oliva",
+        "Vinagre de Jerez"
+      ],
+      "etiquetas": [
+        "vinagreta",
+        "mermelada de tomate",
+        "vinagre de Jerez",
+        "rápida"
+      ],
+      "url": "recetas/receta-vinagreta-tomate.html",
+      "archivo": "receta-vinagreta-tomate.html"
+    },
+    {
+      "id": "volcan-arroz-negro-gulas",
+      "nombre": "Volcán de arroz negro con gulas y crema de aguacate",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 5,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Arroz redondo",
+        "Cebolla",
+        "Pimiento verde",
+        "Tomate frito",
+        "Sepia limpia y troceada",
+        "Bolsas de tinta de calamar",
+        "Caldo de pescado",
+        "Aguacate maduro",
+        "Limón",
+        "Nata",
+        "Caldo de ave",
+        "Sal",
+        "Pimienta",
+        "Dientes de ajo laminados",
+        "Cayenas",
+        "Gulas"
+      ],
+      "etiquetas": [
+        "Telva",
+        "arroz negro",
+        "sepia",
+        "gulas",
+        "aguacate",
+        "molde de corona",
+        "presentación"
+      ],
+      "url": "recetas/receta-volcan-arroz-negro-gulas.html",
+      "archivo": "receta-volcan-arroz-negro-gulas.html"
     }
   ]
 }

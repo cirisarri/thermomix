@@ -99,13 +99,37 @@ ul.recetas a{
 ul.recetas a:active{background:var(--hueco)}
 .punto{flex:0 0 auto;width:10px;height:10px;border-radius:50%}
 .datos{flex:1;min-width:0}
-.datos h3{font-size:18px;margin-bottom:3px}
+.datos h3{font-size:18px;margin-bottom:3px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .datos p{margin:0;font-size:14px;color:var(--gris);font-weight:500}
 .flecha{color:var(--linea-fuerte);flex:0 0 auto}
 .etq{
   font-size:12px;font-weight:600;color:var(--gris);background:var(--hueco);
   border:1px solid var(--linea);border-radius:7px;padding:3px 7px;margin-left:8px;white-space:nowrap;
 }
+.tm{
+  font-size:11px;font-weight:800;letter-spacing:.02em;color:var(--oliva);
+  background:var(--oliva-suave);border:1px solid #CBE0BC;
+  border-radius:6px;padding:2px 6px;white-space:nowrap;
+}
+
+/* ---------- filtro Thermomix / tradicional ---------- */
+.filtros{
+  display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px;
+}
+.filtros button{
+  font:inherit;font-size:14px;font-weight:600;color:var(--tinta);
+  background:var(--carta);border:1px solid var(--linea);border-radius:99px;
+  padding:8px 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;
+  transition:background .12s,border-color .12s,color .12s;
+}
+.filtros button:active{transform:translateY(1px)}
+.filtros button .n{
+  font-size:12px;font-weight:700;color:var(--gris);
+  background:var(--hueco);border-radius:99px;padding:1px 7px;min-width:20px;text-align:center;
+}
+.filtros button.on{background:var(--tinta);color:#fff;border-color:var(--tinta)}
+.filtros button.on .n{background:rgba(255,255,255,.18);color:#fff}
+.filtro-vacio{margin:22px 0 0;color:var(--gris);font-size:15px;font-weight:500}
 
 /* ---------- estados ---------- */
 .aviso{
@@ -266,7 +290,25 @@ var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF
     return { origen:"nada", recetas:[] };
   }
 
-  /* ---------------- agrupación ---------------- */
+  /* ---------------- filtro thermomix ---------------- */
+
+  var LLAVE_FILTRO = "recetario:aparato";
+  function esTM(r){ return (r.aparato || "").toLowerCase() === "thermomix"; }
+  function filtroActivo(){
+    try{ return localStorage.getItem(LLAVE_FILTRO) || "todas"; }catch(e){ return "todas"; }
+  }
+  function setFiltro(v){
+    try{ localStorage.setItem(LLAVE_FILTRO, v); }catch(e){}
+  }
+  function aplicaFiltro(lista){
+    var f = filtroActivo();
+    if(f === "thermomix")    return lista.filter(esTM);
+    if(f === "tradicional")  return lista.filter(function(r){ return !esTM(r); });
+    return lista;
+  }
+
+  /* ---------------- agrupación (siempre sobre TODAS las recetas: los
+                       colores de categoría no deben depender del filtro) ---------------- */
 
   function categorias(){
     var mapa = {};
@@ -288,6 +330,24 @@ var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF
     return c ? c.color : "var(--gris)";
   }
 
+  /* ---------------- barra de filtros ---------------- */
+
+  function pintaFiltros(candidatas, contenedor){
+    var total = candidatas.length;
+    var nTM   = candidatas.filter(esTM).length;
+    var nTr   = total - nTM;
+    var f = filtroActivo();
+    contenedor.innerHTML =
+      '<div class="filtros" role="group" aria-label="Filtrar por aparato">' +
+        '<button data-f="todas"       class="' + (f === "todas" ? "on" : "") + '">Todas <span class="n">' + total + '</span></button>' +
+        '<button data-f="thermomix"   class="' + (f === "thermomix" ? "on" : "") + '">Thermomix <span class="n">' + nTM + '</span></button>' +
+        '<button data-f="tradicional" class="' + (f === "tradicional" ? "on" : "") + '">Tradicional <span class="n">' + nTr + '</span></button>' +
+      '</div>';
+    Array.prototype.forEach.call(contenedor.querySelectorAll(".filtros button"), function(b){
+      b.addEventListener("click", function(){ setFiltro(b.dataset.f); ruta(); });
+    });
+  }
+
   /* ---------------- render ---------------- */
 
   function subtitulo(r){
@@ -300,20 +360,36 @@ var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF
 
   function pintaCategorias(){
     var cats = categorias();
+    var filtradas = aplicaFiltro(recetas);
     cabecera.innerHTML =
       '<h1>Recetario</h1>' +
       '<p class="sub">' + recetas.length + (recetas.length === 1 ? " receta en " : " recetas en ") +
-      cats.length + (cats.length === 1 ? " categoría" : " categorías") + '</p>';
-    contenido.innerHTML = '<div class="rejilla">' + cats.map(function(c){
-      var muestra = c.recetas.slice(0,3).map(function(r){ return r.nombre; }).join(" · ");
-      return '<button class="carpeta" data-tipo="' + c.id + '">' +
-        '<span class="lomo" style="background:' + c.color + '"></span>' +
-        '<span class="dentro">' +
-          '<h2>' + c.nombre + '</h2>' +
-          '<span class="cuenta">' + c.recetas.length + (c.recetas.length === 1 ? " receta" : " recetas") + '</span>' +
-          '<p class="muestra">' + muestra + (c.recetas.length > 3 ? "…" : "") + '</p>' +
-        '</span></button>';
-    }).join("") + '</div>';
+      cats.length + (cats.length === 1 ? " categoría" : " categorías") + '</p>' +
+      '<div id="cabFiltros"></div>';
+    pintaFiltros(recetas, document.getElementById("cabFiltros"));
+
+    // Agrupar las recetas ya filtradas por categoría, respetando el color
+    // y el orden de la agrupación completa.
+    var porTipo = {};
+    filtradas.forEach(function(r){
+      (porTipo[r.tipo.id] = porTipo[r.tipo.id] || []).push(r);
+    });
+    var visibles = cats.filter(function(c){ return porTipo[c.id] && porTipo[c.id].length; });
+
+    contenido.innerHTML = visibles.length
+      ? '<div class="rejilla">' + visibles.map(function(c){
+          var rs = porTipo[c.id].slice().sort(function(a,b){ return (a.nombre||"").localeCompare(b.nombre||"","es"); });
+          var muestra = rs.slice(0,3).map(function(r){ return r.nombre; }).join(" · ");
+          return '<button class="carpeta" data-tipo="' + c.id + '">' +
+            '<span class="lomo" style="background:' + c.color + '"></span>' +
+            '<span class="dentro">' +
+              '<h2>' + c.nombre + '</h2>' +
+              '<span class="cuenta">' + rs.length + (rs.length === 1 ? " receta" : " recetas") + '</span>' +
+              '<p class="muestra">' + muestra + (rs.length > 3 ? "…" : "") + '</p>' +
+            '</span></button>';
+        }).join("") + '</div>'
+      : '<p class="filtro-vacio">No hay recetas que encajen con este filtro.</p>';
+
     Array.prototype.forEach.call(contenido.querySelectorAll(".carpeta"), function(b){
       b.addEventListener("click", function(){ location.hash = "#/tipo/" + b.dataset.tipo; });
     });
@@ -324,7 +400,9 @@ var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF
   function filaReceta(r, mostrarTipo){
     return '<li><a href="' + r.url + '">' +
       '<span class="punto" style="background:' + colorDe(r.tipo.id) + '"></span>' +
-      '<span class="datos"><h3>' + (r.nombre || r.archivo) + '</h3>' +
+      '<span class="datos"><h3>' + (r.nombre || r.archivo) +
+        (esTM(r) ? ' <span class="tm" title="Receta para Thermomix">TM</span>' : '') +
+      '</h3>' +
       '<p>' + subtitulo(r) + '</p></span>' +
       (mostrarTipo ? '<span class="etq">' + r.tipo.nombre + '</span>' : '') +
       '<svg class="flecha" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>' +
@@ -334,23 +412,32 @@ var PALETA = ["#CE3A26","#3C7A2B","#C98A00","#7A5AA8","#1F7A7A","#B4612B","#94AF
   function pintaTipo(id){
     var c = categorias().filter(function(x){ return x.id === id; })[0];
     if(!c){ location.hash = "#/"; return; }
+    var rs = aplicaFiltro(c.recetas);
     cabecera.innerHTML =
       '<p class="migas">Categoría</p><h1>' + c.nombre + '</h1>' +
-      '<p class="sub">' + c.recetas.length + (c.recetas.length === 1 ? " receta" : " recetas") + '</p>';
-    contenido.innerHTML = '<ul class="recetas">' + c.recetas.map(function(r){ return filaReceta(r, false); }).join("") + '</ul>';
+      '<p class="sub">' + rs.length + (rs.length === 1 ? " receta" : " recetas") +
+      (rs.length !== c.recetas.length ? ' <span style="color:var(--gris)">de ' + c.recetas.length + '</span>' : '') + '</p>' +
+      '<div id="cabFiltros"></div>';
+    pintaFiltros(c.recetas, document.getElementById("cabFiltros"));
+    contenido.innerHTML = rs.length
+      ? '<ul class="recetas">' + rs.map(function(r){ return filaReceta(r, false); }).join("") + '</ul>'
+      : '<p class="filtro-vacio">No hay recetas de esta categoría con el filtro actual.</p>';
     btnVolver.classList.add("ver");
     document.getElementById("marca").style.display = "none";
   }
 
   function pintaBusqueda(q){
     var t = q.toLowerCase().trim();
-    var res = recetas.filter(function(r){
+    var todas = recetas.filter(function(r){
       var texto = [r.nombre, r.tipo.nombre, (r.ingredientes || []).join(" "), (r.etiquetas || []).join(" ")].join(" ").toLowerCase();
       return texto.indexOf(t) !== -1;
     });
+    var res = aplicaFiltro(todas);
     cabecera.innerHTML = '<h1>Buscar</h1><p class="sub">' +
       (res.length ? res.length + (res.length === 1 ? " resultado" : " resultados") : "Sin resultados") +
-      ' para “' + q + '”</p>';
+      ' para “' + q + '”</p>' +
+      '<div id="cabFiltros"></div>';
+    pintaFiltros(todas, document.getElementById("cabFiltros"));
     contenido.innerHTML = res.length
       ? '<ul class="recetas">' + res.map(function(r){ return filaReceta(r, true); }).join("") + '</ul>'
       : '<p class="vacio">Prueba con otro nombre o con un ingrediente.</p>';
