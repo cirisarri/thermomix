@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chapata de queso · Recetario Thermomix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   TOKENS — candidatos a /assets/app.css (comunes a toda la app)
+   ========================================================= */
+:root{
+  /* superficies */
+  --fondo:#FCFCF9;
+  --carta:#FFFFFF;
+  --hueco:#F4F5EF;
+  --linea:#E6E8DE;
+  --linea-fuerte:#CFD4C2;
+  --sombra:0 1px 2px rgba(20,32,13,.04), 0 10px 24px rgba(20,32,13,.06);
+
+  /* texto */
+  --tinta:#16200E;
+  --gris:#6A7360;
+
+  /* acentos: sacados del propio plato */
+  --tomate:#CE3A26;
+  --tomate-suave:#FDF0ED;
+  --oliva:#3C7A2B;
+  --oliva-suave:#F0F7EA;
+  --oro:#C98A00;
+  --oro-suave:#FDF5E2;
+
+  --radio:16px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--fondo);
+  color:var(--tinta);
+  font-family:'Archivo',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:17px;line-height:1.45;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:560px;margin:0 auto;padding:0 16px calc(52px + env(safe-area-inset-bottom))}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.02em}
+:focus-visible{outline:3px solid var(--oro);outline-offset:2px;border-radius:8px}
+
+/* ---------- barra superior: navegación + progreso ---------- */
+.barra-sup{
+  position:sticky;top:0;z-index:30;
+  background:rgba(252,252,249,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--linea);
+  padding-top:env(safe-area-inset-top);
+}
+.barra-sup .fila{
+  max-width:560px;margin:0 auto;padding:9px 16px;
+  display:flex;align-items:center;gap:12px;
+}
+.volver{
+  display:inline-flex;align-items:center;gap:7px;
+  background:none;border:0;padding:7px 9px 7px 4px;margin-left:-4px;
+  font:inherit;font-size:15px;font-weight:600;color:var(--tinta);cursor:pointer;border-radius:10px;
+}
+.volver:active{background:var(--hueco)}
+.volver svg{flex:0 0 auto}
+.progreso{flex:1;height:5px;background:var(--hueco);border-radius:99px;overflow:hidden;border:1px solid var(--linea)}
+.progreso i{display:block;height:100%;width:0;background:var(--oliva);border-radius:99px;transition:width .35s ease}
+.contador{font-size:13px;font-weight:600;color:var(--gris);font-variant-numeric:tabular-nums;white-space:nowrap}
+
+/* ---------- cabecera de receta ---------- */
+header{padding:26px 0 20px}
+.migas{font-size:13px;font-weight:600;color:var(--oliva);margin-bottom:10px}
+h1{font-size:clamp(46px,15vw,72px);line-height:.9}
+.franja{display:flex;gap:5px;margin:16px 0 12px}
+.franja span{height:9px;flex:1;border-radius:99px}
+.ficha{display:flex;flex-wrap:wrap;gap:6px}
+.dato{
+  font-size:13px;font-weight:600;color:var(--gris);
+  background:var(--hueco);border:1px solid var(--linea);border-radius:8px;padding:5px 9px;
+}
+
+/* ---------- secciones ---------- */
+section{margin-top:34px}
+.titulo{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}
+.titulo h2{font-size:21px}
+.enlace{background:none;border:0;padding:4px;font:inherit;font-size:13px;font-weight:600;color:var(--gris);text-decoration:underline;cursor:pointer}
+
+/* ---------- raciones ---------- */
+.raciones{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--carta);border:1px solid var(--linea);border-radius:var(--radio);
+  padding:11px 12px 11px 16px;box-shadow:var(--sombra);
+}
+.raciones .et{font-size:15px;font-weight:600;color:var(--gris)}
+.stepper{display:flex;align-items:center;gap:6px}
+.stepper button{
+  width:44px;height:44px;border-radius:12px;border:1px solid var(--linea);
+  background:var(--hueco);color:var(--tinta);font-size:22px;font-weight:600;cursor:pointer;
+}
+.stepper button:active{background:var(--linea)}
+.stepper button:disabled{opacity:.3;cursor:default}
+.stepper .n{min-width:52px;text-align:center;font-size:26px;font-weight:800;font-variant-numeric:tabular-nums}
+.nota{
+  margin:10px 0 0;font-size:14px;font-weight:500;color:var(--tomate);
+  background:var(--tomate-suave);border-radius:10px;padding:10px 12px;display:none;
+}
+.nota.ver{display:block}
+
+/* ---------- ingredientes ---------- */
+ul.ing{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--linea)}
+ul.ing li{border-bottom:1px solid var(--linea)}
+ul.ing button{
+  width:100%;display:flex;gap:13px;align-items:flex-start;text-align:left;
+  background:none;border:0;padding:13px 2px;font:inherit;color:inherit;cursor:pointer;
+}
+.caja{
+  flex:0 0 auto;width:23px;height:23px;margin-top:2px;border-radius:7px;
+  border:2px solid var(--linea-fuerte);background:var(--carta);position:relative;
+  transition:background .15s,border-color .15s;
+}
+.caja::after{
+  content:"";position:absolute;left:6px;top:2px;width:5px;height:10px;
+  border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg) scale(0);transition:transform .15s;
+}
+.hecho .caja{background:var(--oliva);border-color:var(--oliva)}
+.hecho .caja::after{transform:rotate(45deg) scale(1)}
+.cant{font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
+.nom{font-weight:500}
+.prep{display:block;color:var(--gris);font-size:14px;font-weight:400;margin-top:1px}
+.hecho .cant,.hecho .nom{text-decoration:line-through;opacity:.4}
+.hecho .prep{opacity:.35}
+
+/* ---------- pasos ---------- */
+.paso{
+  background:var(--carta);border:1px solid var(--linea);border-radius:var(--radio);
+  margin-bottom:12px;overflow:hidden;
+}
+.paso.activo{border-color:var(--linea-fuerte);box-shadow:var(--sombra)}
+.paso.listo{background:var(--oliva-suave);border-color:#CBE0BC}
+.cab{
+  display:flex;gap:13px;align-items:center;width:100%;
+  background:none;border:0;padding:16px;font:inherit;color:inherit;text-align:left;cursor:pointer;
+}
+.num{
+  flex:0 0 auto;width:31px;height:31px;border-radius:50%;
+  display:grid;place-items:center;font-size:15px;font-weight:800;
+  background:var(--hueco);color:var(--gris);border:1px solid var(--linea);
+}
+.paso.activo .num{background:var(--tinta);color:#fff;border-color:var(--tinta)}
+.paso.listo .num{background:var(--oliva);color:#fff;border-color:var(--oliva)}
+.cab h3{font-size:18px;flex:1}
+.cab .tic{color:var(--oliva);font-weight:800;display:none}
+.paso.listo .cab .tic{display:block}
+.cuerpo{display:none;padding:0 16px 18px}
+.paso.activo .cuerpo{display:block}
+.cuerpo p{margin:0 0 14px;font-size:17px}
+
+.ajustes{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.chip{font-size:14px;font-weight:600;padding:7px 11px;border-radius:9px;background:var(--hueco);border:1px solid var(--linea);color:var(--tinta)}
+.chip.t{color:var(--tomate);background:var(--tomate-suave);border-color:#F3D2CB}
+.chip.c{color:var(--oro);background:var(--oro-suave);border-color:#EFDCA8}
+
+/* ---------- temporizador ---------- */
+.reloj{border-top:1px solid var(--linea);padding-top:16px}
+.digitos{
+  font-size:clamp(60px,20vw,86px);font-weight:800;line-height:1;
+  font-variant-numeric:tabular-nums;letter-spacing:-.04em;text-align:center;
+  transition:color .2s;
+}
+.corriendo .digitos{color:var(--tomate)}
+.fin .digitos{color:var(--oliva)}
+.pista{height:6px;background:var(--hueco);border:1px solid var(--linea);border-radius:99px;margin:14px 0 16px;overflow:hidden}
+.pista i{display:block;height:100%;width:0;background:var(--tomate);border-radius:99px}
+.fin .pista i{background:var(--oliva)}
+.mandos{display:flex;gap:8px}
+.btn{
+  flex:1;min-height:54px;border-radius:13px;border:1px solid var(--tinta);
+  background:var(--tinta);color:#fff;font:inherit;font-size:17px;font-weight:600;cursor:pointer;
+}
+.btn:active{transform:translateY(1px)}
+.btn.sec{background:var(--carta);color:var(--tinta);border-color:var(--linea-fuerte);flex:0 0 34%}
+.btn.ok{background:var(--oliva);border-color:var(--oliva)}
+.btn.full{width:100%;margin-top:12px}
+
+/* ---------- sugerencias / pie ---------- */
+.servir{margin-top:28px;padding:18px;border-radius:var(--radio);background:var(--tinta);color:#E9EDE1}
+.servir h2{font-size:16px;margin-bottom:6px;color:#fff}
+.servir p{margin:0;font-size:16px;color:#BDC6AE}
+.pantalla{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:14px;font-weight:600;color:var(--gris)}
+.sw{width:52px;height:31px;border-radius:99px;border:1px solid var(--linea);background:var(--hueco);position:relative;cursor:pointer;flex:0 0 auto;transition:background .2s,border-color .2s}
+.sw::after{content:"";position:absolute;top:2px;left:2px;width:25px;height:25px;border-radius:50%;background:#fff;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.22)}
+.sw[aria-pressed="true"]{background:var(--oliva);border-color:var(--oliva)}
+.sw[aria-pressed="true"]::after{transform:translateX(21px)}
+footer{margin-top:32px;display:flex;flex-direction:column;gap:10px;align-items:center}
+footer .btn.sec{flex:none;width:100%;max-width:300px}
+
+@keyframes latido{0%,100%{opacity:1}50%{opacity:.35}}
+.fin .digitos{animation:latido 1s ease-in-out 3}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/json" id="meta-receta">
+{
+  "id": "chapata-queso",
+  "nombre": "Chapata de queso",
+  "tipo": {
+    "id": "aperitivos",
+    "nombre": "Aperitivos"
+  },
+  "aparato": "Tradicional",
+  "modelos": [],
+  "raciones": 6,
+  "tiempoTotal": "25 min",
+  "tiempoPreparacion": "10 min",
+  "dificultad": "Fácil",
+  "ingredientes": [
+    "Chapata",
+    "Queso Emmental rallado",
+    "Mayonesa",
+    "Cebolleta muy picada"
+  ],
+  "etiquetas": [
+    "Maríajo",
+    "queso",
+    "horno",
+    "pan",
+    "compartir"
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="barra-sup">
+  <div class="fila">
+    <button class="volver" id="volver">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+      <span id="volverTxt">Recetas</span>
+    </button>
+    <div class="progreso"><i id="barra"></i></div>
+    <span class="contador" id="contador">1 / 3</span>
+  </div>
+</nav>
+
+<div class="wrap">
+  <header>
+    <p class="migas" id="migas"></p>
+    <h1 id="nombre"></h1>
+    <div class="franja">
+      <span style="background:#CE3A26"></span>
+      <span style="background:#3C7A2B"></span>
+      <span style="background:#C98A00"></span>
+      <span style="background:#94AF57"></span>
+    </div>
+    <div class="ficha" id="ficha"></div>
+  </header>
+
+  <section>
+    <div class="titulo"><h2>Ingredientes</h2><button class="enlace" id="limpiar">Desmarcar todo</button></div>
+    <div class="raciones">
+      <span class="et">Raciones</span>
+      <div class="stepper">
+        <button id="menos" aria-label="Quitar una ración">−</button>
+        <span class="n" id="numRac">3</span>
+        <button id="mas" aria-label="Añadir una ración">+</button>
+      </div>
+    </div>
+    <p class="nota" id="notaVaso">Con más de 6 raciones no cabe en el vaso: hazlo en dos tandas. Y al subir cantidades, suma unos minutos de cocción.</p>
+    <ul class="ing" id="listaIng"></ul>
+  </section>
+
+  <section>
+    <div class="titulo"><h2>Preparación</h2></div>
+    <div id="pasos"></div>
+    <div class="pantalla">
+      <span id="pantallaTxt">Mantener la pantalla encendida</span>
+      <button class="sw" id="wake" aria-pressed="false" aria-label="Mantener la pantalla encendida"></button>
+    </div>
+  </section>
+
+  <div class="servir" id="servir"></div>
+
+  <footer>
+    <button class="btn sec" id="reiniciarTodo">Empezar de cero</button>
+    <button class="btn sec" id="volverPie">Volver a la lista de recetas</button>
+  </footer>
+</div>
+
+<script>
+/* =========================================================
+   DATOS — una receta = un objeto. En la app real esto vendrá
+   de /data/recetas.json y la página será /receta.html?r=pisto
+   ========================================================= */
+var RECETA = {
+  "id": "chapata-queso",
+  "nombre": "Chapata de queso",
+  "tipo": {
+    "id": "aperitivos",
+    "nombre": "Aperitivos"
+  },
+  "aparato": "Tradicional",
+  "modelos": [],
+  "racionesBase": 6,
+  "tiempos": {
+    "preparacion": "10 min",
+    "total": "25 min"
+  },
+  "ingredientes": [
+    {
+      "id": "chapata",
+      "nom": "Chapata",
+      "prep": "grande",
+      "cant": 1,
+      "uni": "u"
+    },
+    {
+      "id": "emmental",
+      "nom": "Queso Emmental rallado",
+      "prep": "un pack",
+      "cant": 200,
+      "uni": "g"
+    },
+    {
+      "id": "mayonesa",
+      "nom": "Mayonesa",
+      "prep": "",
+      "cant": 100,
+      "uni": "g"
+    },
+    {
+      "id": "cebolleta",
+      "nom": "Cebolleta muy picada",
+      "prep": "",
+      "cant": 1,
+      "uni": "u"
+    }
+  ],
+  "pasos": [
+    {
+      "titulo": "Abrir la chapata",
+      "texto": "Abre la chapata cortando como una boina o tapa por arriba. Corta la tapa en tiras.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Preparar el relleno",
+      "texto": "Mezcla el queso Emmental rallado con la mayonesa y la cebolleta muy picada.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Rellenar",
+      "texto": "Vacía el pan y rellena con la mezcla. Vuelve a colocar las tiras de la tapa por encima.",
+      "ajustes": [],
+      "seg": 0
+    },
+    {
+      "titulo": "Hornear",
+      "texto": "Hornea a 180 °C durante 10-15 minutos, hasta que el queso funda y la corteza esté crujiente.",
+      "ajustes": [
+        {
+          "t": "10-15 min",
+          "c": "t"
+        },
+        {
+          "t": "180 °C",
+          "c": "c"
+        }
+      ],
+      "seg": 720
+    }
+  ],
+  "servir": "Recién sacada del horno, en trozos, para compartir."
+};
+
+  /* rutas previstas para el resto de la app */
+var RUTAS = {
+  inicio:"index.html",
+  tipo:function(t){ return "tipo.html?t=" + t; },
+  receta:function(r){ return "receta.html?r=" + r; }
+};
+
+(function(){
+  "use strict";
+
+  var raciones = RECETA.racionesBase;
+  var marcados = {};
+  var activo = 0;
+  var PASOS = RECETA.pasos;
+  var estado = PASOS.map(function(p){ return {resta:p.seg, corre:false, fin:false, id:null}; });
+
+  /* ---------- cabecera ---------- */
+  document.getElementById("nombre").textContent = RECETA.nombre;
+  document.getElementById("migas").textContent = RECETA.tipo.nombre;
+  document.getElementById("volverTxt").textContent = RECETA.tipo.nombre;
+  document.getElementById("servir").innerHTML =
+    "<h2>Para servir</h2><p>" + RECETA.servir + "</p>";
+  document.getElementById("ficha").innerHTML = [
+    RECETA.modelos.join(" · "),
+    "Preparación " + RECETA.tiempos.preparacion,
+    "Total " + RECETA.tiempos.total
+  ].map(function(d){ return '<span class="dato">' + d + '</span>'; }).join("");
+
+  /* ---------- navegación ---------- */
+  function volver(){
+    if(document.referrer && history.length > 1) history.back();
+    else location.href = RUTAS.tipo(RECETA.tipo.id);
+  }
+  document.getElementById("volver").addEventListener("click", volver);
+  document.getElementById("volverPie").addEventListener("click", volver);
+
+  /* ---------- cantidades ---------- */
+  function fraccion(v){
+    var q = Math.round(v*4)/4, ent = Math.floor(q), r = q - ent;
+    var s = {0:"", 0.25:"¼", 0.5:"½", 0.75:"¾"}[r] || "";
+    if(ent === 0) return s || "0";
+    return s ? ent + " " + s : String(ent);
+  }
+  function cantidad(ing){
+    if(ing.libre) return ing.libre;
+    var v = ing.cant * (raciones / RECETA.racionesBase);
+    var u = ing.uni || "";
+    if(u === "g" || u === "ml"){
+      var g = v >= 40 ? Math.round(v/5)*5 : (v >= 5 ? Math.round(v) : Math.round(v*10)/10);
+      return g + " " + u;
+    }
+    if(u === "cdta")   return fraccion(v) + (v <= 1 ? " cdta" : " cdtas");
+    if(u === "cda")    return fraccion(v) + (v <= 1 ? " cda"  : " cdas");
+    if(u === "diente"){ var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " diente"   : " dientes"); }
+    if(u === "hoja")  { var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " hoja"     : " hojas"); }
+    if(u === "vaina") { var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " vaina"    : " vainas"); }
+    if(u === "pastilla"){ var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " pastilla" : " pastillas"); }
+    if(u === "ramita"){ var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " ramita"   : " ramitas"); }
+    if(u === "manojo"){ var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " manojo"   : " manojos"); }
+    if(u === "lata")  { var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " lata"     : " latas"); }
+    if(u === "sobre") { var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " sobre"    : " sobres"); }
+    if(u === "pellizco"){ var p = Math.max(1, Math.round(v)); return p + (p === 1 ? " pellizco" : " pellizcos"); }
+    if(u === "u" || u === "ud"){ var p = Math.max(1, Math.round(v)); return String(p); }
+    var val = v >= 10 ? Math.round(v) : Math.round(v*10)/10;
+    return u ? val + " " + u : String(val);
+  }
+
+  var lista = document.getElementById("listaIng");
+  function pintaIng(){
+    lista.innerHTML = "";
+    RECETA.ingredientes.forEach(function(ing){
+      var li = document.createElement("li");
+      var b = document.createElement("button");
+      b.className = marcados[ing.id] ? "hecho" : "";
+      b.setAttribute("aria-pressed", marcados[ing.id] ? "true" : "false");
+      b.innerHTML =
+        '<span class="caja"></span><span>' +
+        '<span class="cant">' + cantidad(ing) + '</span> <span class="nom">' + ing.nom + '</span>' +
+        (ing.prep ? '<span class="prep">' + ing.prep + '</span>' : '') + '</span>';
+      b.addEventListener("click", function(){ marcados[ing.id] = !marcados[ing.id]; pintaIng(); });
+      li.appendChild(b);
+      lista.appendChild(li);
+    });
+  }
+  document.getElementById("limpiar").addEventListener("click", function(){ marcados = {}; pintaIng(); });
+
+  var numRac = document.getElementById("numRac");
+  var notaVaso = document.getElementById("notaVaso");
+  function pintaRac(){
+    numRac.textContent = raciones;
+    document.getElementById("menos").disabled = raciones <= 1;
+    document.getElementById("mas").disabled = raciones >= 9;
+    notaVaso.className = raciones > 6 ? "nota ver" : "nota";
+    pintaIng();
+  }
+  document.getElementById("menos").addEventListener("click", function(){ if(raciones > 1){ raciones--; pintaRac(); } });
+  document.getElementById("mas").addEventListener("click", function(){ if(raciones < 9){ raciones++; pintaRac(); } });
+
+  /* ---------- pasos ---------- */
+  var cont = document.getElementById("pasos");
+  PASOS.forEach(function(p, i){
+    var d = document.createElement("div");
+    d.className = "paso";
+    d.id = "paso" + i;
+    var ajustes = (p.ajustes && p.ajustes.length)
+      ? '<div class="ajustes">' + p.ajustes.map(function(a){ return '<span class="chip ' + (a.c || "") + '">' + a.t + '</span>'; }).join("") + '</div>'
+      : "";
+    var reloj = p.seg > 0
+      ? '<div class="reloj">' +
+          '<div class="digitos" id="dig' + i + '">' + fmt(p.seg) + '</div>' +
+          '<div class="pista"><i id="rel' + i + '"></i></div>' +
+          '<div class="mandos">' +
+            '<button class="btn" id="go' + i + '">Empezar</button>' +
+            '<button class="btn sec" id="rs' + i + '">Reiniciar</button>' +
+          '</div>' +
+        '</div>'
+      : "";
+    d.innerHTML =
+      '<button class="cab"><span class="num">' + (i+1) + '</span><h3>' + p.titulo + '</h3><span class="tic">✓</span></button>' +
+      '<div class="cuerpo">' +
+        '<p>' + p.texto + '</p>' +
+        ajustes +
+        reloj +
+        '<button class="btn ok full" id="nx' + i + '">' + (i < PASOS.length-1 ? "Paso hecho, siguiente" : "Receta terminada") + '</button>' +
+      '</div>';
+    cont.appendChild(d);
+    d.querySelector(".cab").addEventListener("click", function(){ abre(i); });
+    if(p.seg > 0){
+      d.querySelector("#go" + i).addEventListener("click", function(){ alterna(i); });
+      d.querySelector("#rs" + i).addEventListener("click", function(){ reinicia(i); });
+    }
+    d.querySelector("#nx" + i).addEventListener("click", function(){
+      estado[i].fin = true; para(i); pinta(i);
+      if(i < PASOS.length - 1) abre(i+1); else { abre(-1); avance(); }
+    });
+  });
+
+  function fmt(s){
+    var m = Math.floor(s/60), r = s % 60;
+    return (m<10?"0":"") + m + ":" + (r<10?"0":"") + r;
+  }
+
+  function abre(i){
+    activo = i;
+    PASOS.forEach(function(_, j){
+      var el = document.getElementById("paso" + j);
+      el.classList.toggle("activo", j === i);
+      el.classList.toggle("listo", estado[j].fin);
+    });
+    if(i >= 0){
+      var el = document.getElementById("paso" + i);
+      window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - 74, behavior:"smooth"});
+    }
+    avance();
+  }
+
+  function pinta(i){
+    var e = estado[i], p = PASOS[i], caja = document.getElementById("paso" + i);
+    if(p.seg > 0){
+      document.getElementById("dig" + i).textContent = fmt(e.resta);
+      document.getElementById("rel" + i).style.width = (100 * (p.seg - e.resta) / p.seg) + "%";
+      document.getElementById("go" + i).textContent = e.corre ? "Pausa" : (e.resta === p.seg ? "Empezar" : "Seguir");
+      var reloj = caja.querySelector(".reloj");
+      reloj.classList.toggle("corriendo", e.corre);
+      reloj.classList.toggle("fin", e.resta === 0);
+    }
+    caja.classList.toggle("listo", e.fin);
+  }
+
+  function alterna(i){
+    if(estado[i].corre){ para(i); }
+    else{
+      audio();
+      if(estado[i].resta === 0) estado[i].resta = PASOS[i].seg;
+      estado[i].corre = true;
+      estado[i].id = setInterval(function(){
+        estado[i].resta--;
+        if(estado[i].resta <= 0){
+          estado[i].resta = 0;
+          para(i);
+          pita();
+          if(navigator.vibrate) navigator.vibrate([300,150,300,150,400]);
+        }
+        pinta(i);
+      }, 1000);
+    }
+    pinta(i);
+  }
+  function para(i){ clearInterval(estado[i].id); estado[i].id = null; estado[i].corre = false; }
+  function reinicia(i){ para(i); estado[i].resta = PASOS[i].seg; estado[i].fin = false; pinta(i); avance(); }
+
+  function avance(){
+    var hechos = estado.filter(function(e){ return e.fin; }).length;
+    document.getElementById("barra").style.width = (100 * hechos / PASOS.length) + "%";
+    document.getElementById("contador").textContent =
+      hechos === PASOS.length ? "Listo" : (activo >= 0 ? activo+1 : hechos+1) + " / " + PASOS.length;
+  }
+
+  /* ---------- sonido ---------- */
+  var ctx = null;
+  function audio(){
+    try{
+      if(!ctx) ctx = new (window.AudioContext || window.webkitAudioContext)();
+      if(ctx.state === "suspended") ctx.resume();
+    }catch(e){ ctx = null; }
+  }
+  function pita(){
+    if(!ctx) return;
+    [0,.45,.9].forEach(function(t){
+      var o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = "sine"; o.frequency.value = 880;
+      g.gain.setValueAtTime(0.0001, ctx.currentTime + t);
+      g.gain.exponentialRampToValueAtTime(0.4, ctx.currentTime + t + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + t + 0.32);
+      o.connect(g); g.connect(ctx.destination);
+      o.start(ctx.currentTime + t); o.stop(ctx.currentTime + t + 0.35);
+    });
+  }
+
+  /* ---------- pantalla encendida ---------- */
+  var lock = null, sw = document.getElementById("wake"), txt = document.getElementById("pantallaTxt");
+  sw.addEventListener("click", function(){
+    if(sw.getAttribute("aria-pressed") === "true"){
+      if(lock){ lock.release(); lock = null; }
+      sw.setAttribute("aria-pressed","false");
+      return;
+    }
+    if(!("wakeLock" in navigator)){ txt.textContent = "Este navegador no permite mantener la pantalla encendida"; return; }
+    navigator.wakeLock.request("screen").then(function(l){
+      lock = l;
+      sw.setAttribute("aria-pressed","true");
+      l.addEventListener("release", function(){ sw.setAttribute("aria-pressed","false"); lock = null; });
+    }).catch(function(){ txt.textContent = "No se ha podido mantener la pantalla encendida"; });
+  });
+  document.addEventListener("visibilitychange", function(){
+    if(document.visibilityState === "visible" && sw.getAttribute("aria-pressed") === "true" && !lock){
+      navigator.wakeLock.request("screen").then(function(l){ lock = l; }).catch(function(){});
+    }
+  });
+
+  /* ---------- reinicio ---------- */
+  document.getElementById("reiniciarTodo").addEventListener("click", function(){
+    PASOS.forEach(function(_, i){ para(i); estado[i].resta = PASOS[i].seg; estado[i].fin = false; pinta(i); });
+    marcados = {}; raciones = RECETA.racionesBase;
+    pintaRac(); abre(0);
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+
+  /* ---------- arranque ---------- */
+  pintaRac();
+  PASOS.forEach(function(_, i){ pinta(i); });
+  abre(0);
+  window.scrollTo(0,0);
+})();
+</script>
+</body>
+</html>

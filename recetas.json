@@ -39,6 +39,132 @@
       "archivo": "receta-berenjenas-parmesana.html"
     },
     {
+      "id": "canape-cebolla",
+      "nombre": "Canapé gratinado de cebolla",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pan de molde",
+        "Cebolla muy picada",
+        "Mahonesa casera"
+      ],
+      "etiquetas": [
+        "canapé",
+        "cebolla",
+        "gratinado",
+        "mahonesa",
+        "rápido"
+      ],
+      "url": "recetas/receta-canape-cebolla.html",
+      "archivo": "receta-canape-cebolla.html"
+    },
+    {
+      "id": "canape-tortilla-patatas",
+      "nombre": "Canapé gratinado de tortilla de patatas",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pan de molde",
+        "Patata",
+        "Huevo",
+        "Aceite",
+        "Sal",
+        "Mahonesa casera"
+      ],
+      "etiquetas": [
+        "canapé",
+        "tortilla",
+        "patata",
+        "gratinado",
+        "mahonesa"
+      ],
+      "url": "recetas/receta-canape-tortilla-patatas.html",
+      "archivo": "receta-canape-tortilla-patatas.html"
+    },
+    {
+      "id": "chapata-queso",
+      "nombre": "Chapata de queso",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Chapata",
+        "Queso Emmental rallado",
+        "Mayonesa",
+        "Cebolleta muy picada"
+      ],
+      "etiquetas": [
+        "Maríajo",
+        "queso",
+        "horno",
+        "pan",
+        "compartir"
+      ],
+      "url": "recetas/receta-chapata-queso.html",
+      "archivo": "receta-chapata-queso.html"
+    },
+    {
+      "id": "chupitos-guisantes-camembert-jamon",
+      "nombre": "Chupitos de crema de guisantes, camembert y crujiente de jamón",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 5,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Guisantes congelados",
+        "Cebolla",
+        "Queso camembert",
+        "Leche evaporada",
+        "Lonchas de jamón serrano",
+        "Aceite de oliva virgen extra",
+        "Sal",
+        "Pimienta",
+        "Perejil picado",
+        "Romero",
+        "Aceite de oliva",
+        "Vinagre"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "guisantes",
+        "camembert",
+        "jamón crujiente",
+        "chupito",
+        "fiesta"
+      ],
+      "url": "recetas/receta-chupitos-guisantes-camembert-jamon.html",
+      "archivo": "receta-chupitos-guisantes-camembert-jamon.html"
+    },
+    {
       "id": "crema-calabaza-curry",
       "nombre": "Crema de calabaza y curry",
       "tipo": {
@@ -260,6 +386,67 @@
       "archivo": "receta-crema-verde-brocoli-puerro-patata.html"
     },
     {
+      "id": "crudites-cabrales",
+      "nombre": "Crudités al queso de Cabrales",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Endivias",
+        "Zanahorias",
+        "Apio",
+        "Remolacha",
+        "Queso de Cabrales",
+        "Nata montada",
+        "Nueces"
+      ],
+      "etiquetas": [
+        "queso azul",
+        "mamá",
+        "frío",
+        "sin cocción",
+        "crudités"
+      ],
+      "url": "recetas/receta-crudites-cabrales.html",
+      "archivo": "receta-crudites-cabrales.html"
+    },
+    {
+      "id": "datiles-roquefort-nuez",
+      "nombre": "Dátiles rellenos de roquefort y nuez",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "15 min + reposo",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Dátiles deshuesados",
+        "Queso roquefort",
+        "Queso blanco tipo philadelphia",
+        "Nueces peladas"
+      ],
+      "etiquetas": [
+        "frío",
+        "sin cocción",
+        "queso azul",
+        "nueces",
+        "canapé"
+      ],
+      "url": "recetas/receta-datiles-roquefort-nuez.html",
+      "archivo": "receta-datiles-roquefort-nuez.html"
+    },
+    {
       "id": "esparragos-ajo-pollo",
       "nombre": "Espárragos en «ajo pollo»",
       "tipo": {
@@ -296,6 +483,39 @@
       ],
       "url": "recetas/receta-esparragos-ajo-pollo.html",
       "archivo": "receta-esparragos-ajo-pollo.html"
+    },
+    {
+      "id": "langostinos-frutos-secos-mango",
+      "nombre": "Langostinos con costra de frutos secos y salsa de mango",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Langostinos o gambones crudos",
+        "Almendras trituradas",
+        "Pistachos triturados",
+        "Aceite de oliva",
+        "Mango u otra fruta",
+        "Azúcar",
+        "Soja o vinagre de Módena",
+        "Lombarda"
+      ],
+      "etiquetas": [
+        "langostinos",
+        "brocheta",
+        "frutos secos",
+        "mango",
+        "fiesta"
+      ],
+      "url": "recetas/receta-langostinos-frutos-secos-mango.html",
+      "archivo": "receta-langostinos-frutos-secos-mango.html"
     },
     {
       "id": "lasana-bolonesa-champinones",
@@ -386,6 +606,100 @@
       "archivo": "receta-magret-pato-sal.html"
     },
     {
+      "id": "mousse-caviar",
+      "nombre": "Mousse de caviar",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "15 min + reposo en nevera",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Tarritos de caviar",
+        "Mayonesa",
+        "Nata líquida",
+        "Sobres de gelatina Aspic",
+        "Agua",
+        "Zumo de limón",
+        "Cebolla rallada",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "caviar",
+        "mamá",
+        "frío",
+        "fiesta",
+        "gelatina"
+      ],
+      "url": "recetas/receta-mousse-caviar.html",
+      "archivo": "receta-mousse-caviar.html"
+    },
+    {
+      "id": "pate-queso-anchoas",
+      "nombre": "Paté de queso con anchoas",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Queso cremoso",
+        "Mantequilla",
+        "Filetes de anchoas"
+      ],
+      "etiquetas": [
+        "mamá",
+        "queso",
+        "anchoas",
+        "sin cocción",
+        "untar"
+      ],
+      "url": "recetas/receta-pate-queso-anchoas.html",
+      "archivo": "receta-pate-queso-anchoas.html"
+    },
+    {
+      "id": "pate-queso-datiles",
+      "nombre": "Paté de queso y dátiles",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Dátiles",
+        "Queso roquefort",
+        "Queso Philadelphia",
+        "Nata líquida"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "queso azul",
+        "dátiles",
+        "Thermomix",
+        "untar"
+      ],
+      "url": "recetas/receta-pate-queso-datiles.html",
+      "archivo": "receta-pate-queso-datiles.html"
+    },
+    {
       "id": "pisto",
       "nombre": "Pisto",
       "tipo": {
@@ -421,6 +735,38 @@
       ],
       "url": "recetas/receta-pisto.html",
       "archivo": "receta-pisto.html"
+    },
+    {
+      "id": "rollitos-tortillas-trigo",
+      "nombre": "Rollitos con tortillas de trigo",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tortillas de trigo",
+        "Tomates muy rojos",
+        "Lonchas de queso mozzarella o similar",
+        "Lonchas de jamón serrano",
+        "Hojas de albahaca",
+        "Aceitunas negras",
+        "Semillas de sésamo"
+      ],
+      "etiquetas": [
+        "frío",
+        "tortilla de trigo",
+        "queso",
+        "jamón",
+        "sin cocción"
+      ],
+      "url": "recetas/receta-rollitos-tortillas-trigo.html",
+      "archivo": "receta-rollitos-tortillas-trigo.html"
     },
     {
       "id": "salteado-verduras-curry",
@@ -459,6 +805,34 @@
       ],
       "url": "recetas/receta-salteado-verduras-curry.html",
       "archivo": "receta-salteado-verduras-curry.html"
+    },
+    {
+      "id": "tartar-salchichon",
+      "nombre": "Tartar de salchichón",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Salchichón",
+        "Berenjena grande",
+        "Pan"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "salchichón",
+        "berenjena",
+        "tosta",
+        "microondas"
+      ],
+      "url": "recetas/receta-tartar-salchichon.html",
+      "archivo": "receta-tartar-salchichon.html"
     },
     {
       "id": "verduras-salteadas",
