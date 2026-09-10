@@ -39,6 +39,38 @@
       "archivo": "receta-berenjenas-parmesana.html"
     },
     {
+      "id": "calamares-en-su-tinta",
+      "nombre": "Calamares en su tinta",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Calamares",
+        "Cebolla",
+        "Ajos",
+        "Perejil",
+        "Vino blanco",
+        "Tomate triturado",
+        "Bolsas de tinta"
+      ],
+      "etiquetas": [
+        "calamar",
+        "olla exprés",
+        "vino blanco",
+        "clásico",
+        "pescado"
+      ],
+      "url": "recetas/receta-calamares-en-su-tinta.html",
+      "archivo": "receta-calamares-en-su-tinta.html"
+    },
+    {
       "id": "canape-cebolla",
       "nombre": "Canapé gratinado de cebolla",
       "tipo": {
@@ -386,6 +418,36 @@
       "archivo": "receta-crema-verde-brocoli-puerro-patata.html"
     },
     {
+      "id": "crepes-base",
+      "nombre": "Crepes (masa base)",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 10,
+      "tiempoTotal": "35 min con reposo",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Leche",
+        "Harina",
+        "Huevos",
+        "Mantequilla",
+        "Sal"
+      ],
+      "etiquetas": [
+        "crepes",
+        "masa base",
+        "postre",
+        "salado",
+        "francesa"
+      ],
+      "url": "recetas/receta-crepes-base.html",
+      "archivo": "receta-crepes-base.html"
+    },
+    {
       "id": "crudites-cabrales",
       "nombre": "Crudités al queso de Cabrales",
       "tipo": {
@@ -447,6 +509,39 @@
       "archivo": "receta-datiles-roquefort-nuez.html"
     },
     {
+      "id": "empanada-champinones",
+      "nombre": "Empanada de champiñones",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Planchas de hojaldre",
+        "Cebolla grande",
+        "Bacon",
+        "Champiñones laminados",
+        "Nata líquida",
+        "Huevo",
+        "Queso en lonchas",
+        "Queso rallado"
+      ],
+      "etiquetas": [
+        "empanada",
+        "hojaldre",
+        "champiñones",
+        "bacon",
+        "horno"
+      ],
+      "url": "recetas/receta-empanada-champinones.html",
+      "archivo": "receta-empanada-champinones.html"
+    },
+    {
       "id": "esparragos-ajo-pollo",
       "nombre": "Espárragos en «ajo pollo»",
       "tipo": {
@@ -483,6 +578,106 @@
       ],
       "url": "recetas/receta-esparragos-ajo-pollo.html",
       "archivo": "receta-esparragos-ajo-pollo.html"
+    },
+    {
+      "id": "fumet-gambas",
+      "nombre": "Fumet de gambas",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite de oliva",
+        "Cáscaras de gambas",
+        "Agua"
+      ],
+      "etiquetas": [
+        "fumet",
+        "gambas",
+        "base",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-fumet-gambas.html",
+      "archivo": "receta-fumet-gambas.html"
+    },
+    {
+      "id": "huevos-tripe",
+      "nombre": "Huevos a la «tripé»",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 5,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos duros",
+        "Aceite",
+        "Mantequilla",
+        "Cebollas",
+        "Queso Emmental rallado",
+        "Mantequilla para la bechamel",
+        "Harina para la bechamel",
+        "Leche para la bechamel",
+        "Sal",
+        "Pimienta",
+        "Coñac"
+      ],
+      "etiquetas": [
+        "mamá",
+        "huevos",
+        "cebolla",
+        "bechamel",
+        "gratinado"
+      ],
+      "url": "recetas/receta-huevos-tripe.html",
+      "archivo": "receta-huevos-tripe.html"
+    },
+    {
+      "id": "huevos-rotos-champinones-espinacas",
+      "nombre": "Huevos rotos con champiñones y espinacas",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Aceite de oliva",
+        "Ajos",
+        "Cebolla",
+        "Champiñones laminados",
+        "Brotes de espinacas",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "huevos",
+        "espinacas",
+        "champiñones",
+        "rápido",
+        "sartén"
+      ],
+      "url": "recetas/receta-huevos-rotos-champinones-espinacas.html",
+      "archivo": "receta-huevos-rotos-champinones-espinacas.html"
     },
     {
       "id": "langostinos-frutos-secos-mango",
@@ -639,6 +834,43 @@
       "archivo": "receta-mousse-caviar.html"
     },
     {
+      "id": "olla-aranesa",
+      "nombre": "Olla aranesa",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "2 h + remojo",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Alubias blancas",
+        "Tocino",
+        "Magro de cerdo",
+        "Pollo",
+        "Zanahorias",
+        "Cebolla",
+        "Col o repollo",
+        "Patatas medianas",
+        "Butifarra blanca",
+        "Butifarra negra",
+        "Fideo grueso"
+      ],
+      "etiquetas": [
+        "Valle de Arán",
+        "cocido",
+        "alubias",
+        "butifarra",
+        "invierno",
+        "tradicional"
+      ],
+      "url": "recetas/receta-olla-aranesa.html",
+      "archivo": "receta-olla-aranesa.html"
+    },
+    {
       "id": "pate-queso-anchoas",
       "nombre": "Paté de queso con anchoas",
       "tipo": {
@@ -737,6 +969,107 @@
       "archivo": "receta-pisto.html"
     },
     {
+      "id": "quiche-cabra-esparragos",
+      "nombre": "Quiche de queso de cabra con espárragos",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lámina de masa brisa",
+        "Puerros estofados",
+        "Nata líquida",
+        "Huevos",
+        "Sal",
+        "Pimienta",
+        "Rulo de queso de cabra",
+        "Espárragos verdes en bote"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "quiche",
+        "queso de cabra",
+        "espárragos",
+        "horno"
+      ],
+      "url": "recetas/receta-quiche-cabra-esparragos.html",
+      "archivo": "receta-quiche-cabra-esparragos.html"
+    },
+    {
+      "id": "quiche-javier",
+      "nombre": "Quiche Javier",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 10 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Masa brisa, sablé o la que tengas",
+        "Puerros",
+        "Bacon",
+        "Pasas",
+        "Huevos",
+        "Bricks pequeños de nata",
+        "Tomatitos cherry",
+        "Queso Emmental rallado",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "quiche",
+        "puerro",
+        "bacon",
+        "pasas",
+        "horno"
+      ],
+      "url": "recetas/receta-quiche-javier.html",
+      "archivo": "receta-quiche-javier.html"
+    },
+    {
+      "id": "quiche-lorraine",
+      "nombre": "Quiche lorraine",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lámina de masa brisa",
+        "Bacon en lonchas",
+        "Queso gruyère rallado",
+        "Nata líquida",
+        "Huevos",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "quiche",
+        "francesa",
+        "bacon",
+        "gruyère",
+        "horno",
+        "clásico"
+      ],
+      "url": "recetas/receta-quiche-lorraine.html",
+      "archivo": "receta-quiche-lorraine.html"
+    },
+    {
       "id": "rollitos-tortillas-trigo",
       "nombre": "Rollitos con tortillas de trigo",
       "tipo": {
@@ -807,6 +1140,82 @@
       "archivo": "receta-salteado-verduras-curry.html"
     },
     {
+      "id": "sopa-boletus-aceite-trufa",
+      "nombre": "Sopa de boletus con aceite aromatizado",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "3 h + reposo",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Cebollas (caldo)",
+        "Puerro (caldo)",
+        "Carcasas de pollo",
+        "Vino moscatel",
+        "Agua",
+        "Hoja de laurel",
+        "Huesos de tuétano",
+        "Mantequilla (caldo)",
+        "Hongos boletus edulis",
+        "Trufas",
+        "Sal",
+        "Pimienta",
+        "Aceite de trufa",
+        "Hojaldre",
+        "Huevo"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "boletus",
+        "trufa",
+        "caldo casero",
+        "hojaldre",
+        "fiesta"
+      ],
+      "url": "recetas/receta-sopa-boletus-aceite-trufa.html",
+      "archivo": "receta-sopa-boletus-aceite-trufa.html"
+    },
+    {
+      "id": "sopa-cebolla",
+      "nombre": "Sopa de cebolla",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebollas",
+        "Agua",
+        "Vino blanco",
+        "Queso Emmental rallado",
+        "Harina de trigo",
+        "Mantequilla",
+        "Aceite de oliva",
+        "Sal",
+        "Pimienta",
+        "Rebanadas de pan baguette"
+      ],
+      "etiquetas": [
+        "cebolla",
+        "vino blanco",
+        "gratinada",
+        "clásico",
+        "francesa"
+      ],
+      "url": "recetas/receta-sopa-cebolla.html",
+      "archivo": "receta-sopa-cebolla.html"
+    },
+    {
       "id": "tartar-salchichon",
       "nombre": "Tartar de salchichón",
       "tipo": {
@@ -833,6 +1242,75 @@
       ],
       "url": "recetas/receta-tartar-salchichon.html",
       "archivo": "receta-tartar-salchichon.html"
+    },
+    {
+      "id": "timbal-frio-crepes",
+      "nombre": "Timbal frío de crepes",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h + reposo en nevera",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Mayonesa",
+        "Kétchup",
+        "Pechuga de pollo",
+        "Lechuga",
+        "Cebolla o cebolleta",
+        "Maíz",
+        "Alcaparras",
+        "Huevos duros",
+        "Tomate grande",
+        "Pepinillos",
+        "Crepes",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "frío",
+        "crepes",
+        "pollo",
+        "verano",
+        "presentación"
+      ],
+      "url": "recetas/receta-timbal-frio-crepes.html",
+      "archivo": "receta-timbal-frio-crepes.html"
+    },
+    {
+      "id": "trenza-colmenillas",
+      "nombre": "Trenza de colmenillas",
+      "tipo": {
+        "id": "primeros",
+        "nombre": "Primeros y otros"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Masa rectangular de hojaldre",
+        "Cebollas",
+        "Azúcar",
+        "Mantequilla",
+        "Sal",
+        "Colmenillas o múrgoles",
+        "Queso gorgonzola"
+      ],
+      "etiquetas": [
+        "hojaldre",
+        "colmenillas",
+        "cebolla caramelizada",
+        "gorgonzola",
+        "horno"
+      ],
+      "url": "recetas/receta-trenza-colmenillas.html",
+      "archivo": "receta-trenza-colmenillas.html"
     },
     {
       "id": "verduras-salteadas",
