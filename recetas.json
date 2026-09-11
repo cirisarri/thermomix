@@ -140,6 +140,48 @@
       "archivo": "receta-apel-strudel.html"
     },
     {
+      "id": "arroz-basmati-hierbas-thermomix",
+      "nombre": "Arroz basmati con hierbas (Thermomix)",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Agua",
+        "Sal",
+        "Arroz basmati",
+        "Zanahoria pelada",
+        "Cebolla",
+        "Ajos gordos",
+        "Mantequilla",
+        "Salsa de soja",
+        "Vino blanco",
+        "Tomillo seco",
+        "Romero seco",
+        "Caldo de verduras"
+      ],
+      "etiquetas": [
+        "arroz basmati",
+        "hierbas",
+        "tomillo",
+        "romero",
+        "vino blanco",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-arroz-basmati-hierbas-thermomix.html",
+      "archivo": "receta-arroz-basmati-hierbas-thermomix.html"
+    },
+    {
       "id": "arroz-basmati-verduras-thermomix",
       "nombre": "Arroz basmati con verduras (Thermomix)",
       "tipo": {
@@ -316,6 +358,35 @@
       "archivo": "receta-arroz-pilaf.html"
     },
     {
+      "id": "arroz-redondo-base",
+      "nombre": "Arroz redondo (base técnica)",
+      "tipo": {
+        "id": "arroces",
+        "nombre": "Arroces y risottos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 1,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Arroz redondo",
+        "Agua",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "arroz redondo",
+        "base",
+        "técnica",
+        "vitrocerámica",
+        "guarnición"
+      ],
+      "url": "recetas/receta-arroz-redondo-base.html",
+      "archivo": "receta-arroz-redondo-base.html"
+    },
+    {
       "id": "asado-negro-venezolano",
       "nombre": "Asado negro venezolano",
       "tipo": {
@@ -454,6 +525,34 @@
       "archivo": "receta-bastones-calabacin-crujientes.html"
     },
     {
+      "id": "batatas-horno",
+      "nombre": "Batatas al horno",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Batatas",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "batata",
+        "boniato",
+        "horno",
+        "guarnición",
+        "sencillo"
+      ],
+      "url": "recetas/receta-batatas-horno.html",
+      "archivo": "receta-batatas-horno.html"
+    },
+    {
       "id": "bavaroise-fruta-pasion",
       "nombre": "Bavaroise de fruta de la pasión (con salsa de chocolate)",
       "tipo": {
@@ -589,6 +688,240 @@
       ],
       "url": "recetas/receta-berenjenas-jamon.html",
       "archivo": "receta-berenjenas-jamon.html"
+    },
+    {
+      "id": "bizcocho-basico-tm7",
+      "nombre": "Bizcocho básico (Thermomix TM7)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM7"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tiras de piel de limón",
+        "Azúcar",
+        "Huevo",
+        "Aceite de girasol",
+        "Leche desnatada",
+        "Yema de huevo",
+        "Harina de repostería",
+        "Polvo de hornear Royal®",
+        "Pizca de sal"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "básico",
+        "limón",
+        "Thermomix",
+        "TM7"
+      ],
+      "url": "recetas/receta-bizcocho-basico-tm7.html",
+      "archivo": "receta-bizcocho-basico-tm7.html"
+    },
+    {
+      "id": "bizcocho-chocolate-maria-pampillon",
+      "nombre": "Bizcocho de chocolate (María Pampillón)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Yogur natural",
+        "Vasos (de yogur) de azúcar",
+        "Vaso (de yogur) de aceite de girasol",
+        "Sobre de levadura",
+        "Vasos (de yogur) de harina",
+        "Chocolate"
+      ],
+      "etiquetas": [
+        "María Pampillón",
+        "bizcocho",
+        "chocolate",
+        "yogur",
+        "capas",
+        "familiar"
+      ],
+      "url": "recetas/receta-bizcocho-chocolate-maria-pampillon.html",
+      "archivo": "receta-bizcocho-chocolate-maria-pampillon.html"
+    },
+    {
+      "id": "bizcocho-chocolate-nesquik",
+      "nombre": "Bizcocho de chocolate con Nesquik",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Azúcar",
+        "Mantequilla",
+        "Nesquik",
+        "Harina",
+        "Sobre de levadura",
+        "Leche"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "chocolate",
+        "Nesquik",
+        "Thermomix",
+        "merienda"
+      ],
+      "url": "recetas/receta-bizcocho-chocolate-nesquik.html",
+      "archivo": "receta-bizcocho-chocolate-nesquik.html"
+    },
+    {
+      "id": "bizcocho-claras",
+      "nombre": "Bizcocho de claras",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Claras de huevo",
+        "Leche (2 y ½ decilitros)",
+        "Harina",
+        "Vainilla",
+        "Azúcar",
+        "Levadura Royal",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "claras",
+        "vainilla",
+        "molde de corona",
+        "aprovechar claras"
+      ],
+      "url": "recetas/receta-bizcocho-claras.html",
+      "archivo": "receta-bizcocho-claras.html"
+    },
+    {
+      "id": "bizcocho-los-rosales",
+      "nombre": "Bizcocho Los Rosales",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Yogur natural",
+        "Vasos de yogur de azúcar",
+        "Vasos de yogur de harina",
+        "Vaso de yogur de aceite fino",
+        "Ralladura de limón",
+        "Sobre de levadura Royal"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "limón",
+        "yogur",
+        "familiar",
+        "clásico"
+      ],
+      "url": "recetas/receta-bizcocho-los-rosales.html",
+      "archivo": "receta-bizcocho-los-rosales.html"
+    },
+    {
+      "id": "bizcocho-maria-luisa",
+      "nombre": "Bizcocho María Luisa",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Harina",
+        "Azúcar",
+        "Copa pequeña de zumo de naranja",
+        "Copa pequeña de aceite Carbonell",
+        "Un poquito de sal",
+        "Sobre de levadura Royal"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "naranja",
+        "María Luisa",
+        "Thermomix",
+        "clásico"
+      ],
+      "url": "recetas/receta-bizcocho-maria-luisa.html",
+      "archivo": "receta-bizcocho-maria-luisa.html"
+    },
+    {
+      "id": "bizcocho-brazo-gitano",
+      "nombre": "Bizcocho para brazo de gitano",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Azúcar",
+        "Harina",
+        "Mantequilla en pomada",
+        "Huevos",
+        "Nata montada"
+      ],
+      "etiquetas": [
+        "brazo de gitano",
+        "bizcocho enrollado",
+        "nata montada",
+        "clásico"
+      ],
+      "url": "recetas/receta-bizcocho-brazo-gitano.html",
+      "archivo": "receta-bizcocho-brazo-gitano.html"
     },
     {
       "id": "brownie",
@@ -1196,6 +1529,46 @@
       "archivo": "receta-chupitos-mascarpone.html"
     },
     {
+      "id": "coca-benidorm",
+      "nombre": "Coca Benidorm",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 12,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Azúcar",
+        "Corteza de limón (o naranja)",
+        "Aceite de girasol (o de oliva)",
+        "Zumo de naranja",
+        "Leche",
+        "Harina",
+        "Levadura Royal (o 3 gaseosas de papelillo)",
+        "Canela",
+        "Azúcar"
+      ],
+      "etiquetas": [
+        "coca",
+        "naranja",
+        "Benidorm",
+        "Thermomix",
+        "canela",
+        "azúcar"
+      ],
+      "url": "recetas/receta-coca-benidorm.html",
+      "archivo": "receta-coca-benidorm.html"
+    },
+    {
       "id": "compota-manzana",
       "nombre": "Compota de manzana (3 variantes)",
       "tipo": {
@@ -1261,6 +1634,32 @@
       ],
       "url": "recetas/receta-compota-orejones-almendras.html",
       "archivo": "receta-compota-orejones-almendras.html"
+    },
+    {
+      "id": "consejos-bizcochos",
+      "nombre": "Consejos base para bizcochos",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 1,
+      "tiempoTotal": "1 min",
+      "tiempoPreparacion": "1 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cacao en polvo Valor"
+      ],
+      "etiquetas": [
+        "bizcocho",
+        "técnica",
+        "horno",
+        "cacao",
+        "trucos"
+      ],
+      "url": "recetas/receta-consejos-bizcochos.html",
+      "archivo": "receta-consejos-bizcochos.html"
     },
     {
       "id": "corona-surimi-cangrejo-salmon",
@@ -2118,6 +2517,74 @@
       "archivo": "receta-ensalada-espinacas-simple.html"
     },
     {
+      "id": "ensalada-fresas-cabra",
+      "nombre": "Ensalada de fresas con queso de cabra",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cogollos",
+        "Fresas",
+        "Tomate grande y bonito",
+        "Queso de cabra",
+        "Almendras tostadas",
+        "Ralladura de naranja",
+        "Aceite",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "ensalada",
+        "fresas",
+        "queso de cabra",
+        "almendras",
+        "ralladura de naranja",
+        "primavera"
+      ],
+      "url": "recetas/receta-ensalada-fresas-cabra.html",
+      "archivo": "receta-ensalada-fresas-cabra.html"
+    },
+    {
+      "id": "ensalada-garbanzos-feta",
+      "nombre": "Ensalada de garbanzos con feta y guacamole",
+      "tipo": {
+        "id": "ensaladas",
+        "nombre": "Ensaladas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Garbanzos cocidos",
+        "Cebolleta",
+        "Tomate",
+        "Pepino",
+        "Guacamole",
+        "Pimiento verde",
+        "Queso feta"
+      ],
+      "etiquetas": [
+        "garbanzos",
+        "feta",
+        "guacamole",
+        "vegetariano",
+        "verano",
+        "rápida"
+      ],
+      "url": "recetas/receta-ensalada-garbanzos-feta.html",
+      "archivo": "receta-ensalada-garbanzos-feta.html"
+    },
+    {
       "id": "ensalada-gulas-bacalao-ahumado",
       "nombre": "Ensalada de gulas y bacalao ahumado",
       "tipo": {
@@ -2879,6 +3346,37 @@
       "archivo": "receta-filetes-salsa-pimiento-rojo.html"
     },
     {
+      "id": "filetes-empanados",
+      "nombre": "Filetes empanados",
+      "tipo": {
+        "id": "carnes",
+        "nombre": "Carnes"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Filetes de cinta de lomo",
+        "Pan rallado",
+        "Huevos",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "filetes",
+        "empanados",
+        "lomo",
+        "cerdo",
+        "sencillo",
+        "familiar"
+      ],
+      "url": "recetas/receta-filetes-empanados.html",
+      "archivo": "receta-filetes-empanados.html"
+    },
+    {
       "id": "fingers-pollo-tres-salsas",
       "nombre": "Fingers de pollo con salsa tártara, miel-mostaza y yogur",
       "tipo": {
@@ -3182,6 +3680,42 @@
       ],
       "url": "recetas/receta-galette-puerros-bacon-gruyere-raclette.html",
       "archivo": "receta-galette-puerros-bacon-gruyere-raclette.html"
+    },
+    {
+      "id": "gazpacho-clasico",
+      "nombre": "Gazpacho clásico",
+      "tipo": {
+        "id": "cremas",
+        "nombre": "Cremas y sopas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min + reposo en nevera",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tomate de pera",
+        "Pepinos",
+        "Pimiento verde",
+        "Picatostes tostados",
+        "Aceite de oliva",
+        "Vinagre",
+        "Agua",
+        "Sal",
+        "Pan Bimbo"
+      ],
+      "etiquetas": [
+        "gazpacho",
+        "andaluz",
+        "tomate",
+        "pepino",
+        "pimiento",
+        "verano",
+        "frío"
+      ],
+      "url": "recetas/receta-gazpacho-clasico.html",
+      "archivo": "receta-gazpacho-clasico.html"
     },
     {
       "id": "gelatina-naranja-gajos",
@@ -4627,6 +5161,36 @@
       "archivo": "receta-patatas-glaseadas-lima.html"
     },
     {
+      "id": "pate-datiles-queso-simple",
+      "nombre": "Paté de dátiles con quesos (simple)",
+      "tipo": {
+        "id": "aperitivos",
+        "nombre": "Aperitivos"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Queso Philadelphia",
+        "Queso Roquefort",
+        "Dátiles sin hueso",
+        "Tostadas"
+      ],
+      "etiquetas": [
+        "paté",
+        "dátiles",
+        "philadelphia",
+        "roquefort",
+        "sencillo",
+        "sin cocción"
+      ],
+      "url": "recetas/receta-pate-datiles-queso-simple.html",
+      "archivo": "receta-pate-datiles-queso-simple.html"
+    },
+    {
       "id": "pate-queso-anchoas",
       "nombre": "Paté de queso con anchoas",
       "tipo": {
@@ -4961,6 +5525,36 @@
       ],
       "url": "recetas/receta-pisto.html",
       "archivo": "receta-pisto.html"
+    },
+    {
+      "id": "pizza-berenjena",
+      "nombre": "Pizza de berenjena",
+      "tipo": {
+        "id": "verduras",
+        "nombre": "Verduras"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Berenjenas",
+        "Sal",
+        "Tomate frito",
+        "Queso",
+        "Jamón, verduras o similares"
+      ],
+      "etiquetas": [
+        "berenjena",
+        "pizza",
+        "horno",
+        "queso",
+        "sin harina"
+      ],
+      "url": "recetas/receta-pizza-berenjena.html",
+      "archivo": "receta-pizza-berenjena.html"
     },
     {
       "id": "pina-montada-navidena",
@@ -5986,6 +6580,37 @@
       ],
       "url": "recetas/receta-salmon-marinado.html",
       "archivo": "receta-salmon-marinado.html"
+    },
+    {
+      "id": "salsa-bolonesa-simple",
+      "nombre": "Salsa boloñesa (versión simple)",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Carne picada",
+        "Tomate frito",
+        "Aceite",
+        "Sal"
+      ],
+      "etiquetas": [
+        "salsa",
+        "boloñesa",
+        "carne picada",
+        "tomate frito",
+        "simple",
+        "para pasta"
+      ],
+      "url": "recetas/receta-salsa-bolonesa-simple.html",
+      "archivo": "receta-salsa-bolonesa-simple.html"
     },
     {
       "id": "salsa-arandanos-rojos",
