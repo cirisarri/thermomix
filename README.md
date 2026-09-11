@@ -4,6 +4,15 @@ Recetario web estático, cero dependencias, pensado para el móvil. Cada receta
 es una página HTML autónoma con temporizadores, escalado de raciones y checks
 de ingredientes. El índice se descubre solo las recetas al cargar.
 
+Estado actual: **258 recetas en 13 categorías** (37 marcadas como Thermomix,
+221 tradicionales).
+
+## Ramas y flujo de trabajo
+
+- `main` — rama de producción, la que sirve GitHub Pages.
+- Las nuevas recetas o cambios se hacen en ramas de trabajo (feature branches)
+  y se abren como pull request contra `main`.
+
 ## Estructura
 
 ```
