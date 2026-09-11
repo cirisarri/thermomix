@@ -106,6 +106,40 @@
       "archivo": "receta-alcachofas-estofadas.html"
     },
     {
+      "id": "apel-strudel",
+      "nombre": "Apfelstrudel (strudel de manzana)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Hojaldre",
+        "Manzanas Golden",
+        "Pasas de Corinto",
+        "Almendras peladas y picadas",
+        "Azúcar",
+        "Canela molida",
+        "Brandy"
+      ],
+      "etiquetas": [
+        "strudel",
+        "hojaldre",
+        "manzana Golden",
+        "pasas de Corinto",
+        "almendras",
+        "canela",
+        "brandy"
+      ],
+      "url": "recetas/receta-apel-strudel.html",
+      "archivo": "receta-apel-strudel.html"
+    },
+    {
       "id": "arroz-basmati-verduras-thermomix",
       "nombre": "Arroz basmati con verduras (Thermomix)",
       "tipo": {
@@ -220,6 +254,68 @@
       "archivo": "receta-arroz-chirlas.html"
     },
     {
+      "id": "arroz-leche-mama",
+      "nombre": "Arroz con leche (Mamá)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Tazas de leche",
+        "Arroz",
+        "Azúcar",
+        "Canela en rama",
+        "Cáscara de limón",
+        "Canela en polvo"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "arroz con leche",
+        "canela",
+        "limón",
+        "clásico"
+      ],
+      "url": "recetas/receta-arroz-leche-mama.html",
+      "archivo": "receta-arroz-leche-mama.html"
+    },
+    {
+      "id": "arroz-pilaf",
+      "nombre": "Arroz pilaf con piñones y pasas",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Arroz largo o basmati",
+        "Caldo de ave",
+        "Mantequilla",
+        "Piñones",
+        "Pasas",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "arroz pilaf",
+        "piñones",
+        "pasas",
+        "guarnición",
+        "basmati"
+      ],
+      "url": "recetas/receta-arroz-pilaf.html",
+      "archivo": "receta-arroz-pilaf.html"
+    },
+    {
       "id": "asado-negro-venezolano",
       "nombre": "Asado negro venezolano",
       "tipo": {
@@ -258,6 +354,139 @@
       ],
       "url": "recetas/receta-asado-negro-venezolano.html",
       "archivo": "receta-asado-negro-venezolano.html"
+    },
+    {
+      "id": "bacalao-al-bras",
+      "nombre": "Bacalao al Bras (bacalhau à bras)",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Migas de bacalao salado",
+        "Huevos grandes",
+        "Cebolla grande",
+        "Patatas paja industriales",
+        "Pimienta negra recién molida",
+        "Perejil fresco",
+        "Aceitunas negras sin hueso",
+        "Aceite de oliva virgen extra"
+      ],
+      "etiquetas": [
+        "Ruth Navarro",
+        "bacalao",
+        "portugueses",
+        "patatas paja",
+        "huevos",
+        "revuelto"
+      ],
+      "url": "recetas/receta-bacalao-al-bras.html",
+      "archivo": "receta-bacalao-al-bras.html"
+    },
+    {
+      "id": "banda-manzana",
+      "nombre": "Banda de manzana",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Hojaldre congelado",
+        "Manzanas reinetas",
+        "Azúcar",
+        "Huevo",
+        "Mermelada de albaricoque",
+        "Mantequilla",
+        "Canela"
+      ],
+      "etiquetas": [
+        "hojaldre",
+        "manzana reineta",
+        "banda",
+        "compota",
+        "mermelada de albaricoque"
+      ],
+      "url": "recetas/receta-banda-manzana.html",
+      "archivo": "receta-banda-manzana.html"
+    },
+    {
+      "id": "bastones-calabacin-crujientes",
+      "nombre": "Bastones de calabacín crujientes",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Calabacines",
+        "Harina",
+        "Pimentón dulce",
+        "Huevos",
+        "Pan rallado",
+        "Parmesano rallado",
+        "Sal Marina"
+      ],
+      "etiquetas": [
+        "calabacín",
+        "horno",
+        "sustituto de patatas fritas",
+        "parmesano",
+        "panko"
+      ],
+      "url": "recetas/receta-bastones-calabacin-crujientes.html",
+      "archivo": "receta-bastones-calabacin-crujientes.html"
+    },
+    {
+      "id": "bavaroise-fruta-pasion",
+      "nombre": "Bavaroise de fruta de la pasión (con salsa de chocolate)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h + reposo",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Agua (salsa chocolate)",
+        "Azúcar (salsa chocolate)",
+        "Chocolate Valor de cobertura",
+        "Leche (crema)",
+        "Yemas de huevo",
+        "Azúcar (crema)",
+        "Frambuesas, mango o pulpa de fruta de la pasión",
+        "Nata montada",
+        "Colas de gelatina"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "bavaroise",
+        "fruta de la pasión",
+        "gelatina",
+        "salsa de chocolate",
+        "fiesta"
+      ],
+      "url": "recetas/receta-bavaroise-fruta-pasion.html",
+      "archivo": "receta-bavaroise-fruta-pasion.html"
     },
     {
       "id": "berenjenas-parmesana",
@@ -360,6 +589,39 @@
       ],
       "url": "recetas/receta-berenjenas-jamon.html",
       "archivo": "receta-berenjenas-jamon.html"
+    },
+    {
+      "id": "brownie",
+      "nombre": "Brownie de nueces",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Nueces picadas",
+        "Huevos",
+        "Mantequilla",
+        "Azúcar",
+        "Chocolate para postres",
+        "Harina",
+        "Pizca de sal",
+        "Levadura"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "brownie",
+        "chocolate",
+        "nueces",
+        "horno"
+      ],
+      "url": "recetas/receta-brownie.html",
+      "archivo": "receta-brownie.html"
     },
     {
       "id": "calabacines-rellenos-gambas",
@@ -589,6 +851,33 @@
       "archivo": "receta-canelones-setas-foie.html"
     },
     {
+      "id": "caramelo-microondas",
+      "nombre": "Caramelo al microondas (base)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "3 min",
+      "tiempoPreparacion": "1 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Azúcar",
+        "Agua"
+      ],
+      "etiquetas": [
+        "caramelo",
+        "microondas",
+        "técnica",
+        "base",
+        "para flanes"
+      ],
+      "url": "recetas/receta-caramelo-microondas.html",
+      "archivo": "receta-caramelo-microondas.html"
+    },
+    {
       "id": "carne-guisada-cebollitas-champinones",
       "nombre": "Carne guisada con cebollitas y champiñones",
       "tipo": {
@@ -714,6 +1003,64 @@
       "archivo": "receta-carrilleras-cordero-cous-cous-glaseado.html"
     },
     {
+      "id": "cebolla-caramelizada",
+      "nombre": "Cebolla caramelizada",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebollas",
+        "Mantequilla",
+        "Vinagre de manzana",
+        "Azúcar moreno"
+      ],
+      "etiquetas": [
+        "cebolla caramelizada",
+        "vinagre de manzana",
+        "azúcar moreno",
+        "para tostas"
+      ],
+      "url": "recetas/receta-cebolla-caramelizada.html",
+      "archivo": "receta-cebolla-caramelizada.html"
+    },
+    {
+      "id": "cebollitas-glaseadas",
+      "nombre": "Cebollitas glaseadas",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebollitas francesas",
+        "Vinagre de sidra (o manzana) suave",
+        "Azúcar",
+        "Mantequilla",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "cebollitas francesas",
+        "vinagre de sidra",
+        "glaseadas",
+        "guarnición"
+      ],
+      "url": "recetas/receta-cebollitas-glaseadas.html",
+      "archivo": "receta-cebollitas-glaseadas.html"
+    },
+    {
       "id": "chapata-queso",
       "nombre": "Chapata de queso",
       "tipo": {
@@ -781,6 +1128,141 @@
       "archivo": "receta-chupitos-guisantes-camembert-jamon.html"
     },
     {
+      "id": "chupitos-limon-condensada",
+      "nombre": "Chupitos de limón con leche condensada y crumble",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Leche condensada pequeña fría",
+        "Leche evaporada fría",
+        "Limones",
+        "Mantequilla fría (crumble)",
+        "Azúcar moreno (crumble)",
+        "Harina (crumble)",
+        "Almendra en polvo (crumble)",
+        "Ralladura de limón y naranja"
+      ],
+      "etiquetas": [
+        "Thermomix",
+        "limón",
+        "leche condensada",
+        "leche evaporada",
+        "crumble",
+        "vasitos"
+      ],
+      "url": "recetas/receta-chupitos-limon-condensada.html",
+      "archivo": "receta-chupitos-limon-condensada.html"
+    },
+    {
+      "id": "chupitos-mascarpone",
+      "nombre": "Chupitos de queso mascarpone",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Yogures griegos azucarados",
+        "Queso mascarpone",
+        "Mermelada",
+        "Frambuesas",
+        "Galletas Digestive"
+      ],
+      "etiquetas": [
+        "mascarpone",
+        "yogur griego",
+        "mermelada",
+        "frambuesa",
+        "vasitos"
+      ],
+      "url": "recetas/receta-chupitos-mascarpone.html",
+      "archivo": "receta-chupitos-mascarpone.html"
+    },
+    {
+      "id": "compota-manzana",
+      "nombre": "Compota de manzana (3 variantes)",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Manzanas reinetas",
+        "Azúcar",
+        "Zumo de limón",
+        "Ramita de canela",
+        "Coñac"
+      ],
+      "etiquetas": [
+        "compota",
+        "manzana",
+        "reineta",
+        "canela",
+        "coñac",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-compota-manzana.html",
+      "archivo": "receta-compota-manzana.html"
+    },
+    {
+      "id": "compota-orejones-almendras",
+      "nombre": "Compota de orejones y almendras",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Ciruelas pasas",
+        "Orejones",
+        "Azúcar",
+        "Vino Oporto",
+        "Almendras",
+        "Agua"
+      ],
+      "etiquetas": [
+        "compota",
+        "orejones",
+        "ciruelas pasas",
+        "Oporto",
+        "almendras",
+        "para carne"
+      ],
+      "url": "recetas/receta-compota-orejones-almendras.html",
+      "archivo": "receta-compota-orejones-almendras.html"
+    },
+    {
       "id": "corona-surimi-cangrejo-salmon",
       "nombre": "Corona de surimi de cangrejo y salmón",
       "tipo": {
@@ -816,6 +1298,41 @@
       ],
       "url": "recetas/receta-corona-surimi-cangrejo-salmon.html",
       "archivo": "receta-corona-surimi-cangrejo-salmon.html"
+    },
+    {
+      "id": "cous-cous-frutos-secos",
+      "nombre": "Cous-cous de frutos secos",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cous-cous",
+        "Zumo de manzana",
+        "Caldo de pollo",
+        "Piñones",
+        "Almendras laminadas",
+        "Pasas",
+        "Dátiles",
+        "Aceite de oliva virgen",
+        "Sal"
+      ],
+      "etiquetas": [
+        "cous cous",
+        "piñones",
+        "almendras",
+        "pasas",
+        "dátiles",
+        "zumo de manzana"
+      ],
+      "url": "recetas/receta-cous-cous-frutos-secos.html",
+      "archivo": "receta-cous-cous-frutos-secos.html"
     },
     {
       "id": "crema-calabaza-curry",
@@ -1130,6 +1647,32 @@
       ],
       "url": "recetas/receta-crudites-cabrales.html",
       "archivo": "receta-crudites-cabrales.html"
+    },
+    {
+      "id": "arreglar-mayonesa",
+      "nombre": "Cómo arreglar una mayonesa cortada",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 1,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mayonesa cortada",
+        "Agua caliente"
+      ],
+      "etiquetas": [
+        "mayonesa",
+        "técnica",
+        "truco",
+        "salvar salsa"
+      ],
+      "url": "recetas/receta-arreglar-mayonesa.html",
+      "archivo": "receta-arreglar-mayonesa.html"
     },
     {
       "id": "cocer-arroz-base",
@@ -2385,6 +2928,97 @@
       "archivo": "receta-fingers-pollo-tres-salsas.html"
     },
     {
+      "id": "flan-huevo-mama",
+      "nombre": "Flan de huevo (Mamá)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Azúcar (caramelo)",
+        "Agua (caramelo)",
+        "Yemas",
+        "Huevos",
+        "Azúcar",
+        "Leche",
+        "Piel de medio limón",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "flan",
+        "huevo",
+        "baño María",
+        "clásico"
+      ],
+      "url": "recetas/receta-flan-huevo-mama.html",
+      "archivo": "receta-flan-huevo-mama.html"
+    },
+    {
+      "id": "flan-leche-condensada",
+      "nombre": "Flan de leche condensada",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h + 2 h nevera",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Leche condensada pequeña",
+        "Azúcar (caramelo)",
+        "Leche"
+      ],
+      "etiquetas": [
+        "flan",
+        "leche condensada",
+        "baño María",
+        "clásico"
+      ],
+      "url": "recetas/receta-flan-leche-condensada.html",
+      "archivo": "receta-flan-leche-condensada.html"
+    },
+    {
+      "id": "flan-naranja",
+      "nombre": "Flan de naranja",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "15 min + reposo en nevera",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Leche Ideal",
+        "Zumo de naranja",
+        "Azúcar",
+        "Gelatina",
+        "Caramelo"
+      ],
+      "etiquetas": [
+        "flan",
+        "naranja",
+        "gelatina",
+        "leche Ideal",
+        "sin horno"
+      ],
+      "url": "recetas/receta-flan-naranja.html",
+      "archivo": "receta-flan-naranja.html"
+    },
+    {
       "id": "flan-puerros-gambas",
       "nombre": "Flan de puerros y gambas",
       "tipo": {
@@ -2417,6 +3051,41 @@
       ],
       "url": "recetas/receta-flan-puerros-gambas.html",
       "archivo": "receta-flan-puerros-gambas.html"
+    },
+    {
+      "id": "flan-queso-mariajo",
+      "nombre": "Flan de queso (Mariajo)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Queso fresco",
+        "Azúcar",
+        "Nata líquida",
+        "Huevos",
+        "Azúcar (caramelo)",
+        "Agua (caramelo)"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "flan",
+        "queso fresco",
+        "baño María",
+        "Thermomix"
+      ],
+      "url": "recetas/receta-flan-queso-mariajo.html",
+      "archivo": "receta-flan-queso-mariajo.html"
     },
     {
       "id": "flores-alcachofas-confitadas",
@@ -2515,6 +3184,34 @@
       "archivo": "receta-galette-puerros-bacon-gruyere-raclette.html"
     },
     {
+      "id": "gelatina-naranja-gajos",
+      "nombre": "Gelatina de naranja en gajos",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min + reposo en nevera",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Agua",
+        "Zumo de naranja",
+        "Cola de pescado (o gelatina de naranja)",
+        "Gajos de naranja"
+      ],
+      "etiquetas": [
+        "gelatina",
+        "naranja",
+        "guarnición",
+        "presentación"
+      ],
+      "url": "recetas/receta-gelatina-naranja-gajos.html",
+      "archivo": "receta-gelatina-naranja-gajos.html"
+    },
+    {
       "id": "guisantes-jamon-thermomix",
       "nombre": "Guisantes con jamón (Thermomix)",
       "tipo": {
@@ -2546,6 +3243,36 @@
       ],
       "url": "recetas/receta-guisantes-jamon-thermomix.html",
       "archivo": "receta-guisantes-jamon-thermomix.html"
+    },
+    {
+      "id": "helado-mostaza",
+      "nombre": "Helado de mostaza",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "15 min + congelado",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Nata",
+        "Leche condensada pequeña",
+        "Mostaza en grano",
+        "Mostaza de Dijon",
+        "Galletas Digestive"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "mostaza",
+        "helado",
+        "leche condensada",
+        "acompañamiento"
+      ],
+      "url": "recetas/receta-helado-mostaza.html",
+      "archivo": "receta-helado-mostaza.html"
     },
     {
       "id": "huevos-tripe",
@@ -2980,6 +3707,72 @@
       "archivo": "receta-lomo-pina-ciruelas.html"
     },
     {
+      "id": "lubina-sal",
+      "nombre": "Lubina a la sal",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lubina",
+        "Sal gorda"
+      ],
+      "etiquetas": [
+        "lubina",
+        "sal gorda",
+        "horno",
+        "clásico"
+      ],
+      "url": "recetas/receta-lubina-sal.html",
+      "archivo": "receta-lubina-sal.html"
+    },
+    {
+      "id": "lubina-vieras-maiz-coco",
+      "nombre": "Lubina rellena de vieiras con salsa de maíz y coco",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 15 min",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Calabacín (relleno)",
+        "Chalotas (relleno)",
+        "Cebollino picado (relleno)",
+        "Lubina",
+        "Vieiras limpias",
+        "Calabacines (escamas)",
+        "Chalotas (salsa)",
+        "Rama de apio (salsa)",
+        "Maíz cocido",
+        "Leche de coco",
+        "Mantequilla",
+        "Guindilla",
+        "Sal"
+      ],
+      "etiquetas": [
+        "Mariajo",
+        "lubina",
+        "vieiras",
+        "maíz",
+        "leche de coco",
+        "calabacín escamas",
+        "fiesta"
+      ],
+      "url": "recetas/receta-lubina-vieras-maiz-coco.html",
+      "archivo": "receta-lubina-vieras-maiz-coco.html"
+    },
+    {
       "id": "magret-pato-sal",
       "nombre": "Magret de pato a la sal con puré dulce de pera y vainilla",
       "tipo": {
@@ -3018,6 +3811,109 @@
       "archivo": "receta-magret-pato-sal.html"
     },
     {
+      "id": "merluza-papillote-pimientos-confitados",
+      "nombre": "Merluza en papillote con pimientos confitados",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 40 min",
+      "tiempoPreparacion": "25 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Merluza (lomos o corazones)",
+        "Puerros grandes",
+        "Cebolla",
+        "Calabacín grande",
+        "Mantequilla",
+        "Nata líquida",
+        "Vino blanco Moriles Montilla",
+        "Papel aluminio",
+        "Lata de pimientos del piquillo en su jugo",
+        "Ajos fileteados",
+        "Sal",
+        "Azúcar",
+        "Aceite de oliva",
+        "Vinagre de Módena",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "merluza",
+        "papillote",
+        "pimientos del piquillo",
+        "puerro",
+        "calabacín"
+      ],
+      "url": "recetas/receta-merluza-papillote-pimientos-confitados.html",
+      "archivo": "receta-merluza-papillote-pimientos-confitados.html"
+    },
+    {
+      "id": "merluza-papillote-salsa-estragon",
+      "nombre": "Merluza en papillote con salsa de estragón",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lomos de merluza congelada",
+        "Mantequilla",
+        "Sal",
+        "Pimienta",
+        "Nata líquida",
+        "Estragón picado",
+        "Zumo de limón",
+        "Yemas",
+        "Papel aluminio"
+      ],
+      "etiquetas": [
+        "merluza",
+        "papillote",
+        "estragón",
+        "salsa cremosa",
+        "nata"
+      ],
+      "url": "recetas/receta-merluza-papillote-salsa-estragon.html",
+      "archivo": "receta-merluza-papillote-salsa-estragon.html"
+    },
+    {
+      "id": "mermelada-cebolla",
+      "nombre": "Mermelada de cebolla",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Aceite",
+        "Vinagre de manzana",
+        "Azúcar moreno"
+      ],
+      "etiquetas": [
+        "mermelada",
+        "cebolla",
+        "conserva",
+        "para quesos"
+      ],
+      "url": "recetas/receta-mermelada-cebolla.html",
+      "archivo": "receta-mermelada-cebolla.html"
+    },
+    {
       "id": "mermelada-pimiento",
       "nombre": "Mermelada de pimiento",
       "tipo": {
@@ -3044,6 +3940,41 @@
       ],
       "url": "recetas/receta-mermelada-pimiento.html",
       "archivo": "receta-mermelada-pimiento.html"
+    },
+    {
+      "id": "mojicones",
+      "nombre": "Mojicones",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Harina",
+        "Bicarbonato",
+        "Leche",
+        "Palo de canela",
+        "Canela en polvo",
+        "Piel de naranja",
+        "Azúcar",
+        "Azúcar (masa)",
+        "Aceite para freír"
+      ],
+      "etiquetas": [
+        "mojicones",
+        "buñuelos",
+        "leche",
+        "canela",
+        "tradicional"
+      ],
+      "url": "recetas/receta-mojicones.html",
+      "archivo": "receta-mojicones.html"
     },
     {
       "id": "mousse-caviar",
@@ -3079,6 +4010,70 @@
       "archivo": "receta-mousse-caviar.html"
     },
     {
+      "id": "mousse-chocolate",
+      "nombre": "Mousse de chocolate en copas",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min + reposo nevera",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Chocolate negro",
+        "Mantequilla",
+        "Galletas Digestive, María o Chiquilín",
+        "Huevos",
+        "Azúcar"
+      ],
+      "etiquetas": [
+        "mousse",
+        "chocolate",
+        "galletas",
+        "copa individual",
+        "clásico"
+      ],
+      "url": "recetas/receta-mousse-chocolate.html",
+      "archivo": "receta-mousse-chocolate.html"
+    },
+    {
+      "id": "mousse-turron",
+      "nombre": "Mousse de turrón",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "3 h nevera",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Tableta de turrón de Jijona",
+        "Huevos (2 enteros + 3 yemas)",
+        "Hojas de gelatina",
+        "Nata montada",
+        "Nata montada"
+      ],
+      "etiquetas": [
+        "turrón de Jijona",
+        "mousse",
+        "Thermomix",
+        "Navidad",
+        "gelatina"
+      ],
+      "url": "recetas/receta-mousse-turron.html",
+      "archivo": "receta-mousse-turron.html"
+    },
+    {
       "id": "musaka-rapida",
       "nombre": "Musaka (rápida)",
       "tipo": {
@@ -3111,6 +4106,38 @@
       ],
       "url": "recetas/receta-musaka-rapida.html",
       "archivo": "receta-musaka-rapida.html"
+    },
+    {
+      "id": "natillas-microondas",
+      "nombre": "Natillas al microondas",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Azúcar",
+        "Leche",
+        "Yemas de huevo",
+        "Maicena rasa",
+        "Cáscara de limón",
+        "Canela en rama",
+        "Canela en polvo"
+      ],
+      "etiquetas": [
+        "natillas",
+        "microondas",
+        "rápido",
+        "canela",
+        "limón"
+      ],
+      "url": "recetas/receta-natillas-microondas.html",
+      "archivo": "receta-natillas-microondas.html"
     },
     {
       "id": "olla-aranesa",
@@ -3570,6 +4597,36 @@
       "archivo": "receta-pastel-verduras-simple.html"
     },
     {
+      "id": "patatas-glaseadas-lima",
+      "nombre": "Patatas glaseadas con lima",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "55 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Patatitas",
+        "Salsa de soja",
+        "Caldo de ave",
+        "Mantequilla",
+        "Limas"
+      ],
+      "etiquetas": [
+        "patata",
+        "lima",
+        "salsa de soja",
+        "horno",
+        "asiático"
+      ],
+      "url": "recetas/receta-patatas-glaseadas-lima.html",
+      "archivo": "receta-patatas-glaseadas-lima.html"
+    },
+    {
       "id": "pate-queso-anchoas",
       "nombre": "Paté de queso con anchoas",
       "tipo": {
@@ -3729,6 +4786,40 @@
       "archivo": "receta-pechugas-rellenas-jamon-queso.html"
     },
     {
+      "id": "peras-menta-salsa-chocolate",
+      "nombre": "Peras a la menta con salsa de chocolate",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Peras no muy maduras",
+        "Tazas de azúcar",
+        "Licor de menta (Peppermint)",
+        "Gotas de colorante verde",
+        "Chocolate de cobertura",
+        "Licor de menta (salsa)",
+        "Agua",
+        "Hojas de menta"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "peras",
+        "menta",
+        "peppermint",
+        "salsa chocolate",
+        "presentación"
+      ],
+      "url": "recetas/receta-peras-menta-salsa-chocolate.html",
+      "archivo": "receta-peras-menta-salsa-chocolate.html"
+    },
+    {
       "id": "pez-ternera-horno-jugo",
       "nombre": "Pez de ternera al horno en su jugo",
       "tipo": {
@@ -3803,6 +4894,38 @@
       "archivo": "receta-pierna-cordero-glaseada-pedro-jimenez.html"
     },
     {
+      "id": "pimientos-confitados-guarnicion",
+      "nombre": "Pimientos del piquillo confitados",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lata de pimientos del piquillo en su jugo",
+        "Ajos fileteados",
+        "Sal",
+        "Azúcar",
+        "Aceite de oliva",
+        "Vinagre de Módena",
+        "Perejil picado"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "pimientos del piquillo",
+        "confitados",
+        "guarnición",
+        "Módena"
+      ],
+      "url": "recetas/receta-pimientos-confitados-guarnicion.html",
+      "archivo": "receta-pimientos-confitados-guarnicion.html"
+    },
+    {
       "id": "pisto",
       "nombre": "Pisto",
       "tipo": {
@@ -3838,6 +4961,39 @@
       ],
       "url": "recetas/receta-pisto.html",
       "archivo": "receta-pisto.html"
+    },
+    {
+      "id": "pina-montada-navidena",
+      "nombre": "Piña montada navideña",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Piña",
+        "Plátanos",
+        "Huevos",
+        "Azúcar",
+        "Maicena",
+        "Pedro Ximénez"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "piña",
+        "plátano",
+        "merengue",
+        "gratinado",
+        "Navidad",
+        "presentación"
+      ],
+      "url": "recetas/receta-pina-montada-navidena.html",
+      "archivo": "receta-pina-montada-navidena.html"
     },
     {
       "id": "pollo-curry-ana-albert",
@@ -4034,6 +5190,40 @@
       "archivo": "receta-pollo-relleno-frutos-secos-butifarra.html"
     },
     {
+      "id": "pudin-merluza",
+      "nombre": "Pudin de merluza",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Filetes de merluza congelada",
+        "Rodaja de limón",
+        "Perejil",
+        "Media cebolla",
+        "Mayonesa",
+        "Tomate frito",
+        "Puré de patata",
+        "Huevo",
+        "Nuez moscada"
+      ],
+      "etiquetas": [
+        "merluza",
+        "pudin",
+        "mayonesa",
+        "puré de patata",
+        "sencillo"
+      ],
+      "url": "recetas/receta-pudin-merluza.html",
+      "archivo": "receta-pudin-merluza.html"
+    },
+    {
       "id": "pudin-setas-gambas-langosta",
       "nombre": "Pudin de setas y gambas con salsa de langosta",
       "tipo": {
@@ -4102,6 +5292,43 @@
       ],
       "url": "recetas/receta-pudin-verduras-microondas.html",
       "archivo": "receta-pudin-verduras-microondas.html"
+    },
+    {
+      "id": "quesada",
+      "nombre": "Quesada",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos",
+        "Quesitos",
+        "Nata para montar",
+        "Yogur natural + yogur limón",
+        "Leche (una medida de yogur)",
+        "Harina (una medida de yogur)",
+        "Sobre de levadura",
+        "Azúcar"
+      ],
+      "etiquetas": [
+        "quesada",
+        "yogur",
+        "quesitos",
+        "Thermomix",
+        "sencilla"
+      ],
+      "url": "recetas/receta-quesada.html",
+      "archivo": "receta-quesada.html"
     },
     {
       "id": "queso-brie-camembert-variantes",
@@ -4314,6 +5541,34 @@
       "archivo": "receta-quinoa-tartar.html"
     },
     {
+      "id": "rape-alangostado",
+      "nombre": "Rape alangostado",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h 15 min con enfriado",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Rape sin espina",
+        "Sal",
+        "Pimentón"
+      ],
+      "etiquetas": [
+        "rape",
+        "pimentón",
+        "horno",
+        "frío",
+        "aperitivo"
+      ],
+      "url": "recetas/receta-rape-alangostado.html",
+      "archivo": "receta-rape-alangostado.html"
+    },
+    {
       "id": "redondo-zanahorias-glaseadas",
       "nombre": "Redondo con zanahorias glaseadas",
       "tipo": {
@@ -4521,6 +5776,333 @@
       "archivo": "receta-rollo-pollo-jamon-york-bacon.html"
     },
     {
+      "id": "salmon-patatas-microondas",
+      "nombre": "Salmón con patatas al microondas",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebollas",
+        "Patatas",
+        "Salmón en rodajas",
+        "Aceite",
+        "Sal",
+        "Estragón o eneldo"
+      ],
+      "etiquetas": [
+        "Ruth Navarro",
+        "salmón",
+        "microondas",
+        "patatas",
+        "eneldo",
+        "rápido"
+      ],
+      "url": "recetas/receta-salmon-patatas-microondas.html",
+      "archivo": "receta-salmon-patatas-microondas.html"
+    },
+    {
+      "id": "salmon-salsa-citricos-arroz-salvaje",
+      "nombre": "Salmón con salsa de cítricos y arroz salvaje con granada",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Salmón en tacos",
+        "Zumo de naranjas",
+        "Zumo de limas",
+        "Azúcar",
+        "Azafrán en hebras",
+        "Perejil",
+        "Aceite de oliva",
+        "Sal",
+        "Pimienta",
+        "Harina",
+        "Arroz salvaje",
+        "Chalota",
+        "Granada",
+        "Anacardos",
+        "Nueces de Brasil"
+      ],
+      "etiquetas": [
+        "salmón",
+        "naranja",
+        "lima",
+        "azafrán",
+        "arroz salvaje",
+        "granada",
+        "presentación"
+      ],
+      "url": "recetas/receta-salmon-salsa-citricos-arroz-salvaje.html",
+      "archivo": "receta-salmon-salsa-citricos-arroz-salvaje.html"
+    },
+    {
+      "id": "salmon-soja-miel",
+      "nombre": "Salmón con salsa de soja y miel",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lomo de salmón",
+        "Limón",
+        "Salsa de soja",
+        "Miel"
+      ],
+      "etiquetas": [
+        "salmón",
+        "soja",
+        "miel",
+        "rápido",
+        "asiático"
+      ],
+      "url": "recetas/receta-salmon-soja-miel.html",
+      "archivo": "receta-salmon-soja-miel.html"
+    },
+    {
+      "id": "salmon-costra-patatas-chalotas-martini",
+      "nombre": "Salmón en costra de patatas con salsa de chalotas y Martini",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Cola de salmón",
+        "Patatas medianas",
+        "Cebollino picado",
+        "Perejil picado",
+        "Champiñones",
+        "Chalotas",
+        "Curry",
+        "Caldo de pescado",
+        "Aceite de oliva",
+        "Vermut seco o vino blanco",
+        "Nata",
+        "Sal",
+        "Pimienta",
+        "Mantequilla"
+      ],
+      "etiquetas": [
+        "salmón",
+        "patatas",
+        "chalotas",
+        "vermut",
+        "champiñones",
+        "fiesta"
+      ],
+      "url": "recetas/receta-salmon-costra-patatas-chalotas-martini.html",
+      "archivo": "receta-salmon-costra-patatas-chalotas-martini.html"
+    },
+    {
+      "id": "salmon-hojaldre",
+      "nombre": "Salmón en hojaldre con cebolla y queso",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Masa de hojaldre cuadrada",
+        "Salmón (lomo)",
+        "Bote de mermelada de cebolla o cebolla caramelizada",
+        "Queso gruyère, gorgonzola o camembert",
+        "Huevo",
+        "Mantequilla (salsa)",
+        "Yemas (salsa)",
+        "Agua",
+        "Zumo de limón",
+        "Miel",
+        "Mostaza suave"
+      ],
+      "etiquetas": [
+        "salmón",
+        "hojaldre",
+        "cebolla caramelizada",
+        "queso",
+        "trenza",
+        "salsa mostaza-miel"
+      ],
+      "url": "recetas/receta-salmon-hojaldre.html",
+      "archivo": "receta-salmon-hojaldre.html"
+    },
+    {
+      "id": "salmon-marinado",
+      "nombre": "Salmón marinado",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "8 h + 15 min",
+      "tiempoPreparacion": "15 min + 8 h nevera",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Lomo entero de salmón",
+        "Azúcar",
+        "Sal"
+      ],
+      "etiquetas": [
+        "salmón",
+        "marinado",
+        "sal-azúcar",
+        "conservación",
+        "frío"
+      ],
+      "url": "recetas/receta-salmon-marinado.html",
+      "archivo": "receta-salmon-marinado.html"
+    },
+    {
+      "id": "salsa-arandanos-rojos",
+      "nombre": "Salsa de arándanos rojos (cranberry sauce)",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Arándano rojo fresco o congelado",
+        "Azúcar moreno",
+        "Piel y zumo de naranja",
+        "Agua"
+      ],
+      "etiquetas": [
+        "arándanos rojos",
+        "naranja",
+        "salsa dulce",
+        "Acción de Gracias",
+        "para pavo"
+      ],
+      "url": "recetas/receta-salsa-arandanos-rojos.html",
+      "archivo": "receta-salsa-arandanos-rojos.html"
+    },
+    {
+      "id": "salsa-eneldo",
+      "nombre": "Salsa de eneldo",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Agua",
+        "Azúcar",
+        "Mayonesa Hellmans",
+        "Eneldo"
+      ],
+      "etiquetas": [
+        "eneldo",
+        "mayonesa",
+        "para pescado",
+        "salmón ahumado"
+      ],
+      "url": "recetas/receta-salsa-eneldo.html",
+      "archivo": "receta-salsa-eneldo.html"
+    },
+    {
+      "id": "salsa-frambuesa-jerez",
+      "nombre": "Salsa de frambuesa al Jerez",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mermelada de frambuesa",
+        "Jerez seco",
+        "Pimienta blanca"
+      ],
+      "etiquetas": [
+        "frambuesa",
+        "Jerez",
+        "salsa dulce",
+        "para pato o postres"
+      ],
+      "url": "recetas/receta-salsa-frambuesa-jerez.html",
+      "archivo": "receta-salsa-frambuesa-jerez.html"
+    },
+    {
+      "id": "salsa-frutos-rojos-caldo",
+      "nombre": "Salsa de frutos rojos con caldo de ave",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Caldo de pollo (2 zanahorias, 1 cebolla, 1 puerro, perejil, 1 carcasa)",
+        "Jalea de grosellas, arándanos o frambuesas",
+        "Maicena",
+        "Agua fría",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "salsa",
+        "frutos rojos",
+        "jalea",
+        "para carne",
+        "Wellington"
+      ],
+      "url": "recetas/receta-salsa-frutos-rojos-caldo.html",
+      "archivo": "receta-salsa-frutos-rojos-caldo.html"
+    },
+    {
       "id": "salsa-mango-frutos-secos",
       "nombre": "Salsa de mango y frutos secos",
       "tipo": {
@@ -4553,6 +6135,386 @@
       ],
       "url": "recetas/receta-salsa-mango-frutos-secos.html",
       "archivo": "receta-salsa-mango-frutos-secos.html"
+    },
+    {
+      "id": "salsa-marisco-nata",
+      "nombre": "Salsa de marisco con fumet y nata",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Fumet de gambas",
+        "Nata",
+        "Sal",
+        "Pimienta",
+        "Nuez moscada"
+      ],
+      "etiquetas": [
+        "fumet",
+        "gambas",
+        "nata",
+        "nuez moscada",
+        "para pescado"
+      ],
+      "url": "recetas/receta-salsa-marisco-nata.html",
+      "archivo": "receta-salsa-marisco-nata.html"
+    },
+    {
+      "id": "salsa-miel-mostaza",
+      "nombre": "Salsa de miel y mostaza",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "3 min",
+      "tiempoPreparacion": "3 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Aceite",
+        "Mostaza americana",
+        "Miel",
+        "Zumo de limón",
+        "Curry"
+      ],
+      "etiquetas": [
+        "miel",
+        "mostaza americana",
+        "vinagreta",
+        "para pollo"
+      ],
+      "url": "recetas/receta-salsa-miel-mostaza.html",
+      "archivo": "receta-salsa-miel-mostaza.html"
+    },
+    {
+      "id": "salsa-mostaza-jerez-maria-mallo",
+      "nombre": "Salsa de mostaza al Jerez (María Mallo)",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebollas",
+        "Jerez seco",
+        "Caldo de carne",
+        "Leche Ideal",
+        "Mostaza"
+      ],
+      "etiquetas": [
+        "María Mallo",
+        "mostaza",
+        "Jerez seco",
+        "leche Ideal",
+        "carne"
+      ],
+      "url": "recetas/receta-salsa-mostaza-jerez-maria-mallo.html",
+      "archivo": "receta-salsa-mostaza-jerez-maria-mallo.html"
+    },
+    {
+      "id": "salsa-mostaza-cebolla",
+      "nombre": "Salsa de mostaza y cebolla",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "25 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mostaza antigua",
+        "Mostaza de Dijon",
+        "Cebolla",
+        "Vino blanco",
+        "Nata para cocinar",
+        "Caldo de carne",
+        "Pimienta molida",
+        "Mantequilla",
+        "Aceite de oliva",
+        "Sal"
+      ],
+      "etiquetas": [
+        "mostaza",
+        "Savora",
+        "cebolla",
+        "vino blanco",
+        "para carne",
+        "nata"
+      ],
+      "url": "recetas/receta-salsa-mostaza-cebolla.html",
+      "archivo": "receta-salsa-mostaza-cebolla.html"
+    },
+    {
+      "id": "salsa-mostaza-frambuesa",
+      "nombre": "Salsa de mostaza y frambuesa",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mostaza de Dijon",
+        "Mostaza en grano",
+        "Mermelada de frambuesa",
+        "Caldo de ave",
+        "Salsa de soja"
+      ],
+      "etiquetas": [
+        "mostaza dijon",
+        "mostaza grano",
+        "frambuesa",
+        "soja",
+        "vinagreta"
+      ],
+      "url": "recetas/receta-salsa-mostaza-frambuesa.html",
+      "archivo": "receta-salsa-mostaza-frambuesa.html"
+    },
+    {
+      "id": "salsa-pedro-ximenez-thermomix",
+      "nombre": "Salsa de Pedro Ximénez (Thermomix)",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pedro Ximénez",
+        "Nata líquida",
+        "Sal",
+        "Pimienta",
+        "Maicena",
+        "Zumo de media naranja"
+      ],
+      "etiquetas": [
+        "Thermomix",
+        "Pedro Ximénez",
+        "salsa reducida",
+        "nata",
+        "para carne"
+      ],
+      "url": "recetas/receta-salsa-pedro-ximenez-thermomix.html",
+      "archivo": "receta-salsa-pedro-ximenez-thermomix.html"
+    },
+    {
+      "id": "salsa-yogur-pasta",
+      "nombre": "Salsa de yogur para ensalada de pasta",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "2 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Yogur",
+        "Mayonesa",
+        "Mostaza"
+      ],
+      "etiquetas": [
+        "yogur",
+        "mayonesa",
+        "mostaza",
+        "ensalada de pasta"
+      ],
+      "url": "recetas/receta-salsa-yogur-pasta.html",
+      "archivo": "receta-salsa-yogur-pasta.html"
+    },
+    {
+      "id": "salsa-mostaza-miel-holandesa",
+      "nombre": "Salsa holandesa de mostaza y miel",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 4,
+      "tiempoTotal": "15 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Mantequilla",
+        "Yemas",
+        "Agua",
+        "Zumo de medio limón",
+        "Sal",
+        "Miel",
+        "Mostaza suave"
+      ],
+      "etiquetas": [
+        "Thermomix",
+        "holandesa",
+        "mostaza",
+        "miel",
+        "para salmón"
+      ],
+      "url": "recetas/receta-salsa-mostaza-miel-holandesa.html",
+      "archivo": "receta-salsa-mostaza-miel-holandesa.html"
+    },
+    {
+      "id": "salsa-hungara",
+      "nombre": "Salsa húngara",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "5 min",
+      "tiempoPreparacion": "5 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolleta",
+        "Yogur",
+        "Mostaza americana",
+        "Azúcar"
+      ],
+      "etiquetas": [
+        "cebolleta",
+        "yogur",
+        "mostaza americana",
+        "salsa cremosa"
+      ],
+      "url": "recetas/receta-salsa-hungara.html",
+      "archivo": "receta-salsa-hungara.html"
+    },
+    {
+      "id": "salsa-carne-bovril",
+      "nombre": "Salsa para carne al bovril",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Cebolla",
+        "Laurel",
+        "Zanahoria",
+        "Aceite",
+        "Vino tinto",
+        "Bovril",
+        "Agua"
+      ],
+      "etiquetas": [
+        "salsa",
+        "bovril",
+        "vino tinto",
+        "para carne",
+        "clásica"
+      ],
+      "url": "recetas/receta-salsa-carne-bovril.html",
+      "archivo": "receta-salsa-carne-bovril.html"
+    },
+    {
+      "id": "salsa-nachos-mango-yogur",
+      "nombre": "Salsa para nachos con mango y yogur",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mango batido",
+        "Zumo de naranja",
+        "Yogur",
+        "Mayonesa",
+        "Mostaza de Dijon",
+        "Arroz cocido",
+        "Cebolleta picada"
+      ],
+      "etiquetas": [
+        "nachos",
+        "mango",
+        "yogur",
+        "aperitivo",
+        "cebolleta"
+      ],
+      "url": "recetas/receta-salsa-nachos-mango-yogur.html",
+      "archivo": "receta-salsa-nachos-mango-yogur.html"
+    },
+    {
+      "id": "salsa-tartara",
+      "nombre": "Salsa tártara",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "10 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevo (mayonesa)",
+        "Aceite (mayonesa)",
+        "Mostaza",
+        "Perejil picado",
+        "Cebolla picada",
+        "Pepinillos picados",
+        "Alcaparras",
+        "Aceitunas verdes",
+        "Aceitunas negras",
+        "Huevo duro picado"
+      ],
+      "etiquetas": [
+        "salsa tártara",
+        "mayonesa",
+        "pepinillos",
+        "alcaparras",
+        "clásica"
+      ],
+      "url": "recetas/receta-salsa-tartara.html",
+      "archivo": "receta-salsa-tartara.html"
     },
     {
       "id": "salteado-verduras-curry",
@@ -4591,6 +6553,76 @@
       ],
       "url": "recetas/receta-salteado-verduras-curry.html",
       "archivo": "receta-salteado-verduras-curry.html"
+    },
+    {
+      "id": "savarin-castanas",
+      "nombre": "Savarín de castañas",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "6 h reposo",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Huevos",
+        "Chocolate fondant",
+        "Mantequilla",
+        "Azúcar glas",
+        "Puré de castaña dulce",
+        "Nata montada",
+        "Ron",
+        "Marrons glacés"
+      ],
+      "etiquetas": [
+        "savarín",
+        "castaña",
+        "chocolate fondant",
+        "ron",
+        "marron glacé",
+        "fiesta"
+      ],
+      "url": "recetas/receta-savarin-castanas.html",
+      "archivo": "receta-savarin-castanas.html"
+    },
+    {
+      "id": "setas-crema-carne",
+      "nombre": "Setas a la crema (para roast beef)",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Puerro",
+        "Ajetes",
+        "Setas variadas (boletus)",
+        "Caldo de ave",
+        "Nata líquida",
+        "Palo de lemon grass",
+        "Pimentón dulce",
+        "Sal rosa o Maldón",
+        "Perejil picado",
+        "Aceite"
+      ],
+      "etiquetas": [
+        "setas",
+        "boletus",
+        "puerro",
+        "ajete",
+        "nata",
+        "guarnición"
+      ],
+      "url": "recetas/receta-setas-crema-carne.html",
+      "archivo": "receta-setas-crema-carne.html"
     },
     {
       "id": "solomillitos-macerados-rosti-camembert",
@@ -5001,6 +7033,289 @@
       "archivo": "receta-tarta-crujiente-espinacas-pimientos-huevo.html"
     },
     {
+      "id": "tarta-chocolate-simple",
+      "nombre": "Tarta de chocolate (bizcocho)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "35 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Harina",
+        "Azúcar",
+        "Huevos",
+        "Mantequilla",
+        "Chocolate",
+        "Nata (para la cobertura)"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "tarta",
+        "chocolate",
+        "bizcocho",
+        "brownie"
+      ],
+      "url": "recetas/receta-tarta-chocolate-simple.html",
+      "archivo": "receta-tarta-chocolate-simple.html"
+    },
+    {
+      "id": "tarta-chocolate-menta-crujiente",
+      "nombre": "Tarta de chocolate y menta crujiente",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "1 h 45 min",
+      "tiempoPreparacion": "45 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Harina (masa)",
+        "Mantequilla fría (masa)",
+        "Azúcar glass (masa)",
+        "Huevo (masa)",
+        "Pizca de sal (masa)",
+        "Caramelos de menta Fisherman (masa)",
+        "Chocolate negro (relleno)",
+        "Huevos (relleno)",
+        "Azúcar (relleno)",
+        "Mantequilla (relleno)",
+        "Pasta brick (tiras)",
+        "Caramelos de menta Fisherman (tiras)"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "chocolate",
+        "menta",
+        "Fisherman's Friend",
+        "pasta brick",
+        "Thermomix",
+        "fiesta"
+      ],
+      "url": "recetas/receta-tarta-chocolate-menta-crujiente.html",
+      "archivo": "receta-tarta-chocolate-menta-crujiente.html"
+    },
+    {
+      "id": "tarta-frambuesa-chocolate",
+      "nombre": "Tarta de frambuesa con chocolate",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h + reposo",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Galletas de chocolate trituradas (Chiquilín Ositos)",
+        "Mantequilla blanda",
+        "Mermelada de frambuesa colada",
+        "Chocolate con leche para postres",
+        "Chocolate blanco",
+        "Chocolate negro",
+        "Nata líquida",
+        "Terrinas de frambuesas"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "tarta",
+        "chocolate",
+        "frambuesas",
+        "galleta chocolate",
+        "fiesta"
+      ],
+      "url": "recetas/receta-tarta-frambuesa-chocolate.html",
+      "archivo": "receta-tarta-frambuesa-chocolate.html"
+    },
+    {
+      "id": "tarta-manzana-hojaldre",
+      "nombre": "Tarta de manzana en hojaldre (caramelizada)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "50 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Masa redonda de hojaldre",
+        "Manzanas Golden",
+        "Medio limón",
+        "Mantequilla en pomada",
+        "Azúcar",
+        "Azúcar glass"
+      ],
+      "etiquetas": [
+        "hojaldre",
+        "manzana Golden",
+        "caramelizada",
+        "soplete",
+        "clásica"
+      ],
+      "url": "recetas/receta-tarta-manzana-hojaldre.html",
+      "archivo": "receta-tarta-manzana-hojaldre.html"
+    },
+    {
+      "id": "tarta-queso-chocolate",
+      "nombre": "Tarta de queso al chocolate",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 10,
+      "tiempoTotal": "1 h + reposo en nevera",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Queso de Burgos",
+        "Mantequilla",
+        "Azúcar",
+        "Zumo de limón",
+        "Colas de pescado",
+        "Chocolate fondant",
+        "Chocolate con leche",
+        "Galletas Digestive o María dorada",
+        "Mantequilla (base)",
+        "Jerez dulce"
+      ],
+      "etiquetas": [
+        "tarta de queso",
+        "chocolate",
+        "queso de Burgos",
+        "digestive",
+        "Jerez dulce",
+        "capas"
+      ],
+      "url": "recetas/receta-tarta-queso-chocolate.html",
+      "archivo": "receta-tarta-queso-chocolate.html"
+    },
+    {
+      "id": "tarta-queso-condensada-limon",
+      "nombre": "Tarta de queso con leche condensada y limón",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 12,
+      "tiempoTotal": "20 min + reposo nevera",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Galletas Digestive",
+        "Mantequilla derretida-pomada",
+        "Queso Philadelphia",
+        "Leche condensada",
+        "Limones grandes",
+        "Mermelada",
+        "Agua",
+        "Zumo de limón (mermelada)"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "tarta de queso",
+        "leche condensada",
+        "limón",
+        "Thermomix",
+        "sin horno"
+      ],
+      "url": "recetas/receta-tarta-queso-condensada-limon.html",
+      "archivo": "receta-tarta-queso-condensada-limon.html"
+    },
+    {
+      "id": "tarta-santiago",
+      "nombre": "Tarta de Santiago",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "40 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Huevos grandes",
+        "Azúcar",
+        "Almendra molida",
+        "Ralladura de limón",
+        "Azúcar glass"
+      ],
+      "etiquetas": [
+        "Ana Albert",
+        "tarta de Santiago",
+        "almendra",
+        "Thermomix",
+        "sin gluten"
+      ],
+      "url": "recetas/receta-tarta-santiago.html",
+      "archivo": "receta-tarta-santiago.html"
+    },
+    {
+      "id": "tarta-fondant-chocolate",
+      "nombre": "Tarta fondant de chocolate (Telva)",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "1 h",
+      "tiempoPreparacion": "20 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Mantequilla",
+        "Azúcar",
+        "Chocolate Suchard sin leche",
+        "Huevos",
+        "Harina",
+        "Chocolate Suchard (cobertura)",
+        "Mantequilla (cobertura)",
+        "Nata (cobertura)",
+        "Miel (cobertura)",
+        "Agua (cobertura)"
+      ],
+      "etiquetas": [
+        "Telva",
+        "Ana Albert",
+        "fondant",
+        "chocolate",
+        "coulant",
+        "Suchard"
+      ],
+      "url": "recetas/receta-tarta-fondant-chocolate.html",
+      "archivo": "receta-tarta-fondant-chocolate.html"
+    },
+    {
       "id": "tartar-salchichon",
       "nombre": "Tartar de salchichón",
       "tipo": {
@@ -5027,6 +7342,77 @@
       ],
       "url": "recetas/receta-tartar-salchichon.html",
       "archivo": "receta-tartar-salchichon.html"
+    },
+    {
+      "id": "tartar-salmon-clasico",
+      "nombre": "Tartar de salmón clásico",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 2,
+      "tiempoTotal": "20 min",
+      "tiempoPreparacion": "15 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Salmón",
+        "Aguacate",
+        "Lima",
+        "Yema de huevo",
+        "Mostaza antigua",
+        "Soja",
+        "Sal",
+        "Pimienta"
+      ],
+      "etiquetas": [
+        "salmón",
+        "tartar",
+        "aguacate",
+        "lima",
+        "soja",
+        "crudo"
+      ],
+      "url": "recetas/receta-tartar-salmon-clasico.html",
+      "archivo": "receta-tartar-salmon-clasico.html"
+    },
+    {
+      "id": "tartar-salmon-mayonesa-aguacate",
+      "nombre": "Tartar de salmón con mayonesa de aguacate",
+      "tipo": {
+        "id": "pescados",
+        "nombre": "Pescados"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "1 h 30 min",
+      "tiempoPreparacion": "30 min + 1 h reposo",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Lomo fresco de salmón",
+        "Vinagre de manzana",
+        "Aceite de oliva virgen",
+        "Limón",
+        "Salsa de soja",
+        "Salsa Perrins",
+        "Mayonesa",
+        "Tomates",
+        "Cebollino",
+        "Aguacate",
+        "Jarabe de limón (50 ml limón + 75 g azúcar + 100 ml agua)"
+      ],
+      "etiquetas": [
+        "Alambique",
+        "María José Angurel",
+        "salmón",
+        "tartar",
+        "aguacate",
+        "mayonesa"
+      ],
+      "url": "recetas/receta-tartar-salmon-mayonesa-aguacate.html",
+      "archivo": "receta-tartar-salmon-mayonesa-aguacate.html"
     },
     {
       "id": "tartar-tomate",
@@ -5314,6 +7700,40 @@
       "archivo": "receta-timbal-frio-crepes.html"
     },
     {
+      "id": "torrijas",
+      "nombre": "Torrijas",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Pan del día anterior o de torrijas",
+        "Leche",
+        "Azúcar",
+        "Piel de naranja",
+        "Huevos",
+        "Aceite de oliva suave",
+        "Canela",
+        "Azúcar (rebozar)"
+      ],
+      "etiquetas": [
+        "torrijas",
+        "Semana Santa",
+        "pan del día anterior",
+        "leche",
+        "canela",
+        "clásico"
+      ],
+      "url": "recetas/receta-torrijas.html",
+      "archivo": "receta-torrijas.html"
+    },
+    {
       "id": "tortilla-calabacines-parmesano",
       "nombre": "Tortilla de calabacines con parmesano y albahaca",
       "tipo": {
@@ -5410,6 +7830,42 @@
       "archivo": "receta-trenza-colmenillas.html"
     },
     {
+      "id": "tronco-navidad",
+      "nombre": "Tronco de Navidad",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Thermomix",
+      "modelos": [
+        "TM6",
+        "TM5",
+        "TM31"
+      ],
+      "raciones": 8,
+      "tiempoTotal": "45 min",
+      "tiempoPreparacion": "30 min",
+      "dificultad": "Media",
+      "ingredientes": [
+        "Tableta de chocolate Suchard o Nestlé",
+        "Huevos",
+        "Azúcar glass",
+        "Nata líquida",
+        "Azúcar glass para decorar",
+        "Pizca de sal"
+      ],
+      "etiquetas": [
+        "tronco de Navidad",
+        "chocolate",
+        "mousse",
+        "nata montada",
+        "enrollado",
+        "fiesta"
+      ],
+      "url": "recetas/receta-tronco-navidad.html",
+      "archivo": "receta-tronco-navidad.html"
+    },
+    {
       "id": "turbante-arroz-verduras",
       "nombre": "Turbante de arroz con verduras",
       "tipo": {
@@ -5449,6 +7905,43 @@
       ],
       "url": "recetas/receta-turbante-arroz-verduras.html",
       "archivo": "receta-turbante-arroz-verduras.html"
+    },
+    {
+      "id": "turron-helado-marrons-pistachos",
+      "nombre": "Turrón helado de marrons glacés y pistachos con crema de turrón",
+      "tipo": {
+        "id": "postres",
+        "nombre": "Postres"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 8,
+      "tiempoTotal": "4 h + reposo",
+      "tiempoPreparacion": "40 min",
+      "dificultad": "Alta",
+      "ingredientes": [
+        "Claras",
+        "Azúcar",
+        "Nata montada",
+        "Marrons glacés desmenuzados",
+        "Pistachos picados",
+        "Leche (crema de turrón)",
+        "Yemas",
+        "Azúcar (crema de turrón)",
+        "Turrón de Jijona picado",
+        "Pizca de sal"
+      ],
+      "etiquetas": [
+        "La Yuca",
+        "turrón helado",
+        "marrons glacés",
+        "pistachos",
+        "crema de turrón",
+        "Navidad",
+        "congelado"
+      ],
+      "url": "recetas/receta-turron-helado-marrons-pistachos.html",
+      "archivo": "receta-turron-helado-marrons-pistachos.html"
     },
     {
       "id": "verduras-salteadas",
@@ -5513,6 +8006,34 @@
       ],
       "url": "recetas/receta-vinagreta-aceitunas-negras.html",
       "archivo": "receta-vinagreta-aceitunas-negras.html"
+    },
+    {
+      "id": "vinagreta-citricos-ahumados",
+      "nombre": "Vinagreta de cítricos para ahumados",
+      "tipo": {
+        "id": "alinos",
+        "nombre": "Aliños y salsas"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 4,
+      "tiempoTotal": "2 min",
+      "tiempoPreparacion": "2 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Zumo de pomelo",
+        "Zumo de lima",
+        "Ralladura de lima",
+        "Aceite de oliva"
+      ],
+      "etiquetas": [
+        "vinagreta",
+        "pomelo",
+        "lima",
+        "ahumados"
+      ],
+      "url": "recetas/receta-vinagreta-citricos-ahumados.html",
+      "archivo": "receta-vinagreta-citricos-ahumados.html"
     },
     {
       "id": "vinagreta-mostaza-miel",
@@ -5638,6 +8159,34 @@
       ],
       "url": "recetas/receta-volcan-arroz-negro-gulas.html",
       "archivo": "receta-volcan-arroz-negro-gulas.html"
+    },
+    {
+      "id": "zanahorias-glaseadas-mama",
+      "nombre": "Zanahorias glaseadas",
+      "tipo": {
+        "id": "guarniciones",
+        "nombre": "Guarniciones"
+      },
+      "aparato": "Tradicional",
+      "modelos": [],
+      "raciones": 6,
+      "tiempoTotal": "30 min",
+      "tiempoPreparacion": "10 min",
+      "dificultad": "Fácil",
+      "ingredientes": [
+        "Mantequilla",
+        "Azúcar",
+        "Zanahorias"
+      ],
+      "etiquetas": [
+        "Mamá",
+        "zanahoria",
+        "glaseada",
+        "guarnición",
+        "clásico"
+      ],
+      "url": "recetas/receta-zanahorias-glaseadas-mama.html",
+      "archivo": "receta-zanahorias-glaseadas-mama.html"
     }
   ]
 }
